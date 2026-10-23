@@ -12,7 +12,7 @@ def yprofile_column_stats_to_csv(profile, output_csv="ydata_column_summary.csv")
     metrics_df.rename(columns={"index": "column_name"}, inplace=True)
     metrics_df.to_csv(output_csv, index=False)
     
-pickle = True
+pickle = False
 
 ## Paths
 data_dir = "./data/raw/"
