@@ -1,0 +1,5505 @@
+column_name,n_distinct,p_distinct,is_unique,n_unique,p_unique,type,hashable,value_counts_without_nan,value_counts_index_sorted,ordering,n_missing,n,p_missing,count,memory_size,imbalance,first_rows,chi_squared,max_length,mean_length,median_length,min_length,length_histogram,histogram_length,n_characters_distinct,n_characters,character_counts,category_alias_values,block_alias_values,block_alias_counts,n_block_alias,block_alias_char_counts,script_counts,n_scripts,script_char_counts,category_alias_counts,n_category,category_alias_char_counts,word_counts,cast_type,n_negative,p_negative,n_infinite,n_zeros,mean,std,variance,min,max,kurtosis,skewness,sum,mad,range,5%,25%,50%,75%,95%,iqr,cv,p_zeros,p_infinite,monotonic_increase,monotonic_decrease,monotonic_increase_strict,monotonic_decrease_strict,monotonic,histogram,invalid_dates,n_invalid_dates,p_invalid_dates
+Type,4,2.215833236390629e-05,False,0,0.0,Categorical,True,"Type
+DEBIT       69295
+TRANSFER    49883
+PAYMENT     41725
+CASH        19616
+Name: count, dtype: Int64","Type
+CASH        19616
+DEBIT       69295
+PAYMENT     41725
+TRANSFER    49883
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.060315602555664594,"0       DEBIT
+1    TRANSFER
+2        CASH
+3       DEBIT
+4     PAYMENT
+Name: Type, dtype: object","{'statistic': 28121.061046205665, 'pvalue': 0.0}",8.0,6.182606817010952,7.0,4.0,"Type
+5    69295
+8    49883
+7    41725
+4    19616
+Name: count, dtype: Int64","(array([19616, 69295,     0, 91608]), array([4., 5., 6., 7., 8.]))",15.0,1116078.0,"Type
+E    160903
+T    160903
+A    111224
+R     99766
+N     91608
+S     69499
+D     69295
+B     69295
+I     69295
+F     49883
+P     41725
+Y     41725
+M     41725
+C     19616
+H     19616
+Name: count, dtype: Int64","{'E': 'Uppercase_Letter', 'T': 'Uppercase_Letter', 'A': 'Uppercase_Letter', 'R': 'Uppercase_Letter', 'N': 'Uppercase_Letter', 'S': 'Uppercase_Letter', 'D': 'Uppercase_Letter', 'B': 'Uppercase_Letter', 'I': 'Uppercase_Letter', 'F': 'Uppercase_Letter', 'P': 'Uppercase_Letter', 'Y': 'Uppercase_Letter', 'M': 'Uppercase_Letter', 'C': 'Uppercase_Letter', 'H': 'Uppercase_Letter'}","{'E': 'ASCII', 'T': 'ASCII', 'A': 'ASCII', 'R': 'ASCII', 'N': 'ASCII', 'S': 'ASCII', 'D': 'ASCII', 'B': 'ASCII', 'I': 'ASCII', 'F': 'ASCII', 'P': 'ASCII', 'Y': 'ASCII', 'M': 'ASCII', 'C': 'ASCII', 'H': 'ASCII'}","ASCII    1116078
+dtype: int64",1.0,"{'ASCII': E    160903
+T    160903
+A    111224
+R     99766
+N     91608
+S     69499
+D     69295
+B     69295
+I     69295
+F     49883
+P     41725
+Y     41725
+M     41725
+C     19616
+H     19616
+dtype: int64}","Latin    1116078
+dtype: int64",1.0,"{'Latin': E    160903
+T    160903
+A    111224
+R     99766
+N     91608
+S     69499
+D     69295
+B     69295
+I     69295
+F     49883
+P     41725
+Y     41725
+M     41725
+C     19616
+H     19616
+dtype: int64}","Uppercase Letter    1116078
+dtype: int64",1.0,"{'Uppercase_Letter': E    160903
+T    160903
+A    111224
+R     99766
+N     91608
+S     69499
+D     69295
+B     69295
+I     69295
+F     49883
+P     41725
+Y     41725
+M     41725
+C     19616
+H     19616
+dtype: int64}","Type
+debit       69295
+transfer    49883
+payment     41725
+cash        19616
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Days for shipping (real),7,3.877708163683601e-05,False,0,0.0,Numeric,True,"Days for shipping (real)
+2    56618
+3    28765
+6    28723
+4    28513
+5    28163
+0     5080
+1     4657
+Name: count, dtype: int64","Days for shipping (real)
+0     5080
+1     4657
+2    56618
+3    28765
+4    28513
+5    28163
+6    28723
+Name: count, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 1875582.567729713, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,5080.0,3.4976539865609713,1.6237218283741632,2.6364725759387357,0,6,-1.0079135834813695,0.08477127299528447,631393.0,1.0,6,1.0,2.0,3.0,5.0,6.0,3.0,0.46423169204643633,0.028141082102160993,0.0,False,False,False,False,0.0,"(array([ 5080,  4657, 56618, 28765, 28513, 28163, 28723]), array([0.        , 0.85714286, 1.71428571, 2.57142857, 3.42857143,
+       4.28571429, 5.14285714, 6.        ]))",,,
+Days for shipment (scheduled),4,2.215833236390629e-05,False,0,0.0,Categorical,True,"Days for shipment (scheduled)
+4    107752
+2     35216
+1     27814
+0      9737
+Name: count, dtype: Int64","Days for shipment (scheduled)
+0      9737
+1     27814
+2     35216
+4    107752
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.22635442181328302,"0    4
+1    4
+2    4
+3    4
+4    4
+Name: Days for shipment (scheduled), dtype: object","{'statistic': 123473.10997180353, 'pvalue': 0.0}",1.0,1.0,1.0,1.0,"Days for shipment (scheduled)
+1    180519
+Name: count, dtype: Int64","(array([180519]), array([0.5, 1.5]))",4.0,180519.0,"Days for shipment (scheduled)
+4    107752
+2     35216
+1     27814
+0      9737
+Name: count, dtype: Int64","{'4': 'Decimal_Number', '2': 'Decimal_Number', '1': 'Decimal_Number', '0': 'Decimal_Number'}","{'4': 'ASCII', '2': 'ASCII', '1': 'ASCII', '0': 'ASCII'}","ASCII    180519
+dtype: int64",1.0,"{'ASCII': 4    107752
+2     35216
+1     27814
+0      9737
+dtype: int64}","Common    180519
+dtype: int64",1.0,"{'Common': 4    107752
+2     35216
+1     27814
+0      9737
+dtype: int64}","Decimal Number    180519
+dtype: int64",1.0,"{'Decimal_Number': 4    107752
+2     35216
+1     27814
+0      9737
+dtype: int64}","Days for shipment (scheduled)
+4    107752
+2     35216
+1     27814
+0      9737
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Benefit per order,21998,0.12185974883530265,False,7041,0.039004204543566054,Numeric,True,"Benefit per order
+ 0.000000      1177
+ 143.990005     199
+ 72.000000      194
+ 46.799999      188
+ 24.000000      181
+               ... 
+-48.830002        1
+ 48.220001        1
+-145.729996       1
+-330.109985       1
+-337.100006       1
+Name: count, Length: 21998, dtype: int64","Benefit per order
+-4274.979980    1
+-3442.500000    1
+-3366.000000    1
+-3000.000000    1
+-2592.000000    1
+               ..
+ 720.000000     2
+ 720.299988     1
+ 721.599976     1
+ 864.000000     1
+ 911.799988     1
+Name: count, Length: 21998, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 5420133.400201642, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,33784.0,0.18714927514555255,0.0,1177.0,21.974988638594034,104.4335257469866,10906.361299946515,-4274.97998,911.7999878,71.37725865589996,-4.741834070263963,3966902.974050357,27.880000355,5186.7799678,-139.25099945,7.0,31.52000046,64.80000305,132.2899933,57.80000305,4.752381330635732,0.006520089298079426,0.0,False,False,False,False,0.0,"(array([     1,      0,      0,      0,      0,      0,      0,      0,
+            2,      0,      0,      0,      1,      0,      0,      0,
+            2,      0,      2,      4,      4,      1,      2,      2,
+            1,      0,      0,      1,      4,      9,     16,     52,
+           68,    107,    232,    461,    642,    909,   2515,   4856,
+        15012, 123977,  29947,   1409,     78,     78,     66,     47,
+            9,      2]), array([-4274.97998   , -4171.24438064, -4067.50878129, -3963.77318193,
+       -3860.03758258, -3756.30198322, -3652.56638386, -3548.83078451,
+       -3445.09518515, -3341.3595858 , -3237.62398644, -3133.88838708,
+       -3030.15278773, -2926.41718837, -2822.68158902, -2718.94598966,
+       -2615.2103903 , -2511.47479095, -2407.73919159, -2304.00359224,
+       -2200.26799288, -2096.53239352, -1992.79679417, -1889.06119481,
+       -1785.32559546, -1681.5899961 , -1577.85439674, -1474.11879739,
+       -1370.38319803, -1266.64759868, -1162.91199932, -1059.17639996,
+        -955.44080061,  -851.70520125,  -747.9696019 ,  -644.23400254,
+        -540.49840318,  -436.76280383,  -333.02720447,  -229.29160512,
+        -125.55600576,   -21.8204064 ,    81.91519295,   185.65079231,
+         289.38639166,   393.12199102,   496.85759038,   600.59318973,
+         704.32878909,   808.06438844,   911.7999878 ]))",,,
+Sales per customer,2927,0.01621435970728843,False,312,0.0017283499243846909,Numeric,True,"Sales per customer
+122.839996    1264
+109.190002    1247
+124.790001    1243
+129.990005    1243
+116.989998    1243
+              ... 
+455.950012       1
+470.250000       1
+424.790008       1
+98.010002        1
+474.760010       1
+Name: count, Length: 2927, dtype: int64","Sales per customer
+7.49000       3
+7.99000       3
+8.19000       3
+8.29000       3
+8.39000       3
+             ..
+1859.98999    1
+1889.98999    1
+1899.98999    1
+1919.98999    1
+1939.98999    1
+Name: count, Length: 2927, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 1076127.3860203084, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,183.10760850778374,120.04367002812562,14410.482713821504,7.489999771,1939.98999,23.920361513459394,2.888446057030185,33054402.380216613,67.00000763999999,1932.499990229,41.5,104.3799973,163.9900055,247.3999939,383.980011,143.0199966,0.6555908353913249,0.0,0.0,False,False,False,False,0.0,"(array([12803, 17877, 34267, 23939, 31009, 11042, 14186, 11336,  8338,
+        9405,  3332,  1241,  1128,   140,     5,     4,     0,     0,
+           0,     0,     0,     0,     1,     3,     4,     2,     0,
+           0,    25,     0,    25,    25,    75,    49,    24,    48,
+          48,    73,    51,     0,     0,     1,     2,     2,     1,
+           1,     2,     1,     2,     2]), array([   7.48999977,   46.13999958,   84.78999938,  123.43999918,
+        162.08999899,  200.73999879,  239.3899986 ,  278.0399984 ,
+        316.68999821,  355.33999801,  393.98999782,  432.63999762,
+        471.28999743,  509.93999723,  548.58999704,  587.23999684,
+        625.88999664,  664.53999645,  703.18999625,  741.83999606,
+        780.48999586,  819.13999567,  857.78999547,  896.43999528,
+        935.08999508,  973.73999489, 1012.38999469, 1051.03999449,
+       1089.6899943 , 1128.3399941 , 1166.98999391, 1205.63999371,
+       1244.28999352, 1282.93999332, 1321.58999313, 1360.23999293,
+       1398.88999274, 1437.53999254, 1476.18999235, 1514.83999215,
+       1553.48999195, 1592.13999176, 1630.78999156, 1669.43999137,
+       1708.08999117, 1746.73999098, 1785.38999078, 1824.03999059,
+       1862.68999039, 1901.3399902 , 1939.98999   ]))",,,
+Delivery Status,4,2.215833236390629e-05,False,0,0.0,Categorical,True,"Delivery Status
+Late delivery        98977
+Advance shipping     41592
+Shipping on time     32196
+Shipping canceled     7754
+Name: count, dtype: Int64","Delivery Status
+Advance shipping     41592
+Late delivery        98977
+Shipping canceled     7754
+Shipping on time     32196
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.1990226615874593,"0    Advance shipping
+1       Late delivery
+2    Shipping on time
+3    Advance shipping
+4    Advance shipping
+Name: Delivery Status, dtype: object","{'statistic': 99186.69136766768, 'pvalue': 0.0}",17.0,14.398079980500668,13.0,13.0,"Delivery Status
+13    98977
+16    73788
+17     7754
+Name: count, dtype: Int64","(array([98977,     0, 81542]), array([13.        , 14.33333333, 15.66666667, 17.        ]))",21.0,2599127.0,"Delivery Status
+e    386227
+i    294257
+     212715
+n    163084
+p    163084
+d    148323
+a    148323
+v    140569
+t    131173
+l    106731
+L     98977
+y     98977
+r     98977
+h     81542
+g     81542
+c     57100
+A     41592
+s     41592
+S     39950
+o     32196
+m     32196
+Name: count, dtype: Int64","{'e': 'Lowercase_Letter', 'i': 'Lowercase_Letter', ' ': 'Space_Separator', 'n': 'Lowercase_Letter', 'p': 'Lowercase_Letter', 'd': 'Lowercase_Letter', 'a': 'Lowercase_Letter', 'v': 'Lowercase_Letter', 't': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 'L': 'Uppercase_Letter', 'y': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 'h': 'Lowercase_Letter', 'g': 'Lowercase_Letter', 'c': 'Lowercase_Letter', 'A': 'Uppercase_Letter', 's': 'Lowercase_Letter', 'S': 'Uppercase_Letter', 'o': 'Lowercase_Letter', 'm': 'Lowercase_Letter'}","{'e': 'ASCII', 'i': 'ASCII', ' ': 'ASCII', 'n': 'ASCII', 'p': 'ASCII', 'd': 'ASCII', 'a': 'ASCII', 'v': 'ASCII', 't': 'ASCII', 'l': 'ASCII', 'L': 'ASCII', 'y': 'ASCII', 'r': 'ASCII', 'h': 'ASCII', 'g': 'ASCII', 'c': 'ASCII', 'A': 'ASCII', 's': 'ASCII', 'S': 'ASCII', 'o': 'ASCII', 'm': 'ASCII'}","ASCII    2599127
+dtype: int64",1.0,"{'ASCII': e    386227
+i    294257
+     212715
+n    163084
+p    163084
+d    148323
+a    148323
+v    140569
+t    131173
+l    106731
+L     98977
+y     98977
+r     98977
+h     81542
+g     81542
+c     57100
+A     41592
+s     41592
+S     39950
+o     32196
+m     32196
+dtype: int64}","Latin     2386412
+Common     212715
+dtype: int64",2.0,"{'Latin': e    386227
+i    294257
+n    163084
+p    163084
+d    148323
+a    148323
+v    140569
+t    131173
+l    106731
+L     98977
+y     98977
+r     98977
+h     81542
+g     81542
+c     57100
+A     41592
+s     41592
+S     39950
+o     32196
+m     32196
+dtype: int64, 'Common':     212715
+dtype: int64}","Lowercase Letter    2205893
+Space Separator      212715
+Uppercase Letter     180519
+dtype: int64",3.0,"{'Lowercase_Letter': e    386227
+i    294257
+n    163084
+p    163084
+d    148323
+a    148323
+v    140569
+t    131173
+l    106731
+y     98977
+r     98977
+h     81542
+g     81542
+c     57100
+s     41592
+o     32196
+m     32196
+dtype: int64, 'Space_Separator':     212715
+dtype: int64, 'Uppercase_Letter': L    98977
+A    41592
+S    39950
+dtype: int64}","Delivery Status
+late        98977
+delivery    98977
+shipping    81542
+advance     41592
+on          32196
+time        32196
+canceled     7754
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Late_delivery_risk,2,1.1079166181953146e-05,False,0,0.0,Categorical,True,"Late_delivery_risk
+1    98977
+0    81542
+Name: count, dtype: Int64","Late_delivery_risk
+0    81542
+1    98977
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.006739377914238176,"0    0
+1    1
+2    0
+3    0
+4    0
+Name: Late_delivery_risk, dtype: object","{'statistic': 1683.9181748181632, 'pvalue': 0.0}",1.0,1.0,1.0,1.0,"Late_delivery_risk
+1    180519
+Name: count, dtype: Int64","(array([180519]), array([0.5, 1.5]))",2.0,180519.0,"Late_delivery_risk
+1    98977
+0    81542
+Name: count, dtype: Int64","{'1': 'Decimal_Number', '0': 'Decimal_Number'}","{'1': 'ASCII', '0': 'ASCII'}","ASCII    180519
+dtype: int64",1.0,"{'ASCII': 1    98977
+0    81542
+dtype: int64}","Common    180519
+dtype: int64",1.0,"{'Common': 1    98977
+0    81542
+dtype: int64}","Decimal Number    180519
+dtype: int64",1.0,"{'Decimal_Number': 1    98977
+0    81542
+dtype: int64}","Late_delivery_risk
+1    98977
+0    81542
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Category Id,51,0.00028251873763980524,False,0,0.0,Numeric,True,"Category Id
+17    24551
+18    22246
+24    21035
+46    19298
+45    17325
+48    15540
+43    13729
+9     12487
+29    10984
+37     2029
+40     1780
+36     1475
+26     1201
+13     1127
+35     1070
+41      974
+75      838
+63      652
+76      650
+3       632
+7       614
+62      592
+74      529
+33      524
+72      492
+66      484
+68      484
+67      483
+64      442
+32      441
+44      440
+71      434
+65      431
+12      423
+59      405
+38      384
+69      362
+73      357
+5       343
+6       328
+11      309
+30      283
+61      271
+70      208
+60      207
+31      181
+2       138
+10      111
+16       68
+4        67
+34       61
+Name: count, dtype: int64","Category Id
+2       138
+3       632
+4        67
+5       343
+6       328
+7       614
+9     12487
+10      111
+11      309
+12      423
+13     1127
+16       68
+17    24551
+18    22246
+24    21035
+26     1201
+29    10984
+30      283
+31      181
+32      441
+33      524
+34       61
+35     1070
+36     1475
+37     2029
+38      384
+40     1780
+41      974
+43    13729
+44      440
+45    17325
+46    19298
+48    15540
+59      405
+60      207
+61      271
+62      592
+63      652
+64      442
+65      431
+66      484
+67      483
+68      484
+69      362
+70      208
+71      434
+72      492
+73      357
+74      529
+75      838
+76      650
+Name: count, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 1089823.3816329583, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,31.85145053983237,15.64006388338916,244.61159827649402,2,76,-0.6032610082781633,0.36162479939405345,5749792.0,14.0,74,9.0,18.0,29.0,45.0,48.0,27.0,0.4910314481229109,0.0,0.0,False,False,False,False,0.0,"(array([  770,    67,   671,   614, 12487,   111,   732,  1127,     0,
+          68, 46797,     0,     0,     0, 21035,     0,  1201,     0,
+       11267,   181,   965,    61,  2545,  2029,   384,  1780,   974,
+       13729,   440, 36623,     0, 15540,     0,     0,     0,     0,
+           0,     0,   405,   478,   592,  1094,   431,   967,   484,
+         570,   434,   849,   529,  1488]), array([ 2.  ,  3.48,  4.96,  6.44,  7.92,  9.4 , 10.88, 12.36, 13.84,
+       15.32, 16.8 , 18.28, 19.76, 21.24, 22.72, 24.2 , 25.68, 27.16,
+       28.64, 30.12, 31.6 , 33.08, 34.56, 36.04, 37.52, 39.  , 40.48,
+       41.96, 43.44, 44.92, 46.4 , 47.88, 49.36, 50.84, 52.32, 53.8 ,
+       55.28, 56.76, 58.24, 59.72, 61.2 , 62.68, 64.16, 65.64, 67.12,
+       68.6 , 70.08, 71.56, 73.04, 74.52, 76.  ]))",,,
+Category Name,50,0.00027697915454882866,False,0,0.0,Categorical,True,"Category Name
+Cleats                  24551
+Men's Footwear          22246
+Women's Apparel         21035
+Indoor/Outdoor Games    19298
+Fishing                 17325
+Water Sports            15540
+Camping & Hiking        13729
+Cardio Equipment        12487
+Shop By Sport           10984
+Electronics              3156
+Accessories              1780
+Golf Balls               1475
+Girls' Apparel           1201
+Golf Gloves              1070
+Trade-In                  974
+Video Games               838
+Children's Clothing       652
+Women's Clothing          650
+Baseball & Softball       632
+Hockey                    614
+Cameras                   592
+Toys                      529
+Golf Shoes                524
+Pet Supplies              492
+Crafts                    484
+Garden                    484
+DVDs                      483
+Computers                 442
+Golf Apparel              441
+Hunting & Shooting        440
+Music                     434
+Consumer Electronics      431
+Boxing & MMA              423
+Books                     405
+Kids' Golf Clubs          384
+Health and Beauty         362
+Sporting Goods            357
+Lacrosse                  343
+Tennis & Racquet          328
+Fitness Accessories       309
+Men's Golf Clubs          283
+CDs                       271
+Men's Clothing            208
+Baby                      207
+Women's Golf Clubs        181
+Soccer                    138
+Strength Training         111
+As Seen on  TV!            68
+Basketball                 67
+Golf Bags & Carts          61
+Name: count, dtype: Int64","Category Name
+Accessories              1780
+As Seen on  TV!            68
+Baby                      207
+Baseball & Softball       632
+Basketball                 67
+Books                     405
+Boxing & MMA              423
+CDs                       271
+Cameras                   592
+Camping & Hiking        13729
+Cardio Equipment        12487
+Children's Clothing       652
+Cleats                  24551
+Computers                 442
+Consumer Electronics      431
+Crafts                    484
+DVDs                      483
+Electronics              3156
+Fishing                 17325
+Fitness Accessories       309
+Garden                    484
+Girls' Apparel           1201
+Golf Apparel              441
+Golf Bags & Carts          61
+Golf Balls               1475
+Golf Gloves              1070
+Golf Shoes                524
+Health and Beauty         362
+Hockey                    614
+Hunting & Shooting        440
+Indoor/Outdoor Games    19298
+Kids' Golf Clubs          384
+Lacrosse                  343
+Men's Clothing            208
+Men's Footwear          22246
+Men's Golf Clubs          283
+Music                     434
+Pet Supplies              492
+Shop By Sport           10984
+Soccer                    138
+Sporting Goods            357
+Strength Training         111
+Tennis & Racquet          328
+Toys                      529
+Trade-In                  974
+Video Games               838
+Water Sports            15540
+Women's Apparel         21035
+Women's Clothing          650
+Women's Golf Clubs        181
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.30762456073245525,"0    Sporting Goods
+1    Sporting Goods
+2    Sporting Goods
+3    Sporting Goods
+4    Sporting Goods
+Name: Category Name, dtype: object","{'statistic': 635069.766556429, 'pvalue': 0.0}",20.0,12.707792531534077,17.0,4.0,"Category Name
+16    27861
+6     26676
+14    24012
+15    21103
+20    19729
+7     17325
+12    16896
+13    10984
+11     6844
+10     2066
+8      1909
+19     1593
+4      1283
+5       641
+18      621
+17      534
+9       442
+Name: count, dtype: Int64","(array([ 1283,   641, 26676, 17325,  1909,   442,  2066,  6844, 16896,
+       10984, 24012, 21103, 27861,   534,   621,  1593, 19729]), array([ 4.        ,  4.94117647,  5.88235294,  6.82352941,  7.76470588,
+        8.70588235,  9.64705882, 10.58823529, 11.52941176, 12.47058824,
+       13.41176471, 14.35294118, 15.29411765, 16.23529412, 17.17647059,
+       18.11764706, 19.05882353, 20.        ]))",49.0,2293998.0,"Category Name
+o    213963
+e    180726
+     156787
+r    150127
+s    145604
+a    140194
+n    132705
+t    130741
+i    114517
+p    110861
+m     69683
+l     66981
+C     56058
+d     55134
+g     48236
+'     46840
+S     40270
+F     39880
+W     37406
+u     35562
+h     31908
+G     27667
+A     25257
+M     24017
+w     22246
+I     20272
+/     19298
+O     19298
+E     16074
+&     15613
+H     15145
+k     14815
+B     14616
+c     13347
+q     12815
+y     12696
+f      5535
+b      2386
+T      2010
+V      1389
+D      1237
+v      1070
+-       974
+P       492
+x       423
+K       384
+L       343
+R       328
+!        68
+Name: count, dtype: Int64","{'o': 'Lowercase_Letter', 'e': 'Lowercase_Letter', ' ': 'Space_Separator', 'r': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'a': 'Lowercase_Letter', 'n': 'Lowercase_Letter', 't': 'Lowercase_Letter', 'i': 'Lowercase_Letter', 'p': 'Lowercase_Letter', 'm': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 'C': 'Uppercase_Letter', 'd': 'Lowercase_Letter', 'g': 'Lowercase_Letter', ""'"": 'Other_Punctuation', 'S': 'Uppercase_Letter', 'F': 'Uppercase_Letter', 'W': 'Uppercase_Letter', 'u': 'Lowercase_Letter', 'h': 'Lowercase_Letter', 'G': 'Uppercase_Letter', 'A': 'Uppercase_Letter', 'M': 'Uppercase_Letter', 'w': 'Lowercase_Letter', 'I': 'Uppercase_Letter', '/': 'Other_Punctuation', 'O': 'Uppercase_Letter', 'E': 'Uppercase_Letter', '&': 'Other_Punctuation', 'H': 'Uppercase_Letter', 'k': 'Lowercase_Letter', 'B': 'Uppercase_Letter', 'c': 'Lowercase_Letter', 'q': 'Lowercase_Letter', 'y': 'Lowercase_Letter', 'f': 'Lowercase_Letter', 'b': 'Lowercase_Letter', 'T': 'Uppercase_Letter', 'V': 'Uppercase_Letter', 'D': 'Uppercase_Letter', 'v': 'Lowercase_Letter', '-': 'Dash_Punctuation', 'P': 'Uppercase_Letter', 'x': 'Lowercase_Letter', 'K': 'Uppercase_Letter', 'L': 'Uppercase_Letter', 'R': 'Uppercase_Letter', '!': 'Other_Punctuation'}","{'o': 'ASCII', 'e': 'ASCII', ' ': 'ASCII', 'r': 'ASCII', 's': 'ASCII', 'a': 'ASCII', 'n': 'ASCII', 't': 'ASCII', 'i': 'ASCII', 'p': 'ASCII', 'm': 'ASCII', 'l': 'ASCII', 'C': 'ASCII', 'd': 'ASCII', 'g': 'ASCII', ""'"": 'ASCII', 'S': 'ASCII', 'F': 'ASCII', 'W': 'ASCII', 'u': 'ASCII', 'h': 'ASCII', 'G': 'ASCII', 'A': 'ASCII', 'M': 'ASCII', 'w': 'ASCII', 'I': 'ASCII', '/': 'ASCII', 'O': 'ASCII', 'E': 'ASCII', '&': 'ASCII', 'H': 'ASCII', 'k': 'ASCII', 'B': 'ASCII', 'c': 'ASCII', 'q': 'ASCII', 'y': 'ASCII', 'f': 'ASCII', 'b': 'ASCII', 'T': 'ASCII', 'V': 'ASCII', 'D': 'ASCII', 'v': 'ASCII', '-': 'ASCII', 'P': 'ASCII', 'x': 'ASCII', 'K': 'ASCII', 'L': 'ASCII', 'R': 'ASCII', '!': 'ASCII'}","ASCII    2293998
+dtype: int64",1.0,"{'ASCII': o    213963
+e    180726
+     156787
+r    150127
+s    145604
+a    140194
+n    132705
+t    130741
+i    114517
+p    110861
+m     69683
+l     66981
+C     56058
+d     55134
+g     48236
+'     46840
+S     40270
+F     39880
+W     37406
+u     35562
+h     31908
+G     27667
+A     25257
+M     24017
+w     22246
+I     20272
+/     19298
+O     19298
+E     16074
+&     15613
+H     15145
+k     14815
+B     14616
+c     13347
+q     12815
+y     12696
+f      5535
+b      2386
+T      2010
+V      1389
+D      1237
+v      1070
+-       974
+P       492
+x       423
+K       384
+L       343
+R       328
+!        68
+dtype: int64}","Latin     2054418
+Common     239580
+dtype: int64",2.0,"{'Latin': o    213963
+e    180726
+r    150127
+s    145604
+a    140194
+n    132705
+t    130741
+i    114517
+p    110861
+m     69683
+l     66981
+C     56058
+d     55134
+g     48236
+S     40270
+F     39880
+W     37406
+u     35562
+h     31908
+G     27667
+A     25257
+M     24017
+w     22246
+I     20272
+O     19298
+E     16074
+H     15145
+k     14815
+B     14616
+c     13347
+q     12815
+y     12696
+f      5535
+b      2386
+T      2010
+V      1389
+D      1237
+v      1070
+P       492
+x       423
+K       384
+L       343
+R       328
+dtype: int64, 'Common':      156787
+'     46840
+/     19298
+&     15613
+-       974
+!        68
+dtype: int64}","Lowercase Letter     1712275
+Uppercase Letter      342143
+Space Separator       156787
+Other Punctuation      81819
+Dash Punctuation         974
+dtype: int64",5.0,"{'Lowercase_Letter': o    213963
+e    180726
+r    150127
+s    145604
+a    140194
+n    132705
+t    130741
+i    114517
+p    110861
+m     69683
+l     66981
+d     55134
+g     48236
+u     35562
+h     31908
+w     22246
+k     14815
+c     13347
+q     12815
+y     12696
+f      5535
+b      2386
+v      1070
+x       423
+dtype: int64, 'Space_Separator':     156787
+dtype: int64, 'Uppercase_Letter': C    56058
+S    40270
+F    39880
+W    37406
+G    27667
+A    25257
+M    24017
+I    20272
+O    19298
+E    16074
+H    15145
+B    14616
+T     2010
+V     1389
+D     1237
+P      492
+K      384
+L      343
+R      328
+dtype: int64, 'Other_Punctuation': '    46840
+/    19298
+&    15613
+!       68
+dtype: int64, 'Dash_Punctuation': -    974
+dtype: int64}","Category Name
+cleats        24551
+men's         22737
+apparel       22677
+footwear      22246
+women's       21866
+              ...  
+on               68
+tv               68
+basketball       67
+bags             61
+carts            61
+Name: count, Length: 70, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Customer City,563,0.0031187852802198107,False,0,0.0,Text,True,"Customer City
+Caguas         66770
+Chicago         3885
+Los Angeles     3417
+Brooklyn        3412
+New York        1816
+               ...  
+Bartlett          25
+Malden            22
+Ponce             22
+Freehold          13
+CA                 3
+Name: count, Length: 563, dtype: int64","Customer City
+Aguadilla       50
+Alameda        118
+Albany          71
+Albuquerque    552
+Algonquin      128
+              ... 
+Yonkers        138
+York           241
+Ypsilanti      144
+Yuma            92
+Zanesville     115
+Name: count, Length: 563, dtype: int64",True,0,180519,0.0,180519,1444284,,"0         Caguas
+1         Caguas
+2       San Jose
+3    Los Angeles
+4         Caguas
+Name: Customer City, dtype: object",,20.0,7.7086234689977235,19.0,2.0,"Customer City
+6     78117
+7     21995
+8     19391
+9     14855
+11    12320
+10    10020
+5      6516
+12     5088
+13     4044
+14     2569
+4      2278
+15     1889
+16      724
+19      228
+17      218
+20      171
+18       93
+2         3
+Name: count, dtype: int64","(array([    3,     0,  2278,  6516, 78117, 21995, 19391, 14855, 10020,
+       12320,  5088,  4044,  2569,  1889,   724,   218,    93,   399]), array([ 2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11., 12., 13., 14.,
+       15., 16., 17., 18., 19., 20.]))",52.0,1391553.0,"Customer City
+a    228937
+s    111699
+u     89280
+g     89233
+o     85515
+C     82588
+e     81172
+n     76231
+l     60937
+i     60636
+r     57370
+t     43697
+      36400
+d     23171
+h     22639
+c     19807
+m     14895
+k     14183
+y     14093
+S     14019
+B     13944
+L     13048
+A     10848
+w     10735
+P     10565
+M      9378
+v      8842
+H      8518
+p      8483
+b      6272
+D      5758
+N      5664
+W      5454
+F      5117
+V      4848
+R      4703
+E      4252
+f      4056
+G      3718
+O      3447
+T      3140
+x      3071
+J      2842
+Y      2654
+q      1487
+I      1085
+z       896
+j       894
+K       619
+U       387
+Q       211
+Z       115
+Name: count, dtype: int64","{'a': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'u': 'Lowercase_Letter', 'g': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 'C': 'Uppercase_Letter', 'e': 'Lowercase_Letter', 'n': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 'i': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 't': 'Lowercase_Letter', ' ': 'Space_Separator', 'd': 'Lowercase_Letter', 'h': 'Lowercase_Letter', 'c': 'Lowercase_Letter', 'm': 'Lowercase_Letter', 'k': 'Lowercase_Letter', 'y': 'Lowercase_Letter', 'S': 'Uppercase_Letter', 'B': 'Uppercase_Letter', 'L': 'Uppercase_Letter', 'A': 'Uppercase_Letter', 'w': 'Lowercase_Letter', 'P': 'Uppercase_Letter', 'M': 'Uppercase_Letter', 'v': 'Lowercase_Letter', 'H': 'Uppercase_Letter', 'p': 'Lowercase_Letter', 'b': 'Lowercase_Letter', 'D': 'Uppercase_Letter', 'N': 'Uppercase_Letter', 'W': 'Uppercase_Letter', 'F': 'Uppercase_Letter', 'V': 'Uppercase_Letter', 'R': 'Uppercase_Letter', 'E': 'Uppercase_Letter', 'f': 'Lowercase_Letter', 'G': 'Uppercase_Letter', 'O': 'Uppercase_Letter', 'T': 'Uppercase_Letter', 'x': 'Lowercase_Letter', 'J': 'Uppercase_Letter', 'Y': 'Uppercase_Letter', 'q': 'Lowercase_Letter', 'I': 'Uppercase_Letter', 'z': 'Lowercase_Letter', 'j': 'Lowercase_Letter', 'K': 'Uppercase_Letter', 'U': 'Uppercase_Letter', 'Q': 'Uppercase_Letter', 'Z': 'Uppercase_Letter'}","{'a': 'ASCII', 's': 'ASCII', 'u': 'ASCII', 'g': 'ASCII', 'o': 'ASCII', 'C': 'ASCII', 'e': 'ASCII', 'n': 'ASCII', 'l': 'ASCII', 'i': 'ASCII', 'r': 'ASCII', 't': 'ASCII', ' ': 'ASCII', 'd': 'ASCII', 'h': 'ASCII', 'c': 'ASCII', 'm': 'ASCII', 'k': 'ASCII', 'y': 'ASCII', 'S': 'ASCII', 'B': 'ASCII', 'L': 'ASCII', 'A': 'ASCII', 'w': 'ASCII', 'P': 'ASCII', 'M': 'ASCII', 'v': 'ASCII', 'H': 'ASCII', 'p': 'ASCII', 'b': 'ASCII', 'D': 'ASCII', 'N': 'ASCII', 'W': 'ASCII', 'F': 'ASCII', 'V': 'ASCII', 'R': 'ASCII', 'E': 'ASCII', 'f': 'ASCII', 'G': 'ASCII', 'O': 'ASCII', 'T': 'ASCII', 'x': 'ASCII', 'J': 'ASCII', 'Y': 'ASCII', 'q': 'ASCII', 'I': 'ASCII', 'z': 'ASCII', 'j': 'ASCII', 'K': 'ASCII', 'U': 'ASCII', 'Q': 'ASCII', 'Z': 'ASCII'}","ASCII    1391553
+dtype: int64",1.0,"{'ASCII': a    228937
+s    111699
+u     89280
+g     89233
+o     85515
+C     82588
+e     81172
+n     76231
+l     60937
+i     60636
+r     57370
+t     43697
+      36400
+d     23171
+h     22639
+c     19807
+m     14895
+k     14183
+y     14093
+S     14019
+B     13944
+L     13048
+A     10848
+w     10735
+P     10565
+M      9378
+v      8842
+H      8518
+p      8483
+b      6272
+D      5758
+N      5664
+W      5454
+F      5117
+V      4848
+R      4703
+E      4252
+f      4056
+G      3718
+O      3447
+T      3140
+x      3071
+J      2842
+Y      2654
+q      1487
+I      1085
+z       896
+j       894
+K       619
+U       387
+Q       211
+Z       115
+dtype: int64}","Latin     1355153
+Common      36400
+dtype: int64",2.0,"{'Latin': a    228937
+s    111699
+u     89280
+g     89233
+o     85515
+C     82588
+e     81172
+n     76231
+l     60937
+i     60636
+r     57370
+t     43697
+d     23171
+h     22639
+c     19807
+m     14895
+k     14183
+y     14093
+S     14019
+B     13944
+L     13048
+A     10848
+w     10735
+P     10565
+M      9378
+v      8842
+H      8518
+p      8483
+b      6272
+D      5758
+N      5664
+W      5454
+F      5117
+V      4848
+R      4703
+E      4252
+f      4056
+G      3718
+O      3447
+T      3140
+x      3071
+J      2842
+Y      2654
+q      1487
+I      1085
+z       896
+j       894
+K       619
+U       387
+Q       211
+Z       115
+dtype: int64, 'Common':     36400
+dtype: int64}","Lowercase Letter    1138231
+Uppercase Letter     216922
+Space Separator       36400
+dtype: int64",3.0,"{'Lowercase_Letter': a    228937
+s    111699
+u     89280
+g     89233
+o     85515
+e     81172
+n     76231
+l     60937
+i     60636
+r     57370
+t     43697
+d     23171
+h     22639
+c     19807
+m     14895
+k     14183
+y     14093
+w     10735
+v      8842
+p      8483
+b      6272
+f      4056
+x      3071
+q      1487
+z       896
+j       894
+dtype: int64, 'Uppercase_Letter': C    82588
+S    14019
+B    13944
+L    13048
+A    10848
+P    10565
+M     9378
+H     8518
+D     5758
+N     5664
+W     5454
+F     5117
+V     4848
+R     4703
+E     4252
+G     3718
+O     3447
+T     3140
+J     2842
+Y     2654
+I     1085
+K      619
+U      387
+Q      211
+Z      115
+dtype: int64, 'Space_Separator':     36400
+dtype: int64}","Customer City
+caguas      66770
+san          5129
+chicago      3937
+los          3417
+angeles      3417
+            ...  
+bartlett       25
+malden         22
+ponce          22
+freehold       13
+ca              3
+Name: count, Length: 595, dtype: int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Customer Country,2,1.1079166181953146e-05,False,0,0.0,Categorical,True,"Customer Country
+EE. UU.        111146
+Puerto Rico     69373
+Name: count, dtype: Int64","Customer Country
+EE. UU.        111146
+Puerto Rico     69373
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.038979253423255256,"0    Puerto Rico
+1    Puerto Rico
+2        EE. UU.
+3        EE. UU.
+4    Puerto Rico
+Name: Customer Country, dtype: object","{'statistic': 9666.48125128103, 'pvalue': 0.0}",11.0,8.537189991081272,7.0,7.0,"Customer Country
+7     111146
+11     69373
+Name: count, dtype: Int64","(array([111146,  69373]), array([ 7.,  9., 11.]))",13.0,1541125.0,"Customer Country
+E    222292
+.    222292
+U    222292
+     180519
+o    138746
+P     69373
+u     69373
+e     69373
+r     69373
+t     69373
+R     69373
+i     69373
+c     69373
+Name: count, dtype: Int64","{'E': 'Uppercase_Letter', '.': 'Other_Punctuation', 'U': 'Uppercase_Letter', ' ': 'Space_Separator', 'o': 'Lowercase_Letter', 'P': 'Uppercase_Letter', 'u': 'Lowercase_Letter', 'e': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 't': 'Lowercase_Letter', 'R': 'Uppercase_Letter', 'i': 'Lowercase_Letter', 'c': 'Lowercase_Letter'}","{'E': 'ASCII', '.': 'ASCII', 'U': 'ASCII', ' ': 'ASCII', 'o': 'ASCII', 'P': 'ASCII', 'u': 'ASCII', 'e': 'ASCII', 'r': 'ASCII', 't': 'ASCII', 'R': 'ASCII', 'i': 'ASCII', 'c': 'ASCII'}","ASCII    1541125
+dtype: int64",1.0,"{'ASCII': E    222292
+.    222292
+U    222292
+     180519
+o    138746
+P     69373
+u     69373
+e     69373
+r     69373
+t     69373
+R     69373
+i     69373
+c     69373
+dtype: int64}","Latin     1138314
+Common     402811
+dtype: int64",2.0,"{'Latin': E    222292
+U    222292
+o    138746
+P     69373
+u     69373
+e     69373
+r     69373
+t     69373
+R     69373
+i     69373
+c     69373
+dtype: int64, 'Common': .    222292
+     180519
+dtype: int64}","Uppercase Letter     583330
+Lowercase Letter     554984
+Other Punctuation    222292
+Space Separator      180519
+dtype: int64",4.0,"{'Uppercase_Letter': E    222292
+U    222292
+P     69373
+R     69373
+dtype: int64, 'Other_Punctuation': .    222292
+dtype: int64, 'Space_Separator':     180519
+dtype: int64, 'Lowercase_Letter': o    138746
+u     69373
+e     69373
+r     69373
+t     69373
+i     69373
+c     69373
+dtype: int64}","Customer Country
+ee        111146
+uu        111146
+puerto     69373
+rico       69373
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Customer Email,1,5.539583090976573e-06,False,0,0.0,Categorical,True,"Customer Email
+XXXXXXXXX    180519
+Name: count, dtype: Int64","Customer Email
+XXXXXXXXX    180519
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.0,"0    XXXXXXXXX
+1    XXXXXXXXX
+2    XXXXXXXXX
+3    XXXXXXXXX
+4    XXXXXXXXX
+Name: Customer Email, dtype: object","{'statistic': 0.0, 'pvalue': nan}",9.0,9.0,9.0,9.0,"Customer Email
+9    180519
+Name: count, dtype: Int64","(array([180519]), array([8.5, 9.5]))",1.0,1624671.0,"Customer Email
+X    1624671
+Name: count, dtype: Int64",{'X': 'Uppercase_Letter'},{'X': 'ASCII'},"ASCII    1624671
+dtype: int64",1.0,"{'ASCII': X    1624671
+dtype: int64}","Latin    1624671
+dtype: int64",1.0,"{'Latin': X    1624671
+dtype: int64}","Uppercase Letter    1624671
+dtype: int64",1.0,"{'Uppercase_Letter': X    1624671
+dtype: int64}","Customer Email
+xxxxxxxxx    180519
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Customer Fname,782,0.004331953977143681,False,48,0.00026589998836687554,Text,True,"Customer Fname
+Mary       65150
+James       1835
+Robert      1759
+Michael     1680
+David       1625
+           ...  
+Lina           1
+Cami           1
+Ana            1
+Nadin          1
+Brees          1
+Name: count, Length: 782, dtype: int64","Customer Fname
+Aaron      483
+Abigail     17
+Abra        22
+Adam       316
+Adara        4
+          ... 
+Zenia        6
+Zephr       11
+Zia         17
+Zoe         17
+Zorita       6
+Name: count, Length: 782, dtype: int64",True,0,180519,0.0,180519,1444284,,"0      Cally
+1      Irene
+2    Gillian
+3       Tana
+4       Orli
+Name: Customer Fname, dtype: object",,11.0,5.274658069233709,10.0,2.0,"Customer Fname
+4     78812
+5     31381
+6     28057
+7     23760
+8      9819
+9      5135
+3      2245
+11      895
+10      398
+2        17
+Name: count, dtype: int64","(array([   17,  2245, 78812, 31381, 28057, 23760,  9819,  5135,   398,
+         895]), array([ 2. ,  2.9,  3.8,  4.7,  5.6,  6.5,  7.4,  8.3,  9.2, 10.1, 11. ]))",52.0,952176.0,"Customer Fname
+a    153270
+r    117429
+y     88689
+M     74129
+e     72908
+n     54931
+i     46547
+l     35613
+h     34074
+t     29586
+o     28643
+s     21621
+J     17904
+c     16203
+d     15203
+m     13977
+A      9925
+u      9232
+D      9002
+R      8843
+b      8691
+S      8325
+C      7590
+K      6357
+B      6086
+g      5403
+E      4836
+v      4775
+L      4280
+p      4149
+T      3977
+P      3600
+w      3128
+G      3097
+H      3051
+f      2780
+W      2661
+N      2435
+k      2114
+V      1450
+F      1160
+z      1053
+x       609
+j       599
+O       550
+Z       509
+q       412
+I       406
+Q       120
+X       110
+Y        98
+U        36
+Name: count, dtype: int64","{'a': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 'y': 'Lowercase_Letter', 'M': 'Uppercase_Letter', 'e': 'Lowercase_Letter', 'n': 'Lowercase_Letter', 'i': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 'h': 'Lowercase_Letter', 't': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'J': 'Uppercase_Letter', 'c': 'Lowercase_Letter', 'd': 'Lowercase_Letter', 'm': 'Lowercase_Letter', 'A': 'Uppercase_Letter', 'u': 'Lowercase_Letter', 'D': 'Uppercase_Letter', 'R': 'Uppercase_Letter', 'b': 'Lowercase_Letter', 'S': 'Uppercase_Letter', 'C': 'Uppercase_Letter', 'K': 'Uppercase_Letter', 'B': 'Uppercase_Letter', 'g': 'Lowercase_Letter', 'E': 'Uppercase_Letter', 'v': 'Lowercase_Letter', 'L': 'Uppercase_Letter', 'p': 'Lowercase_Letter', 'T': 'Uppercase_Letter', 'P': 'Uppercase_Letter', 'w': 'Lowercase_Letter', 'G': 'Uppercase_Letter', 'H': 'Uppercase_Letter', 'f': 'Lowercase_Letter', 'W': 'Uppercase_Letter', 'N': 'Uppercase_Letter', 'k': 'Lowercase_Letter', 'V': 'Uppercase_Letter', 'F': 'Uppercase_Letter', 'z': 'Lowercase_Letter', 'x': 'Lowercase_Letter', 'j': 'Lowercase_Letter', 'O': 'Uppercase_Letter', 'Z': 'Uppercase_Letter', 'q': 'Lowercase_Letter', 'I': 'Uppercase_Letter', 'Q': 'Uppercase_Letter', 'X': 'Uppercase_Letter', 'Y': 'Uppercase_Letter', 'U': 'Uppercase_Letter'}","{'a': 'ASCII', 'r': 'ASCII', 'y': 'ASCII', 'M': 'ASCII', 'e': 'ASCII', 'n': 'ASCII', 'i': 'ASCII', 'l': 'ASCII', 'h': 'ASCII', 't': 'ASCII', 'o': 'ASCII', 's': 'ASCII', 'J': 'ASCII', 'c': 'ASCII', 'd': 'ASCII', 'm': 'ASCII', 'A': 'ASCII', 'u': 'ASCII', 'D': 'ASCII', 'R': 'ASCII', 'b': 'ASCII', 'S': 'ASCII', 'C': 'ASCII', 'K': 'ASCII', 'B': 'ASCII', 'g': 'ASCII', 'E': 'ASCII', 'v': 'ASCII', 'L': 'ASCII', 'p': 'ASCII', 'T': 'ASCII', 'P': 'ASCII', 'w': 'ASCII', 'G': 'ASCII', 'H': 'ASCII', 'f': 'ASCII', 'W': 'ASCII', 'N': 'ASCII', 'k': 'ASCII', 'V': 'ASCII', 'F': 'ASCII', 'z': 'ASCII', 'x': 'ASCII', 'j': 'ASCII', 'O': 'ASCII', 'Z': 'ASCII', 'q': 'ASCII', 'I': 'ASCII', 'Q': 'ASCII', 'X': 'ASCII', 'Y': 'ASCII', 'U': 'ASCII'}","ASCII    952176
+dtype: int64",1.0,"{'ASCII': a    153270
+r    117429
+y     88689
+M     74129
+e     72908
+n     54931
+i     46547
+l     35613
+h     34074
+t     29586
+o     28643
+s     21621
+J     17904
+c     16203
+d     15203
+m     13977
+A      9925
+u      9232
+D      9002
+R      8843
+b      8691
+S      8325
+C      7590
+K      6357
+B      6086
+g      5403
+E      4836
+v      4775
+L      4280
+p      4149
+T      3977
+P      3600
+w      3128
+G      3097
+H      3051
+f      2780
+W      2661
+N      2435
+k      2114
+V      1450
+F      1160
+z      1053
+x       609
+j       599
+O       550
+Z       509
+q       412
+I       406
+Q       120
+X       110
+Y        98
+U        36
+dtype: int64}","Latin    952176
+dtype: int64",1.0,"{'Latin': a    153270
+r    117429
+y     88689
+M     74129
+e     72908
+n     54931
+i     46547
+l     35613
+h     34074
+t     29586
+o     28643
+s     21621
+J     17904
+c     16203
+d     15203
+m     13977
+A      9925
+u      9232
+D      9002
+R      8843
+b      8691
+S      8325
+C      7590
+K      6357
+B      6086
+g      5403
+E      4836
+v      4775
+L      4280
+p      4149
+T      3977
+P      3600
+w      3128
+G      3097
+H      3051
+f      2780
+W      2661
+N      2435
+k      2114
+V      1450
+F      1160
+z      1053
+x       609
+j       599
+O       550
+Z       509
+q       412
+I       406
+Q       120
+X       110
+Y        98
+U        36
+dtype: int64}","Lowercase Letter    771639
+Uppercase Letter    180537
+dtype: int64",2.0,"{'Lowercase_Letter': a    153270
+r    117429
+y     88689
+e     72908
+n     54931
+i     46547
+l     35613
+h     34074
+t     29586
+o     28643
+s     21621
+c     16203
+d     15203
+m     13977
+u      9232
+b      8691
+g      5403
+v      4775
+p      4149
+w      3128
+f      2780
+k      2114
+z      1053
+x       609
+j       599
+q       412
+dtype: int64, 'Uppercase_Letter': M    74129
+J    17904
+A     9925
+D     9002
+R     8843
+S     8325
+C     7590
+K     6357
+B     6086
+E     4836
+L     4280
+T     3977
+P     3600
+G     3097
+H     3051
+W     2661
+N     2435
+V     1450
+F     1160
+O      550
+Z      509
+I      406
+Q      120
+X      110
+Y       98
+U       36
+dtype: int64}","Customer Fname
+mary       65150
+james       1835
+robert      1759
+michael     1680
+david       1625
+           ...  
+fiora          1
+clau           1
+jay            1
+jordana        1
+brees          1
+Name: count, Length: 781, dtype: int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Customer Id,20652,0.11440346999484818,False,8435,0.046726383372387395,Numeric,True,"Customer Id
+5654     47
+10591    45
+5004     45
+5715     44
+3708     44
+         ..
+18698     1
+15537     1
+15484     1
+20681     1
+2677      1
+Name: count, Length: 20652, dtype: int64","Customer Id
+1         1
+2        10
+3        18
+4        14
+5         7
+         ..
+20753     1
+20754     1
+20755     1
+20756     1
+20757     1
+Name: count, Length: 20652, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 94667.20693666594, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,6691.37949467923,4162.918105728271,17329887.155000262,1,20757,0.01489882225969863,0.4887682515125228,1207921135.0,3263.0,20756,649.0,3258.5,6457.0,9779.0,12383.0,6520.5,0.6221315214655647,0.0,0.0,False,False,False,False,0.0,"(array([5667, 5853, 5551, 5880, 6026, 5733, 5699, 5596, 5900, 5567, 5946,
+       5621, 5967, 6189, 5708, 5828, 5596, 5536, 5407, 5514, 5688, 5746,
+       5802, 5796, 5774, 5705, 5769, 5734, 5895, 5523,  415,  415,  415,
+        416,  415,  415,  415,  415,  415,  415,  415,  416,  415,  415,
+        415,  415,  415,  415,  415,  416]), array([1.000000e+00, 4.161200e+02, 8.312400e+02, 1.246360e+03,
+       1.661480e+03, 2.076600e+03, 2.491720e+03, 2.906840e+03,
+       3.321960e+03, 3.737080e+03, 4.152200e+03, 4.567320e+03,
+       4.982440e+03, 5.397560e+03, 5.812680e+03, 6.227800e+03,
+       6.642920e+03, 7.058040e+03, 7.473160e+03, 7.888280e+03,
+       8.303400e+03, 8.718520e+03, 9.133640e+03, 9.548760e+03,
+       9.963880e+03, 1.037900e+04, 1.079412e+04, 1.120924e+04,
+       1.162436e+04, 1.203948e+04, 1.245460e+04, 1.286972e+04,
+       1.328484e+04, 1.369996e+04, 1.411508e+04, 1.453020e+04,
+       1.494532e+04, 1.536044e+04, 1.577556e+04, 1.619068e+04,
+       1.660580e+04, 1.702092e+04, 1.743604e+04, 1.785116e+04,
+       1.826628e+04, 1.868140e+04, 1.909652e+04, 1.951164e+04,
+       1.992676e+04, 2.034188e+04, 2.075700e+04]))",,,
+Customer Lname,1109,0.006143669914852834,False,29,0.00016065502933339243,Text,True,"Customer Lname
+Smith           64104
+Johnson           989
+Brown             909
+Williams          869
+Jones             859
+                ...  
+Dill                1
+Mirkckociv          1
+Gulvishvokov        1
+Atom                1
+Harri               1
+Name: count, Length: 1109, dtype: int64","Customer Lname
+Abbott        30
+Acevedo       94
+Acosta       104
+Adams        298
+Adkins        75
+            ... 
+Zamora        99
+Zavala        17
+Zhang         45
+Zimmerman    159
+Zuniga        10
+Name: count, Length: 1109, dtype: int64",True,8,180519,4.431666472781258e-05,180511,1444284,,"0     Holloway
+1         Luna
+2    Maldonado
+3         Tate
+4    Hendricks
+Name: Customer Lname, dtype: object",,12.0,5.712410878007434,11.0,2.0,"Customer Lname
+5     89272
+6     31814
+7     22330
+4     14310
+8     13451
+9      4848
+10     2011
+3      1835
+2       393
+11      246
+12        1
+Name: count, dtype: int64","(array([  393,  1835, 14310, 89272, 31814, 22330, 13451,  4848,  2011,
+         246,     1]), array([ 2.        ,  2.90909091,  3.81818182,  4.72727273,  5.63636364,
+        6.54545455,  7.45454545,  8.36363636,  9.27272727, 10.18181818,
+       11.09090909, 12.        ]))",51.0,1031153.0,"Customer Lname
+i    98958
+t    89337
+h    80056
+m    76994
+S    72853
+e    71442
+r    61613
+a    60479
+n    60324
+o    54728
+l    41923
+s    40802
+d    17905
+c    14404
+y    13662
+u    13516
+M    12703
+H    10338
+g    10221
+B     9912
+C     9589
+z     8993
+W     8613
+k     8497
+R     7704
+w     7019
+G     6598
+P     6470
+p     5639
+L     4992
+v     4829
+J     4477
+b     4401
+D     4239
+F     3935
+A     3909
+T     3717
+f     3073
+K     2738
+N     2016
+O     1708
+E     1637
+V     1281
+x     1219
+Y      520
+Z      330
+j      304
+q      304
+I      145
+U       50
+Q       37
+Name: count, dtype: int64","{'i': 'Lowercase_Letter', 't': 'Lowercase_Letter', 'h': 'Lowercase_Letter', 'm': 'Lowercase_Letter', 'S': 'Uppercase_Letter', 'e': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 'a': 'Lowercase_Letter', 'n': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'd': 'Lowercase_Letter', 'c': 'Lowercase_Letter', 'y': 'Lowercase_Letter', 'u': 'Lowercase_Letter', 'M': 'Uppercase_Letter', 'H': 'Uppercase_Letter', 'g': 'Lowercase_Letter', 'B': 'Uppercase_Letter', 'C': 'Uppercase_Letter', 'z': 'Lowercase_Letter', 'W': 'Uppercase_Letter', 'k': 'Lowercase_Letter', 'R': 'Uppercase_Letter', 'w': 'Lowercase_Letter', 'G': 'Uppercase_Letter', 'P': 'Uppercase_Letter', 'p': 'Lowercase_Letter', 'L': 'Uppercase_Letter', 'v': 'Lowercase_Letter', 'J': 'Uppercase_Letter', 'b': 'Lowercase_Letter', 'D': 'Uppercase_Letter', 'F': 'Uppercase_Letter', 'A': 'Uppercase_Letter', 'T': 'Uppercase_Letter', 'f': 'Lowercase_Letter', 'K': 'Uppercase_Letter', 'N': 'Uppercase_Letter', 'O': 'Uppercase_Letter', 'E': 'Uppercase_Letter', 'V': 'Uppercase_Letter', 'x': 'Lowercase_Letter', 'Y': 'Uppercase_Letter', 'Z': 'Uppercase_Letter', 'j': 'Lowercase_Letter', 'q': 'Lowercase_Letter', 'I': 'Uppercase_Letter', 'U': 'Uppercase_Letter', 'Q': 'Uppercase_Letter'}","{'i': 'ASCII', 't': 'ASCII', 'h': 'ASCII', 'm': 'ASCII', 'S': 'ASCII', 'e': 'ASCII', 'r': 'ASCII', 'a': 'ASCII', 'n': 'ASCII', 'o': 'ASCII', 'l': 'ASCII', 's': 'ASCII', 'd': 'ASCII', 'c': 'ASCII', 'y': 'ASCII', 'u': 'ASCII', 'M': 'ASCII', 'H': 'ASCII', 'g': 'ASCII', 'B': 'ASCII', 'C': 'ASCII', 'z': 'ASCII', 'W': 'ASCII', 'k': 'ASCII', 'R': 'ASCII', 'w': 'ASCII', 'G': 'ASCII', 'P': 'ASCII', 'p': 'ASCII', 'L': 'ASCII', 'v': 'ASCII', 'J': 'ASCII', 'b': 'ASCII', 'D': 'ASCII', 'F': 'ASCII', 'A': 'ASCII', 'T': 'ASCII', 'f': 'ASCII', 'K': 'ASCII', 'N': 'ASCII', 'O': 'ASCII', 'E': 'ASCII', 'V': 'ASCII', 'x': 'ASCII', 'Y': 'ASCII', 'Z': 'ASCII', 'j': 'ASCII', 'q': 'ASCII', 'I': 'ASCII', 'U': 'ASCII', 'Q': 'ASCII'}","ASCII    1031153
+dtype: int64",1.0,"{'ASCII': i    98958
+t    89337
+h    80056
+m    76994
+S    72853
+e    71442
+r    61613
+a    60479
+n    60324
+o    54728
+l    41923
+s    40802
+d    17905
+c    14404
+y    13662
+u    13516
+M    12703
+H    10338
+g    10221
+B     9912
+C     9589
+z     8993
+W     8613
+k     8497
+R     7704
+w     7019
+G     6598
+P     6470
+p     5639
+L     4992
+v     4829
+J     4477
+b     4401
+D     4239
+F     3935
+A     3909
+T     3717
+f     3073
+K     2738
+N     2016
+O     1708
+E     1637
+V     1281
+x     1219
+Y      520
+Z      330
+j      304
+q      304
+I      145
+U       50
+Q       37
+dtype: int64}","Latin    1031153
+dtype: int64",1.0,"{'Latin': i    98958
+t    89337
+h    80056
+m    76994
+S    72853
+e    71442
+r    61613
+a    60479
+n    60324
+o    54728
+l    41923
+s    40802
+d    17905
+c    14404
+y    13662
+u    13516
+M    12703
+H    10338
+g    10221
+B     9912
+C     9589
+z     8993
+W     8613
+k     8497
+R     7704
+w     7019
+G     6598
+P     6470
+p     5639
+L     4992
+v     4829
+J     4477
+b     4401
+D     4239
+F     3935
+A     3909
+T     3717
+f     3073
+K     2738
+N     2016
+O     1708
+E     1637
+V     1281
+x     1219
+Y      520
+Z      330
+j      304
+q      304
+I      145
+U       50
+Q       37
+dtype: int64}","Lowercase Letter    850642
+Uppercase Letter    180511
+dtype: int64",2.0,"{'Lowercase_Letter': i    98958
+t    89337
+h    80056
+m    76994
+e    71442
+r    61613
+a    60479
+n    60324
+o    54728
+l    41923
+s    40802
+d    17905
+c    14404
+y    13662
+u    13516
+g    10221
+z     8993
+k     8497
+w     7019
+p     5639
+v     4829
+b     4401
+f     3073
+x     1219
+j      304
+q      304
+dtype: int64, 'Uppercase_Letter': S    72853
+M    12703
+H    10338
+B     9912
+C     9589
+W     8613
+R     7704
+G     6598
+P     6470
+L     4992
+J     4477
+D     4239
+F     3935
+A     3909
+T     3717
+K     2738
+N     2016
+O     1708
+E     1637
+V     1281
+Y      520
+Z      330
+I      145
+U       50
+Q       37
+dtype: int64}","Customer Lname
+smith       64104
+johnson       989
+brown         909
+williams      869
+jones         859
+            ...  
+alexan          1
+guevara         1
+lanister        1
+mit             1
+harri           1
+Name: count, Length: 1109, dtype: int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Customer Password,1,5.539583090976573e-06,False,0,0.0,Categorical,True,"Customer Password
+XXXXXXXXX    180519
+Name: count, dtype: Int64","Customer Password
+XXXXXXXXX    180519
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.0,"0    XXXXXXXXX
+1    XXXXXXXXX
+2    XXXXXXXXX
+3    XXXXXXXXX
+4    XXXXXXXXX
+Name: Customer Password, dtype: object","{'statistic': 0.0, 'pvalue': nan}",9.0,9.0,9.0,9.0,"Customer Password
+9    180519
+Name: count, dtype: Int64","(array([180519]), array([8.5, 9.5]))",1.0,1624671.0,"Customer Password
+X    1624671
+Name: count, dtype: Int64",{'X': 'Uppercase_Letter'},{'X': 'ASCII'},"ASCII    1624671
+dtype: int64",1.0,"{'ASCII': X    1624671
+dtype: int64}","Latin    1624671
+dtype: int64",1.0,"{'Latin': X    1624671
+dtype: int64}","Uppercase Letter    1624671
+dtype: int64",1.0,"{'Uppercase_Letter': X    1624671
+dtype: int64}","Customer Password
+xxxxxxxxx    180519
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Customer Segment,3,1.661874927292972e-05,False,0,0.0,Categorical,True,"Customer Segment
+Consumer       93504
+Corporate      54789
+Home Office    32226
+Name: count, dtype: Int64","Customer Segment
+Consumer       93504
+Corporate      54789
+Home Office    32226
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.08045363910857317,"0       Consumer
+1       Consumer
+2       Consumer
+3    Home Office
+4      Corporate
+Name: Customer Segment, dtype: object","{'statistic': 31924.248849151612, 'pvalue': 0.0}",11.0,8.839064032040948,8.0,8.0,"Customer Segment
+8     93504
+9     54789
+11    32226
+Name: count, dtype: Int64","(array([93504, 54789, 32226]), array([ 8.,  9., 10., 11.]))",17.0,1595619.0,"Customer Segment
+o    235308
+e    212745
+r    203082
+C    148293
+m    125730
+n     93504
+s     93504
+u     93504
+f     64452
+t     54789
+p     54789
+a     54789
+H     32226
+      32226
+O     32226
+i     32226
+c     32226
+Name: count, dtype: Int64","{'o': 'Lowercase_Letter', 'e': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 'C': 'Uppercase_Letter', 'm': 'Lowercase_Letter', 'n': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'u': 'Lowercase_Letter', 'f': 'Lowercase_Letter', 't': 'Lowercase_Letter', 'p': 'Lowercase_Letter', 'a': 'Lowercase_Letter', 'H': 'Uppercase_Letter', ' ': 'Space_Separator', 'O': 'Uppercase_Letter', 'i': 'Lowercase_Letter', 'c': 'Lowercase_Letter'}","{'o': 'ASCII', 'e': 'ASCII', 'r': 'ASCII', 'C': 'ASCII', 'm': 'ASCII', 'n': 'ASCII', 's': 'ASCII', 'u': 'ASCII', 'f': 'ASCII', 't': 'ASCII', 'p': 'ASCII', 'a': 'ASCII', 'H': 'ASCII', ' ': 'ASCII', 'O': 'ASCII', 'i': 'ASCII', 'c': 'ASCII'}","ASCII    1595619
+dtype: int64",1.0,"{'ASCII': o    235308
+e    212745
+r    203082
+C    148293
+m    125730
+n     93504
+s     93504
+u     93504
+f     64452
+t     54789
+p     54789
+a     54789
+H     32226
+      32226
+O     32226
+i     32226
+c     32226
+dtype: int64}","Latin     1563393
+Common      32226
+dtype: int64",2.0,"{'Latin': o    235308
+e    212745
+r    203082
+C    148293
+m    125730
+n     93504
+s     93504
+u     93504
+f     64452
+t     54789
+p     54789
+a     54789
+H     32226
+O     32226
+i     32226
+c     32226
+dtype: int64, 'Common':     32226
+dtype: int64}","Lowercase Letter    1350648
+Uppercase Letter     212745
+Space Separator       32226
+dtype: int64",3.0,"{'Lowercase_Letter': o    235308
+e    212745
+r    203082
+m    125730
+n     93504
+s     93504
+u     93504
+f     64452
+t     54789
+p     54789
+a     54789
+i     32226
+c     32226
+dtype: int64, 'Uppercase_Letter': C    148293
+H     32226
+O     32226
+dtype: int64, 'Space_Separator':     32226
+dtype: int64}","Customer Segment
+consumer     93504
+corporate    54789
+home         32226
+office       32226
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Customer State,46,0.00025482082218492236,False,1,5.539583090976573e-06,Categorical,True,"Customer State
+PR       69373
+CA       29223
+NY       11327
+TX        9103
+IL        7631
+FL        5456
+OH        4095
+PA        3824
+MI        3804
+NJ        3191
+AZ        3026
+GA        2503
+MD        2415
+NC        1992
+CO        1914
+VA        1849
+OR        1668
+MA        1607
+TN        1582
+NV        1440
+MO        1354
+HI        1248
+CT        1094
+UT         968
+NM         949
+LA         948
+WA         920
+WI         850
+MN         672
+SC         665
+IN         581
+DC         579
+KY         487
+KS         458
+DE         269
+RI         243
+WV         241
+OK         232
+ND         215
+ID         167
+AR         164
+MT          87
+IA          67
+AL          35
+95758        2
+91732        1
+Name: count, dtype: Int64","Customer State
+91732        1
+95758        2
+AL          35
+AR         164
+AZ        3026
+CA       29223
+CO        1914
+CT        1094
+DC         579
+DE         269
+FL        5456
+GA        2503
+HI        1248
+IA          67
+ID         167
+IL        7631
+IN         581
+KS         458
+KY         487
+LA         948
+MA        1607
+MD        2415
+MI        3804
+MN         672
+MO        1354
+MT          87
+NC        1992
+ND         215
+NJ        3191
+NM         949
+NV        1440
+NY       11327
+OH        4095
+OK         232
+OR        1668
+PA        3824
+PR       69373
+RI         243
+SC         665
+TN        1582
+TX        9103
+UT         968
+VA        1849
+WA         920
+WI         850
+WV         241
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.3589680278209939,"0    PR
+1    PR
+2    CA
+3    CA
+4    PR
+Name: Customer State, dtype: object","{'statistic': 1367598.1713005279, 'pvalue': 0.0}",5.0,2.0000498562478186,2.0,2.0,"Customer State
+2    180516
+5         3
+Name: count, dtype: Int64","(array([180516,      3]), array([2. , 3.5, 5. ]))",31.0,361047.0,"Customer State
+P    73197
+R    71448
+A    44166
+C    35467
+N    21949
+I    14591
+L    14070
+T    12834
+Y    11814
+M    10888
+O     9263
+X     9103
+F     5456
+H     5343
+D     3645
+V     3530
+J     3191
+Z     3026
+G     2503
+W     2011
+K     1177
+S     1123
+U      968
+E      269
+5        4
+9        3
+7        3
+8        2
+1        1
+3        1
+2        1
+Name: count, dtype: Int64","{'P': 'Uppercase_Letter', 'R': 'Uppercase_Letter', 'A': 'Uppercase_Letter', 'C': 'Uppercase_Letter', 'N': 'Uppercase_Letter', 'I': 'Uppercase_Letter', 'L': 'Uppercase_Letter', 'T': 'Uppercase_Letter', 'Y': 'Uppercase_Letter', 'M': 'Uppercase_Letter', 'O': 'Uppercase_Letter', 'X': 'Uppercase_Letter', 'F': 'Uppercase_Letter', 'H': 'Uppercase_Letter', 'D': 'Uppercase_Letter', 'V': 'Uppercase_Letter', 'J': 'Uppercase_Letter', 'Z': 'Uppercase_Letter', 'G': 'Uppercase_Letter', 'W': 'Uppercase_Letter', 'K': 'Uppercase_Letter', 'S': 'Uppercase_Letter', 'U': 'Uppercase_Letter', 'E': 'Uppercase_Letter', '5': 'Decimal_Number', '9': 'Decimal_Number', '7': 'Decimal_Number', '8': 'Decimal_Number', '1': 'Decimal_Number', '3': 'Decimal_Number', '2': 'Decimal_Number'}","{'P': 'ASCII', 'R': 'ASCII', 'A': 'ASCII', 'C': 'ASCII', 'N': 'ASCII', 'I': 'ASCII', 'L': 'ASCII', 'T': 'ASCII', 'Y': 'ASCII', 'M': 'ASCII', 'O': 'ASCII', 'X': 'ASCII', 'F': 'ASCII', 'H': 'ASCII', 'D': 'ASCII', 'V': 'ASCII', 'J': 'ASCII', 'Z': 'ASCII', 'G': 'ASCII', 'W': 'ASCII', 'K': 'ASCII', 'S': 'ASCII', 'U': 'ASCII', 'E': 'ASCII', '5': 'ASCII', '9': 'ASCII', '7': 'ASCII', '8': 'ASCII', '1': 'ASCII', '3': 'ASCII', '2': 'ASCII'}","ASCII    361047
+dtype: int64",1.0,"{'ASCII': P    73197
+R    71448
+A    44166
+C    35467
+N    21949
+I    14591
+L    14070
+T    12834
+Y    11814
+M    10888
+O     9263
+X     9103
+F     5456
+H     5343
+D     3645
+V     3530
+J     3191
+Z     3026
+G     2503
+W     2011
+K     1177
+S     1123
+U      968
+E      269
+5        4
+9        3
+7        3
+8        2
+1        1
+3        1
+2        1
+dtype: int64}","Latin     361032
+Common        15
+dtype: int64",2.0,"{'Latin': P    73197
+R    71448
+A    44166
+C    35467
+N    21949
+I    14591
+L    14070
+T    12834
+Y    11814
+M    10888
+O     9263
+X     9103
+F     5456
+H     5343
+D     3645
+V     3530
+J     3191
+Z     3026
+G     2503
+W     2011
+K     1177
+S     1123
+U      968
+E      269
+dtype: int64, 'Common': 5    4
+9    3
+7    3
+8    2
+1    1
+3    1
+2    1
+dtype: int64}","Uppercase Letter    361032
+Decimal Number          15
+dtype: int64",2.0,"{'Uppercase_Letter': P    73197
+R    71448
+A    44166
+C    35467
+N    21949
+I    14591
+L    14070
+T    12834
+Y    11814
+M    10888
+O     9263
+X     9103
+F     5456
+H     5343
+D     3645
+V     3530
+J     3191
+Z     3026
+G     2503
+W     2011
+K     1177
+S     1123
+U      968
+E      269
+dtype: int64, 'Decimal_Number': 5    4
+9    3
+7    3
+8    2
+1    1
+3    1
+2    1
+dtype: int64}","Customer State
+pr       69373
+ca       29223
+ny       11327
+tx        9103
+il        7631
+fl        5456
+oh        4095
+pa        3824
+mi        3804
+nj        3191
+az        3026
+ga        2503
+md        2415
+nc        1992
+co        1914
+va        1849
+or        1668
+ma        1607
+tn        1582
+nv        1440
+mo        1354
+hi        1248
+ct        1094
+ut         968
+nm         949
+la         948
+wa         920
+wi         850
+mn         672
+sc         665
+in         581
+dc         579
+ky         487
+ks         458
+de         269
+ri         243
+wv         241
+ok         232
+nd         215
+id         167
+ar         164
+mt          87
+ia          67
+al          35
+95758        2
+91732        1
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Customer Street,7458,0.04131421069250328,False,483,0.002675618632941685,Text,True,"Customer Street
+9126 Wishing Expressway     122
+4388 Burning Goose Ridge    117
+4720 Noble Hills Wynd       116
+2878 Hazy Wagon  Thicket    113
+398 Emerald Grove           109
+                           ... 
+7676 Colonial Towers          1
+6425 Thunder Impasse          1
+376 Silver Terrace            1
+5420 Rocky Port               1
+8621 Broad Forest             1
+Name: count, Length: 7458, dtype: int64","Customer Street
+1 Bright Manor            20
+1 Crystal Gate            15
+1 Foggy Freeway            7
+10 Crystal River Mall      2
+10 Crystal River Mall     38
+                          ..
+9994 Green Jetty          35
+9995 High Robin Pointe    12
+9995 Tawny Embers View    21
+El Monte                   1
+Elk Grove                  2
+Name: count, Length: 7458, dtype: int64",True,0,180519,0.0,180519,1444284,,"0    5365 Noble Nectar Island
+1            2679 Rustic Loop
+2        8510 Round Bear Gate
+3             3200 Amber Bend
+4    8671 Iron Anchor Corners
+Name: Customer Street, dtype: object",,33.0,19.95711254770966,28.0,8.0,"Customer Street
+16    18763
+17    17509
+22    15658
+23    15224
+21    14980
+18    14328
+15    13610
+20    12858
+24    12247
+19    11958
+25     8990
+14     7193
+26     6513
+27     4294
+13     2340
+28     2122
+29     1061
+30      531
+12      139
+31       96
+32       74
+33       28
+9         2
+8         1
+Name: count, dtype: int64","(array([    3,     0,     0,   139,  2340,  7193, 13610, 18763, 17509,
+       14328, 11958, 12858, 14980, 15658, 15224, 12247,  8990,  6513,
+        4294,  2122,  1061,   531,    96,   102]), array([ 8.        ,  9.04166667, 10.08333333, 11.125     , 12.16666667,
+       13.20833333, 14.25      , 15.29166667, 16.33333333, 17.375     ,
+       18.41666667, 19.45833333, 20.5       , 21.54166667, 22.58333333,
+       23.625     , 24.66666667, 25.70833333, 26.75      , 27.79166667,
+       28.83333333, 29.875     , 30.91666667, 31.95833333, 33.        ]))",61.0,3602638.0,"Customer Street
+     452905
+e    266514
+a    188658
+n    172491
+r    166038
+      ...  
+U      3031
+K      2246
+Z      1850
+-      1565
+q      1349
+Name: count, Length: 61, dtype: int64","{' ': 'Space_Separator', 'e': 'Lowercase_Letter', 'a': 'Lowercase_Letter', 'n': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 'i': 'Lowercase_Letter', 't': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'd': 'Lowercase_Letter', 'y': 'Lowercase_Letter', '7': 'Decimal_Number', '1': 'Decimal_Number', '9': 'Decimal_Number', '4': 'Decimal_Number', '3': 'Decimal_Number', '5': 'Decimal_Number', '2': 'Decimal_Number', '6': 'Decimal_Number', '8': 'Decimal_Number', 'u': 'Lowercase_Letter', '0': 'Decimal_Number', 'g': 'Lowercase_Letter', 'C': 'Uppercase_Letter', 'h': 'Lowercase_Letter', 'B': 'Uppercase_Letter', 'H': 'Uppercase_Letter', 'w': 'Lowercase_Letter', 'R': 'Uppercase_Letter', 'P': 'Uppercase_Letter', 'c': 'Lowercase_Letter', 'k': 'Lowercase_Letter', 'S': 'Uppercase_Letter', 'L': 'Uppercase_Letter', 'm': 'Lowercase_Letter', 'G': 'Uppercase_Letter', 'b': 'Lowercase_Letter', 'v': 'Lowercase_Letter', 'M': 'Uppercase_Letter', 'F': 'Uppercase_Letter', 'p': 'Lowercase_Letter', 'T': 'Uppercase_Letter', 'E': 'Uppercase_Letter', 'A': 'Uppercase_Letter', 'D': 'Uppercase_Letter', 'V': 'Uppercase_Letter', 'W': 'Uppercase_Letter', 'z': 'Lowercase_Letter', 'I': 'Uppercase_Letter', 'f': 'Lowercase_Letter', 'Q': 'Uppercase_Letter', 'N': 'Uppercase_Letter', 'O': 'Uppercase_Letter', 'J': 'Uppercase_Letter', 'x': 'Lowercase_Letter', 'U': 'Uppercase_Letter', 'K': 'Uppercase_Letter', 'Z': 'Uppercase_Letter', '-': 'Dash_Punctuation', 'q': 'Lowercase_Letter'}","{' ': 'ASCII', 'e': 'ASCII', 'a': 'ASCII', 'n': 'ASCII', 'r': 'ASCII', 'o': 'ASCII', 'l': 'ASCII', 'i': 'ASCII', 't': 'ASCII', 's': 'ASCII', 'd': 'ASCII', 'y': 'ASCII', '7': 'ASCII', '1': 'ASCII', '9': 'ASCII', '4': 'ASCII', '3': 'ASCII', '5': 'ASCII', '2': 'ASCII', '6': 'ASCII', '8': 'ASCII', 'u': 'ASCII', '0': 'ASCII', 'g': 'ASCII', 'C': 'ASCII', 'h': 'ASCII', 'B': 'ASCII', 'H': 'ASCII', 'w': 'ASCII', 'R': 'ASCII', 'P': 'ASCII', 'c': 'ASCII', 'k': 'ASCII', 'S': 'ASCII', 'L': 'ASCII', 'm': 'ASCII', 'G': 'ASCII', 'b': 'ASCII', 'v': 'ASCII', 'M': 'ASCII', 'F': 'ASCII', 'p': 'ASCII', 'T': 'ASCII', 'E': 'ASCII', 'A': 'ASCII', 'D': 'ASCII', 'V': 'ASCII', 'W': 'ASCII', 'z': 'ASCII', 'I': 'ASCII', 'f': 'ASCII', 'Q': 'ASCII', 'N': 'ASCII', 'O': 'ASCII', 'J': 'ASCII', 'x': 'ASCII', 'U': 'ASCII', 'K': 'ASCII', 'Z': 'ASCII', '-': 'ASCII', 'q': 'ASCII'}","ASCII    3602638
+dtype: int64",1.0,"{'ASCII':      452905
+e    266514
+a    188658
+n    172491
+r    166038
+      ...  
+U      3031
+K      2246
+Z      1850
+-      1565
+q      1349
+Length: 61, dtype: int64}","Latin     2445028
+Common    1157610
+dtype: int64",2.0,"{'Common':      452905
+7     75478
+1     74531
+9     74093
+4     72421
+3     71753
+5     71310
+2     70868
+6     70687
+8     69639
+0     52360
+-      1565
+dtype: int64, 'Latin': e    266514
+a    188658
+n    172491
+r    166038
+o    162182
+l    132873
+i    132088
+t    117744
+s    101650
+d     90014
+y     89454
+u     68755
+g     49585
+C     48068
+h     41289
+B     36535
+H     34142
+w     32375
+R     31731
+P     31630
+c     31470
+k     29788
+S     29549
+L     27209
+m     26876
+G     26549
+b     24381
+v     23069
+M     22218
+F     20196
+p     19991
+T     19215
+E     16706
+A     16162
+D     16148
+V     14461
+W     13815
+z     12856
+I     12674
+f      9104
+Q      8447
+N      6519
+O      6160
+J      4592
+x      4581
+U      3031
+K      2246
+Z      1850
+q      1349
+dtype: int64}","Lowercase Letter    1995175
+Decimal Number       703140
+Space Separator      452905
+Uppercase Letter     449853
+Dash Punctuation       1565
+dtype: int64",5.0,"{'Space_Separator':     452905
+dtype: int64, 'Lowercase_Letter': e    266514
+a    188658
+n    172491
+r    166038
+o    162182
+l    132873
+i    132088
+t    117744
+s    101650
+d     90014
+y     89454
+u     68755
+g     49585
+h     41289
+w     32375
+c     31470
+k     29788
+m     26876
+b     24381
+v     23069
+p     19991
+z     12856
+f      9104
+x      4581
+q      1349
+dtype: int64, 'Decimal_Number': 7    75478
+1    74531
+9    74093
+4    72421
+3    71753
+5    71310
+2    70868
+6    70687
+8    69639
+0    52360
+dtype: int64, 'Uppercase_Letter': C    48068
+B    36535
+H    34142
+R    31731
+P    31630
+S    29549
+L    27209
+G    26549
+M    22218
+F    20196
+T    19215
+E    16706
+A    16162
+D    16148
+V    14461
+W    13815
+I    12674
+Q     8447
+N     6519
+O     6160
+J     4592
+U     3031
+K     2246
+Z     1850
+dtype: int64, 'Dash_Punctuation': -    1565
+dtype: int64}","Customer Street
+green     4491
+round     4181
+golden    3710
+clear     3684
+rustic    3659
+          ... 
+5247         1
+1729         1
+el           1
+monte        1
+4531         1
+Name: count, Length: 3309, dtype: int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Customer Zipcode,995,0.005511976777681757,False,0,0.0,Numeric,True,"Customer Zipcode
+725.0      66770
+921.0        337
+23455.0      334
+957.0        297
+79109.0      292
+           ...  
+60636.0       18
+89015.0       16
+32210.0       15
+7728.0        13
+11225.0        9
+Name: count, Length: 995, dtype: int64","Customer Zipcode
+603.0       50
+612.0      122
+674.0      169
+680.0      133
+685.0      126
+          ... 
+98208.0     95
+98226.0     47
+98390.0     28
+98632.0     67
+99205.0     43
+Name: count, Length: 995, dtype: int64",True,3,180519,1.661874927292972e-05,180516,1444284,,,"{'statistic': 972950.6396330522, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,35921.12691395776,37542.46112229252,1409436387.1188455,603.0,99205.0,-1.4514193717743726,0.49088340953712706,6484338146.0,18655.0,98602.0,725.0,725.0,19380.0,78207.0,94538.0,77482.0,1.0451359505568507,0.0,0.0,False,False,False,False,0.0,"(array([70779,   444,   879,  2323,  3946,  6758,  1307,   689,  1171,
+        3211,  2761,  1503,   241,  1395,  2837,  1079,  5305,    35,
+         814,   768,   359,  1340,  2883,   581,  3804,     0,   623,
+         966,     0,   302,  7338,  1509,    65,   531,     0,   948,
+         248,  2245,  2582,  3775,  2563,     0,  3579,  1210,  1726,
+        6568, 14270,  6909,  3476,  1871]), array([  603.  ,  2575.04,  4547.08,  6519.12,  8491.16, 10463.2 ,
+       12435.24, 14407.28, 16379.32, 18351.36, 20323.4 , 22295.44,
+       24267.48, 26239.52, 28211.56, 30183.6 , 32155.64, 34127.68,
+       36099.72, 38071.76, 40043.8 , 42015.84, 43987.88, 45959.92,
+       47931.96, 49904.  , 51876.04, 53848.08, 55820.12, 57792.16,
+       59764.2 , 61736.24, 63708.28, 65680.32, 67652.36, 69624.4 ,
+       71596.44, 73568.48, 75540.52, 77512.56, 79484.6 , 81456.64,
+       83428.68, 85400.72, 87372.76, 89344.8 , 91316.84, 93288.88,
+       95260.92, 97232.96, 99205.  ]))",,,
+Department Id,11,6.0935414000742303e-05,False,0,0.0,Numeric,True,"Department Id
+7     66861
+4     48998
+5     33220
+3     14525
+6      9686
+2      2479
+9      2026
+10     1465
+11      492
+8       405
+12      362
+Name: count, dtype: int64","Department Id
+2      2479
+3     14525
+4     48998
+5     33220
+6      9686
+7     66861
+8       405
+9      2026
+10     1465
+11      492
+12      362
+Name: count, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 4183491.8520155787, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,5.443460245181948,1.6292460350717795,2.654442642797114,2,12,-0.1816965071010963,0.27332062913380367,982648.0,1.0,10,3.0,4.0,5.0,7.0,7.0,3.0,0.29930337720640815,0.0,0.0,False,False,False,False,0.0,"(array([ 2479, 14525, 48998, 33220,  9686, 66861,   405,  2026,  1465,
+         492,   362]), array([ 2.        ,  2.90909091,  3.81818182,  4.72727273,  5.63636364,
+        6.54545455,  7.45454545,  8.36363636,  9.27272727, 10.18181818,
+       11.09090909, 12.        ]))",,,
+Department Name,11,6.0935414000742303e-05,False,0,0.0,Categorical,True,"Department Name
+Fan Shop              66861
+Apparel               48998
+Golf                  33220
+Footwear              14525
+Outdoors               9686
+Fitness                2479
+Discs Shop             2026
+Technology             1465
+Pet Shop                492
+Book Shop               405
+Health and Beauty       362
+Name: count, dtype: Int64","Department Name
+Apparel               48998
+Book Shop               405
+Discs Shop             2026
+Fan Shop              66861
+Fitness                2479
+Footwear              14525
+Golf                  33220
+Health and Beauty       362
+Outdoors               9686
+Pet Shop                492
+Technology             1465
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.3395793022028212,"0    Fitness
+1    Fitness
+2    Fitness
+3    Fitness
+4    Fitness
+Name: Department Name, dtype: object","{'statistic': 324787.5197070669, 'pvalue': 0.0}",18.0,7.039713271179211,8.0,4.0,"Department Name
+8     91564
+7     51477
+4     33220
+10     3491
+9       405
+18      362
+Name: count, dtype: Int64","(array([ 33220, 143041,   3896,      0,      0,    362]), array([ 4.        ,  6.33333333,  8.66666667, 11.        , 13.33333333,
+       15.66666667, 18.        ]))",30.0,1270802.0,"Department Name
+p    167780
+o    155166
+a    131470
+l     84045
+F     83865
+r     73209
+h     71611
+n     71167
+      70870
+S     69784
+e     68683
+A     48998
+G     33220
+f     33220
+t     27906
+s     18696
+w     14525
+u     10048
+d     10048
+O      9686
+i      4505
+c      3491
+D      2026
+y      1827
+T      1465
+g      1465
+B       767
+P       492
+k       405
+H       362
+Name: count, dtype: Int64","{'p': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 'a': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 'F': 'Uppercase_Letter', 'r': 'Lowercase_Letter', 'h': 'Lowercase_Letter', 'n': 'Lowercase_Letter', ' ': 'Space_Separator', 'S': 'Uppercase_Letter', 'e': 'Lowercase_Letter', 'A': 'Uppercase_Letter', 'G': 'Uppercase_Letter', 'f': 'Lowercase_Letter', 't': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'w': 'Lowercase_Letter', 'u': 'Lowercase_Letter', 'd': 'Lowercase_Letter', 'O': 'Uppercase_Letter', 'i': 'Lowercase_Letter', 'c': 'Lowercase_Letter', 'D': 'Uppercase_Letter', 'y': 'Lowercase_Letter', 'T': 'Uppercase_Letter', 'g': 'Lowercase_Letter', 'B': 'Uppercase_Letter', 'P': 'Uppercase_Letter', 'k': 'Lowercase_Letter', 'H': 'Uppercase_Letter'}","{'p': 'ASCII', 'o': 'ASCII', 'a': 'ASCII', 'l': 'ASCII', 'F': 'ASCII', 'r': 'ASCII', 'h': 'ASCII', 'n': 'ASCII', ' ': 'ASCII', 'S': 'ASCII', 'e': 'ASCII', 'A': 'ASCII', 'G': 'ASCII', 'f': 'ASCII', 't': 'ASCII', 's': 'ASCII', 'w': 'ASCII', 'u': 'ASCII', 'd': 'ASCII', 'O': 'ASCII', 'i': 'ASCII', 'c': 'ASCII', 'D': 'ASCII', 'y': 'ASCII', 'T': 'ASCII', 'g': 'ASCII', 'B': 'ASCII', 'P': 'ASCII', 'k': 'ASCII', 'H': 'ASCII'}","ASCII    1270802
+dtype: int64",1.0,"{'ASCII': p    167780
+o    155166
+a    131470
+l     84045
+F     83865
+r     73209
+h     71611
+n     71167
+      70870
+S     69784
+e     68683
+A     48998
+G     33220
+f     33220
+t     27906
+s     18696
+w     14525
+u     10048
+d     10048
+O      9686
+i      4505
+c      3491
+D      2026
+y      1827
+T      1465
+g      1465
+B       767
+P       492
+k       405
+H       362
+dtype: int64}","Latin     1199932
+Common      70870
+dtype: int64",2.0,"{'Latin': p    167780
+o    155166
+a    131470
+l     84045
+F     83865
+r     73209
+h     71611
+n     71167
+S     69784
+e     68683
+A     48998
+G     33220
+f     33220
+t     27906
+s     18696
+w     14525
+u     10048
+d     10048
+O      9686
+i      4505
+c      3491
+D      2026
+y      1827
+T      1465
+g      1465
+B       767
+P       492
+k       405
+H       362
+dtype: int64, 'Common':     70870
+dtype: int64}","Lowercase Letter    949267
+Uppercase Letter    250665
+Space Separator      70870
+dtype: int64",3.0,"{'Lowercase_Letter': p    167780
+o    155166
+a    131470
+l     84045
+r     73209
+h     71611
+n     71167
+e     68683
+f     33220
+t     27906
+s     18696
+w     14525
+u     10048
+d     10048
+i      4505
+c      3491
+y      1827
+g      1465
+k       405
+dtype: int64, 'Uppercase_Letter': F    83865
+S    69784
+A    48998
+G    33220
+O     9686
+D     2026
+T     1465
+B      767
+P      492
+H      362
+dtype: int64, 'Space_Separator':     70870
+dtype: int64}","Department Name
+shop          69784
+fan           66861
+apparel       48998
+golf          33220
+footwear      14525
+outdoors       9686
+fitness        2479
+discs          2026
+technology     1465
+pet             492
+book            405
+health          362
+and             362
+beauty          362
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Latitude,11250,0.062320309773486446,False,2802,0.015521911820916359,Numeric,True,"Latitude
+18.227573    417
+39.495914    370
+18.227577    300
+36.910831    280
+26.098499    270
+            ... 
+18.246769      1
+18.214268      1
+18.253412      1
+18.287685      1
+18.242485      1
+Name: count, Length: 11250, dtype: int64","Latitude
+-33.937553     9
+ 17.982491    38
+ 18.006821    22
+ 18.018362    20
+ 18.025204    17
+              ..
+ 47.908138    20
+ 47.912502     4
+ 47.926037     7
+ 48.770958    41
+ 48.781933     6
+Name: count, Length: 11250, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 3229366.519950807, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,9.0,4.9856247818789156e-05,0.0,0.0,29.7199546620738,9.81364632692288,96.30765422992692,-33.93755341,48.78193283,-1.555414896762957,-0.09796266622983082,5365016.4956429,8.301780700000002,82.71948624000001,18.21293068,18.26543236,33.14486313,39.27961731,42.39110184,21.01418495,0.3302039467592547,0.0,0.0,False,False,False,False,0.0,"(array([    9,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0, 68803,     0,  1187,     0,   118,
+        4580,  2038,  4991,  1418, 16158, 16662,  7336,  9811, 13037,
+       23110,  7689,  2022,   693,   857]), array([-33.93755341, -32.28316369, -30.62877396, -28.97438424,
+       -27.31999451, -25.66560479, -24.01121506, -22.35682534,
+       -20.70243561, -19.04804589, -17.39365616, -15.73926644,
+       -14.08487671, -12.43048699, -10.77609726,  -9.12170754,
+        -7.46731781,  -5.81292809,  -4.15853836,  -2.50414864,
+        -0.84975891,   0.80463081,   2.45902054,   4.11341026,
+         5.76779999,   7.42218971,   9.07657943,  10.73096916,
+        12.38535888,  14.03974861,  15.69413833,  17.34852806,
+        19.00291778,  20.65730751,  22.31169723,  23.96608696,
+        25.62047668,  27.27486641,  28.92925613,  30.58364586,
+        32.23803558,  33.89242531,  35.54681503,  37.20120476,
+        38.85559448,  40.50998421,  42.16437393,  43.81876366,
+        45.47315338,  47.12754311,  48.78193283]))",,,
+Longitude,4487,0.024856109329211885,False,81,0.0004487062303691024,Numeric,True,"Longitude
+-66.370613     3821
+-66.370575     3523
+-66.370590     3522
+-66.370506     3465
+-66.370552     3417
+               ... 
+-106.771316       1
+-79.419823        1
+-84.523392        1
+-105.025131       1
+-108.426514       1
+Name: count, Length: 4487, dtype: int64","Longitude
+-158.025986     73
+-158.016037    134
+-158.010223     18
+-158.004761      7
+-158.004684     43
+              ... 
+ 77.092094      32
+ 82.461998      22
+ 84.742676       8
+ 115.049789     17
+ 115.263077     17
+Name: count, Length: 4487, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 5512232.32076402, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,180414.0,0.9994183437754475,0.0,0.0,-84.91567468783957,21.433241200283774,459.3838283495419,-158.0259857,115.2630768,2.1809822262082186,-0.49846107256762173,-15328892.678974114,10.477371220000009,273.2890625,-121.435112,-98.44631195,-76.84790802,-66.37058258,-66.18312836,32.07572936999999,-0.252406181533327,0.0,0.0,False,False,False,False,0.0,"(array([ 1187,     0,     0,     0,     0,    16, 10702, 23434,  3980,
+        3563,  3190,  7853, 11777, 13084, 14576, 18155, 68775,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,   122,
+           0,     0,     0,     0,     0,     9,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,    54,     8,
+           0,     0,     0,     0,    34]), array([-158.0259857 , -152.56020445, -147.0944232 , -141.62864195,
+       -136.1628607 , -130.69707945, -125.2312982 , -119.76551695,
+       -114.2997357 , -108.83395445, -103.3681732 ,  -97.90239195,
+        -92.4366107 ,  -86.97082945,  -81.5050482 ,  -76.03926695,
+        -70.5734857 ,  -65.10770445,  -59.6419232 ,  -54.17614195,
+        -48.7103607 ,  -43.24457945,  -37.7787982 ,  -32.31301695,
+        -26.8472357 ,  -21.38145445,  -15.9156732 ,  -10.44989195,
+         -4.9841107 ,    0.48167055,    5.9474518 ,   11.41323305,
+         16.8790143 ,   22.34479555,   27.8105768 ,   33.27635805,
+         38.7421393 ,   44.20792055,   49.6737018 ,   55.13948305,
+         60.6052643 ,   66.07104555,   71.5368268 ,   77.00260805,
+         82.4683893 ,   87.93417055,   93.3999518 ,   98.86573305,
+        104.3315143 ,  109.79729555,  115.2630768 ]))",,,
+Market,5,2.7697915454882865e-05,False,0,0.0,Categorical,True,"Market
+LATAM           51594
+Europe          50252
+Pacific Asia    41260
+USCA            25799
+Africa          11614
+Name: count, dtype: Int64","Market
+Africa          11614
+Europe          50252
+LATAM           51594
+Pacific Asia    41260
+USCA            25799
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.06436720052075118,"0    Pacific Asia
+1    Pacific Asia
+2    Pacific Asia
+3    Pacific Asia
+4    Pacific Asia
+Name: Market, dtype: object","{'statistic': 32479.779546751313, 'pvalue': 0.0}",12.0,6.799738531678106,6.0,4.0,"Market
+6     61866
+5     51594
+12    41260
+4     25799
+Name: count, dtype: Int64","(array([77393, 61866,     0, 41260]), array([ 4.,  6.,  8., 10., 12.]))",20.0,1227482.0,"Market
+A    181861
+i    135394
+a     94134
+c     94134
+r     61866
+f     52874
+L     51594
+T     51594
+M     51594
+E     50252
+u     50252
+o     50252
+p     50252
+e     50252
+s     41260
+P     41260
+      41260
+U     25799
+S     25799
+C     25799
+Name: count, dtype: Int64","{'A': 'Uppercase_Letter', 'i': 'Lowercase_Letter', 'a': 'Lowercase_Letter', 'c': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 'f': 'Lowercase_Letter', 'L': 'Uppercase_Letter', 'T': 'Uppercase_Letter', 'M': 'Uppercase_Letter', 'E': 'Uppercase_Letter', 'u': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 'p': 'Lowercase_Letter', 'e': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'P': 'Uppercase_Letter', ' ': 'Space_Separator', 'U': 'Uppercase_Letter', 'S': 'Uppercase_Letter', 'C': 'Uppercase_Letter'}","{'A': 'ASCII', 'i': 'ASCII', 'a': 'ASCII', 'c': 'ASCII', 'r': 'ASCII', 'f': 'ASCII', 'L': 'ASCII', 'T': 'ASCII', 'M': 'ASCII', 'E': 'ASCII', 'u': 'ASCII', 'o': 'ASCII', 'p': 'ASCII', 'e': 'ASCII', 's': 'ASCII', 'P': 'ASCII', ' ': 'ASCII', 'U': 'ASCII', 'S': 'ASCII', 'C': 'ASCII'}","ASCII    1227482
+dtype: int64",1.0,"{'ASCII': A    181861
+i    135394
+a     94134
+c     94134
+r     61866
+f     52874
+L     51594
+T     51594
+M     51594
+E     50252
+u     50252
+o     50252
+p     50252
+e     50252
+s     41260
+P     41260
+      41260
+U     25799
+S     25799
+C     25799
+dtype: int64}","Latin     1186222
+Common      41260
+dtype: int64",2.0,"{'Latin': A    181861
+i    135394
+a     94134
+c     94134
+r     61866
+f     52874
+L     51594
+T     51594
+M     51594
+E     50252
+u     50252
+o     50252
+p     50252
+e     50252
+s     41260
+P     41260
+U     25799
+S     25799
+C     25799
+dtype: int64, 'Common':     41260
+dtype: int64}","Lowercase Letter    680670
+Uppercase Letter    505552
+Space Separator      41260
+dtype: int64",3.0,"{'Uppercase_Letter': A    181861
+L     51594
+T     51594
+M     51594
+E     50252
+P     41260
+U     25799
+S     25799
+C     25799
+dtype: int64, 'Lowercase_Letter': i    135394
+a     94134
+c     94134
+r     61866
+f     52874
+u     50252
+o     50252
+p     50252
+e     50252
+s     41260
+dtype: int64, 'Space_Separator':     41260
+dtype: int64}","Market
+latam      51594
+europe     50252
+pacific    41260
+asia       41260
+usca       25799
+africa     11614
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Order City,3597,0.019925880378242732,False,69,0.00038223123327738354,Text,True,"Order City
+Santo Domingo    2211
+New York City    2202
+Los Angeles      1845
+Tegucigalpa      1783
+Managua          1682
+                 ... 
+Libourne            1
+Bergerac            1
+Juliaca             1
+Takasaki            1
+Pernik              1
+Name: count, Length: 3597, dtype: int64","Order City
+Aachen                   63
+Aalen                     3
+Aalst                    23
+Aba                      36
+Abadan                   33
+                         ..
+Zwolle                    9
+eMbalenhle                7
+Águas Lindas de Goiás    13
+Çanakkale                 6
+Ústí nad Labem           14
+Name: count, Length: 3597, dtype: int64",True,0,180519,0.0,180519,1444284,,"0        Bekasi
+1       Bikaner
+2       Bikaner
+3    Townsville
+4    Townsville
+Name: Order City, dtype: object",,35.0,8.554213129919843,29.0,2.0,"Order City
+7     28199
+6     28000
+8     23083
+9     21387
+5     18598
+11    12105
+10    11254
+13     9977
+12     7948
+4      7001
+14     3200
+16     2486
+17     1373
+15     1180
+3       899
+20      705
+19      620
+21      583
+18      502
+26      487
+24      321
+22      287
+23      151
+28       41
+29       36
+2        32
+32       30
+30       28
+35        6
+Name: count, dtype: int64","(array([  931,  7001, 18598, 28000, 28199, 23083, 21387, 23359,  7948,
+        9977,  3200,  1180,  2486,  1373,  1122,   705,   583,   287,
+         151,   321,     0,   487,    41,    36,    28,     0,    30,
+           0,     6]), array([ 2.        ,  3.13793103,  4.27586207,  5.4137931 ,  6.55172414,
+        7.68965517,  8.82758621,  9.96551724, 11.10344828, 12.24137931,
+       13.37931034, 14.51724138, 15.65517241, 16.79310345, 17.93103448,
+       19.06896552, 20.20689655, 21.34482759, 22.48275862, 23.62068966,
+       24.75862069, 25.89655172, 27.03448276, 28.17241379, 29.31034483,
+       30.44827586, 31.5862069 , 32.72413793, 33.86206897, 35.        ]))",79.0,1544198.0,"Order City
+a    197677
+e    116504
+n    115087
+o    111297
+i     94427
+      ...  
+Ç         6
+ë         5
+ö         5
+è         1
+ä         1
+Name: count, Length: 79, dtype: int64","{'a': 'Lowercase_Letter', 'e': 'Lowercase_Letter', 'n': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 'i': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 'u': 'Lowercase_Letter', 't': 'Lowercase_Letter', 's': 'Lowercase_Letter', ' ': 'Space_Separator', 'g': 'Lowercase_Letter', 'd': 'Lowercase_Letter', 'h': 'Lowercase_Letter', 'c': 'Lowercase_Letter', 'S': 'Uppercase_Letter', 'm': 'Lowercase_Letter', 'C': 'Uppercase_Letter', 'M': 'Uppercase_Letter', 'b': 'Lowercase_Letter', 'y': 'Lowercase_Letter', 'p': 'Lowercase_Letter', 'B': 'Uppercase_Letter', 'k': 'Lowercase_Letter', 'P': 'Uppercase_Letter', 'L': 'Uppercase_Letter', 'A': 'Uppercase_Letter', 'T': 'Uppercase_Letter', 'v': 'Lowercase_Letter', 'D': 'Uppercase_Letter', 'N': 'Uppercase_Letter', 'H': 'Uppercase_Letter', 'w': 'Lowercase_Letter', 'z': 'Lowercase_Letter', 'G': 'Uppercase_Letter', 'R': 'Uppercase_Letter', '-': 'Dash_Punctuation', 'f': 'Lowercase_Letter', 'V': 'Uppercase_Letter', 'x': 'Lowercase_Letter', 'K': 'Uppercase_Letter', 'F': 'Uppercase_Letter', 'E': 'Uppercase_Letter', 'í': 'Lowercase_Letter', 'á': 'Lowercase_Letter', 'Y': 'Uppercase_Letter', 'J': 'Uppercase_Letter', 'j': 'Lowercase_Letter', 'W': 'Uppercase_Letter', 'I': 'Uppercase_Letter', 'O': 'Uppercase_Letter', 'ó': 'Lowercase_Letter', 'q': 'Lowercase_Letter', 'é': 'Lowercase_Letter', 'Z': 'Uppercase_Letter', 'ã': 'Lowercase_Letter', 'Q': 'Uppercase_Letter', 'ú': 'Lowercase_Letter', 'U': 'Uppercase_Letter', ""'"": 'Other_Punctuation', 'X': 'Uppercase_Letter', 'ç': 'Lowercase_Letter', 'ü': 'Lowercase_Letter', 'ñ': 'Lowercase_Letter', 'Á': 'Uppercase_Letter', '?': 'Other_Punctuation', 'â': 'Lowercase_Letter', 'ï': 'Lowercase_Letter', '(': 'Open_Punctuation', ')': 'Close_Punctuation', 'õ': 'Lowercase_Letter', 'Ú': 'Uppercase_Letter', '.': 'Other_Punctuation', '\x92': 'Control', 'Ç': 'Uppercase_Letter', 'ë': 'Lowercase_Letter', 'ö': 'Lowercase_Letter', 'è': 'Lowercase_Letter', 'ä': 'Lowercase_Letter'}","{'a': 'ASCII', 'e': 'ASCII', 'n': 'ASCII', 'o': 'ASCII', 'i': 'ASCII', 'r': 'ASCII', 'l': 'ASCII', 'u': 'ASCII', 't': 'ASCII', 's': 'ASCII', ' ': 'ASCII', 'g': 'ASCII', 'd': 'ASCII', 'h': 'ASCII', 'c': 'ASCII', 'S': 'ASCII', 'm': 'ASCII', 'C': 'ASCII', 'M': 'ASCII', 'b': 'ASCII', 'y': 'ASCII', 'p': 'ASCII', 'B': 'ASCII', 'k': 'ASCII', 'P': 'ASCII', 'L': 'ASCII', 'A': 'ASCII', 'T': 'ASCII', 'v': 'ASCII', 'D': 'ASCII', 'N': 'ASCII', 'H': 'ASCII', 'w': 'ASCII', 'z': 'ASCII', 'G': 'ASCII', 'R': 'ASCII', '-': 'ASCII', 'f': 'ASCII', 'V': 'ASCII', 'x': 'ASCII', 'K': 'ASCII', 'F': 'ASCII', 'E': 'ASCII', 'í': None, 'á': None, 'Y': 'ASCII', 'J': 'ASCII', 'j': 'ASCII', 'W': 'ASCII', 'I': 'ASCII', 'O': 'ASCII', 'ó': None, 'q': 'ASCII', 'é': None, 'Z': 'ASCII', 'ã': None, 'Q': 'ASCII', 'ú': None, 'U': 'ASCII', ""'"": 'ASCII', 'X': 'ASCII', 'ç': None, 'ü': None, 'ñ': None, 'Á': None, '?': 'ASCII', 'â': None, 'ï': None, '(': 'ASCII', ')': 'ASCII', 'õ': None, 'Ú': None, '.': 'ASCII', '\x92': None, 'Ç': None, 'ë': None, 'ö': None, 'è': None, 'ä': None}","ASCII    1528572
+None       15626
+dtype: int64",2.0,"{'ASCII': a    197677
+e    116504
+n    115087
+o    111297
+i     94427
+r     85703
+l     76707
+u     57916
+t     56384
+s     56123
+      47381
+g     43442
+d     39019
+h     30621
+c     29962
+S     28079
+m     26232
+C     25625
+M     23445
+b     20105
+y     18497
+p     17203
+B     16591
+k     15365
+P     15223
+L     14772
+A     13507
+T     10236
+v      9952
+D      9031
+N      7965
+H      7649
+w      7604
+z      7504
+G      7153
+R      6950
+-      5982
+f      5579
+V      5553
+x      4866
+K      4781
+F      4644
+E      4342
+Y      4119
+J      3975
+j      3703
+W      3277
+I      2497
+O      2198
+q      1504
+Z      1426
+Q      1216
+U       887
+'       509
+X       384
+?       137
+(        21
+)        21
+.        13
+dtype: int64, None: í    4201
+á    4180
+ó    2167
+é    1466
+ã    1354
+ú    1170
+ç     279
+ü     259
+ñ     166
+Á     148
+â     123
+ï      60
+õ      14
+Ú      14
+       7
+Ç       6
+ë       5
+ö       5
+è       1
+ä       1
+dtype: int64}","Latin     1490127
+Common      54071
+dtype: int64",2.0,"{'Latin': a    197677
+e    116504
+n    115087
+o    111297
+i     94427
+      ...  
+Ç         6
+ë         5
+ö         5
+è         1
+ä         1
+Length: 71, dtype: int64, 'Common':      47381
+-     5982
+'      509
+?      137
+(       21
+)       21
+.       13
+        7
+dtype: int64}","Lowercase Letter     1264434
+Uppercase Letter      225693
+Space Separator        47381
+Dash Punctuation        5982
+Other Punctuation        659
+Open Punctuation          21
+Close Punctuation         21
+Control                    7
+dtype: int64",8.0,"{'Lowercase_Letter': a    197677
+e    116504
+n    115087
+o    111297
+i     94427
+r     85703
+l     76707
+u     57916
+t     56384
+s     56123
+g     43442
+d     39019
+h     30621
+c     29962
+m     26232
+b     20105
+y     18497
+p     17203
+k     15365
+v      9952
+w      7604
+z      7504
+f      5579
+x      4866
+í      4201
+á      4180
+j      3703
+ó      2167
+q      1504
+é      1466
+ã      1354
+ú      1170
+ç       279
+ü       259
+ñ       166
+â       123
+ï        60
+õ        14
+ë         5
+ö         5
+è         1
+ä         1
+dtype: int64, 'Space_Separator':     47381
+dtype: int64, 'Uppercase_Letter': S    28079
+C    25625
+M    23445
+B    16591
+P    15223
+L    14772
+A    13507
+T    10236
+D     9031
+N     7965
+H     7649
+G     7153
+R     6950
+V     5553
+K     4781
+F     4644
+E     4342
+Y     4119
+J     3975
+W     3277
+I     2497
+O     2198
+Z     1426
+Q     1216
+U      887
+X      384
+Á      148
+Ú       14
+Ç        6
+dtype: int64, 'Dash_Punctuation': -    5982
+dtype: int64, 'Other_Punctuation': '    509
+?    137
+.     13
+dtype: int64, 'Open_Punctuation': (    21
+dtype: int64, 'Close_Punctuation': )    21
+dtype: int64, 'Control':     7
+dtype: int64}","Order City
+san          6508
+city         5626
+de           3211
+los          2435
+santo        2339
+             ... 
+coachella       1
+balsamo         1
+cinisello       1
+yucaipa         1
+pernik          1
+Name: count, Length: 3778, dtype: int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Order Country,164,0.000908491626920158,False,2,1.1079166181953146e-05,Text,True,"Order Country
+Estados Unidos       24840
+Francia              13222
+México               13172
+Alemania              9564
+Australia             8497
+                     ...  
+Guinea Ecuatorial        2
+Kuwait                   2
+Sáhara Occidental        2
+Burundi                  1
+Serbia                   1
+Name: count, Length: 164, dtype: int64","Order Country
+Afganistán       163
+Albania           37
+Alemania        9564
+Angola           306
+Arabia Saudí     860
+                ... 
+Vietnam          757
+Yemen             71
+Yibuti            31
+Zambia           266
+Zimbabue         190
+Name: count, Length: 164, dtype: int64",True,0,180519,0.0,180519,1444284,,"0    Indonesia
+1        India
+2        India
+3    Australia
+4    Australia
+Name: Order Country, dtype: object",,31.0,8.772827237022142,22.0,4.0,"Order Country
+6     36277
+9     27984
+7     27847
+14    24840
+8     17860
+5     15308
+11    11243
+4      6976
+20     3714
+12     2895
+13     2206
+10     1224
+31     1010
+18      470
+15      444
+17      142
+22       29
+24       23
+19       18
+16        9
+Name: count, dtype: int64","(array([22284, 36277, 45707, 27984,  1224, 14138,  2206, 24840,   453,
+         142,   470,  3732,     0,    29,    23,     0,     0,     0,
+           0,  1010]), array([ 4.  ,  5.35,  6.7 ,  8.05,  9.4 , 10.75, 12.1 , 13.45, 14.8 ,
+       16.15, 17.5 , 18.85, 20.2 , 21.55, 22.9 , 24.25, 25.6 , 26.95,
+       28.3 , 29.65, 31.  ]))",61.0,1583662.0,"Order Country
+a    241810
+i    166236
+n    119798
+s    117962
+o    109660
+      ...  
+Q        42
+w        31
+Á        29
+-        28
+O        10
+Name: count, Length: 61, dtype: int64","{'a': 'Lowercase_Letter', 'i': 'Lowercase_Letter', 'n': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 'd': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 'e': 'Lowercase_Letter', 't': 'Lowercase_Letter', ' ': 'Space_Separator', 'c': 'Lowercase_Letter', 'u': 'Lowercase_Letter', 'E': 'Uppercase_Letter', 'U': 'Uppercase_Letter', 'm': 'Lowercase_Letter', 'A': 'Uppercase_Letter', 'I': 'Uppercase_Letter', 'M': 'Uppercase_Letter', 'F': 'Uppercase_Letter', 'C': 'Uppercase_Letter', 'g': 'Lowercase_Letter', 'é': 'Lowercase_Letter', 'R': 'Uppercase_Letter', 'p': 'Lowercase_Letter', 'x': 'Lowercase_Letter', 'b': 'Lowercase_Letter', 'B': 'Uppercase_Letter', 'S': 'Uppercase_Letter', 'N': 'Uppercase_Letter', 'í': 'Lowercase_Letter', 'h': 'Lowercase_Letter', 'P': 'Uppercase_Letter', 'á': 'Lowercase_Letter', 'ú': 'Lowercase_Letter', 'v': 'Lowercase_Letter', 'T': 'Uppercase_Letter', 'D': 'Uppercase_Letter', 'H': 'Uppercase_Letter', 'ñ': 'Lowercase_Letter', 'q': 'Lowercase_Letter', 'G': 'Uppercase_Letter', 'z': 'Lowercase_Letter', 'j': 'Lowercase_Letter', 'Z': 'Uppercase_Letter', 'k': 'Lowercase_Letter', 'V': 'Uppercase_Letter', 'f': 'Lowercase_Letter', 'y': 'Lowercase_Letter', 'J': 'Uppercase_Letter', 'ó': 'Lowercase_Letter', 'K': 'Uppercase_Letter', '(': 'Open_Punctuation', ')': 'Close_Punctuation', 'L': 'Uppercase_Letter', 'Y': 'Uppercase_Letter', 'Q': 'Uppercase_Letter', 'w': 'Lowercase_Letter', 'Á': 'Uppercase_Letter', '-': 'Dash_Punctuation', 'O': 'Uppercase_Letter'}","{'a': 'ASCII', 'i': 'ASCII', 'n': 'ASCII', 's': 'ASCII', 'o': 'ASCII', 'd': 'ASCII', 'r': 'ASCII', 'l': 'ASCII', 'e': 'ASCII', 't': 'ASCII', ' ': 'ASCII', 'c': 'ASCII', 'u': 'ASCII', 'E': 'ASCII', 'U': 'ASCII', 'm': 'ASCII', 'A': 'ASCII', 'I': 'ASCII', 'M': 'ASCII', 'F': 'ASCII', 'C': 'ASCII', 'g': 'ASCII', 'é': None, 'R': 'ASCII', 'p': 'ASCII', 'x': 'ASCII', 'b': 'ASCII', 'B': 'ASCII', 'S': 'ASCII', 'N': 'ASCII', 'í': None, 'h': 'ASCII', 'P': 'ASCII', 'á': None, 'ú': None, 'v': 'ASCII', 'T': 'ASCII', 'D': 'ASCII', 'H': 'ASCII', 'ñ': None, 'q': 'ASCII', 'G': 'ASCII', 'z': 'ASCII', 'j': 'ASCII', 'Z': 'ASCII', 'k': 'ASCII', 'V': 'ASCII', 'f': 'ASCII', 'y': 'ASCII', 'J': 'ASCII', 'ó': None, 'K': 'ASCII', '(': 'ASCII', ')': 'ASCII', 'L': 'ASCII', 'Y': 'ASCII', 'Q': 'ASCII', 'w': 'ASCII', 'Á': None, '-': 'ASCII', 'O': 'ASCII'}","ASCII    1545222
+None       38440
+dtype: int64",2.0,"{'ASCII': a    241810
+i    166236
+n    119798
+s    117962
+o    109660
+d     83403
+r     66669
+l     62119
+e     53254
+t     50532
+      50028
+c     46242
+u     42508
+E     34032
+U     33494
+m     24695
+A     24433
+I     17168
+M     16328
+F     15635
+C     15397
+g     14664
+R     13800
+p     13494
+x     13182
+b     12895
+B     12369
+S      8781
+N      7547
+h      6964
+P      6518
+v      5741
+T      5205
+D      4964
+H      4460
+q      3661
+G      3413
+z      2485
+j      2206
+Z      2046
+k      1942
+V      1741
+f      1542
+y      1064
+J      1036
+K       685
+(       409
+)       409
+L       383
+Y       102
+Q        42
+w        31
+-        28
+O        10
+dtype: int64, None: é    14306
+í     7138
+á     6253
+ú     6043
+ñ     3868
+ó      803
+Á       29
+dtype: int64}","Latin     1532788
+Common      50874
+dtype: int64",2.0,"{'Latin': a    241810
+i    166236
+n    119798
+s    117962
+o    109660
+d     83403
+r     66669
+l     62119
+e     53254
+t     50532
+c     46242
+u     42508
+E     34032
+U     33494
+m     24695
+A     24433
+I     17168
+M     16328
+F     15635
+C     15397
+g     14664
+é     14306
+R     13800
+p     13494
+x     13182
+b     12895
+B     12369
+S      8781
+N      7547
+í      7138
+h      6964
+P      6518
+á      6253
+ú      6043
+v      5741
+T      5205
+D      4964
+H      4460
+ñ      3868
+q      3661
+G      3413
+z      2485
+j      2206
+Z      2046
+k      1942
+V      1741
+f      1542
+y      1064
+J      1036
+ó       803
+K       685
+L       383
+Y       102
+Q        42
+w        31
+Á        29
+O        10
+dtype: int64, 'Common':      50028
+(      409
+)      409
+-       28
+dtype: int64}","Lowercase Letter     1303170
+Uppercase Letter      229618
+Space Separator        50028
+Open Punctuation         409
+Close Punctuation        409
+Dash Punctuation          28
+dtype: int64",6.0,"{'Lowercase_Letter': a    241810
+i    166236
+n    119798
+s    117962
+o    109660
+d     83403
+r     66669
+l     62119
+e     53254
+t     50532
+c     46242
+u     42508
+m     24695
+g     14664
+é     14306
+p     13494
+x     13182
+b     12895
+í      7138
+h      6964
+á      6253
+ú      6043
+v      5741
+ñ      3868
+q      3661
+z      2485
+j      2206
+k      1942
+f      1542
+y      1064
+ó       803
+w        31
+dtype: int64, 'Space_Separator':     50028
+dtype: int64, 'Uppercase_Letter': E    34032
+U    33494
+A    24433
+I    17168
+M    16328
+F    15635
+C    15397
+R    13800
+B    12369
+S     8781
+N     7547
+P     6518
+T     5205
+D     4964
+H     4460
+G     3413
+Z     2046
+V     1741
+J     1036
+K      685
+L      383
+Y      102
+Q       42
+Á       29
+O       10
+dtype: int64, 'Open_Punctuation': (    409
+dtype: int64, 'Close_Punctuation': )    409
+dtype: int64, 'Dash_Punctuation': -    28
+dtype: int64}","Order Country
+unidos        24869
+estados       24840
+francia       13222
+méxico        13172
+alemania       9564
+              ...  
+kuwait            2
+sáhara            2
+occidental        2
+burundi           1
+serbia            1
+Name: count, Length: 185, dtype: int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Order Customer Id,20652,0.11440346999484818,False,8435,0.046726383372387395,Numeric,True,"Order Customer Id
+5654     47
+10591    45
+5004     45
+5715     44
+3708     44
+         ..
+18698     1
+15537     1
+15484     1
+20681     1
+2677      1
+Name: count, Length: 20652, dtype: int64","Order Customer Id
+1         1
+2        10
+3        18
+4        14
+5         7
+         ..
+20753     1
+20754     1
+20755     1
+20756     1
+20757     1
+Name: count, Length: 20652, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 94667.20693666594, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,6691.37949467923,4162.918105728271,17329887.155000262,1,20757,0.01489882225969863,0.4887682515125228,1207921135.0,3263.0,20756,649.0,3258.5,6457.0,9779.0,12383.0,6520.5,0.6221315214655647,0.0,0.0,False,False,False,False,0.0,"(array([5667, 5853, 5551, 5880, 6026, 5733, 5699, 5596, 5900, 5567, 5946,
+       5621, 5967, 6189, 5708, 5828, 5596, 5536, 5407, 5514, 5688, 5746,
+       5802, 5796, 5774, 5705, 5769, 5734, 5895, 5523,  415,  415,  415,
+        416,  415,  415,  415,  415,  415,  415,  415,  416,  415,  415,
+        415,  415,  415,  415,  415,  416]), array([1.000000e+00, 4.161200e+02, 8.312400e+02, 1.246360e+03,
+       1.661480e+03, 2.076600e+03, 2.491720e+03, 2.906840e+03,
+       3.321960e+03, 3.737080e+03, 4.152200e+03, 4.567320e+03,
+       4.982440e+03, 5.397560e+03, 5.812680e+03, 6.227800e+03,
+       6.642920e+03, 7.058040e+03, 7.473160e+03, 7.888280e+03,
+       8.303400e+03, 8.718520e+03, 9.133640e+03, 9.548760e+03,
+       9.963880e+03, 1.037900e+04, 1.079412e+04, 1.120924e+04,
+       1.162436e+04, 1.203948e+04, 1.245460e+04, 1.286972e+04,
+       1.328484e+04, 1.369996e+04, 1.411508e+04, 1.453020e+04,
+       1.494532e+04, 1.536044e+04, 1.577556e+04, 1.619068e+04,
+       1.660580e+04, 1.702092e+04, 1.743604e+04, 1.785116e+04,
+       1.826628e+04, 1.868140e+04, 1.909652e+04, 1.951164e+04,
+       1.992676e+04, 2.034188e+04, 2.075700e+04]))",,,
+order date (DateOrders),65752,0.3642386673978916,False,19850,0.10996072435588497,DateTime,True,"order date (DateOrders)
+2016-12-14 12:29:00    5
+2015-02-22 14:38:00    5
+2016-02-17 14:08:00    5
+2016-12-31 09:50:00    5
+2016-02-11 16:35:00    5
+                      ..
+2016-09-05 05:58:00    1
+2016-09-06 01:56:00    1
+2016-09-06 03:20:00    1
+2016-09-06 19:27:00    1
+2016-01-17 05:56:00    1
+Name: count, Length: 65752, dtype: int64","order date (DateOrders)
+2015-01-01 00:00:00    1
+2015-01-01 00:21:00    3
+2015-01-01 01:03:00    4
+2015-01-01 01:24:00    5
+2015-01-01 02:06:00    3
+                      ..
+2018-01-31 22:14:00    1
+2018-01-31 22:35:00    1
+2018-01-31 22:56:00    1
+2018-01-31 23:17:00    1
+2018-01-31 23:38:00    1
+Name: count, Length: 65752, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 6898.831203363635, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2015-01-01 00:00:00,2018-01-31 23:38:00,,,,,"1126 days, 23:38:00",,,,,,,,,,,,,,,"(array([3860, 3826, 3941, 3814, 3867, 3813, 3928, 3835, 3911, 3800, 3870,
+       3854, 3855, 3880, 3930, 3888, 3841, 3863, 3824, 3787, 3899, 3681,
+       3932, 3769, 3880, 3831, 3895, 3938, 3826, 3968, 3881, 3819, 3843,
+       3866, 3898, 3926, 3861, 3961, 3803, 3740, 3879, 3819, 3877, 3857,
+       2962, 1544, 1544, 1544, 1544, 1545]), array([1.42007040e+09, 1.42201783e+09, 1.42396526e+09, 1.42591269e+09,
+       1.42786012e+09, 1.42980755e+09, 1.43175498e+09, 1.43370241e+09,
+       1.43564984e+09, 1.43759727e+09, 1.43954470e+09, 1.44149213e+09,
+       1.44343956e+09, 1.44538698e+09, 1.44733441e+09, 1.44928184e+09,
+       1.45122927e+09, 1.45317670e+09, 1.45512413e+09, 1.45707156e+09,
+       1.45901899e+09, 1.46096642e+09, 1.46291385e+09, 1.46486128e+09,
+       1.46680871e+09, 1.46875614e+09, 1.47070357e+09, 1.47265100e+09,
+       1.47459843e+09, 1.47654586e+09, 1.47849329e+09, 1.48044072e+09,
+       1.48238815e+09, 1.48433558e+09, 1.48628301e+09, 1.48823044e+09,
+       1.49017787e+09, 1.49212530e+09, 1.49407272e+09, 1.49602015e+09,
+       1.49796758e+09, 1.49991501e+09, 1.50186244e+09, 1.50380987e+09,
+       1.50575730e+09, 1.50770473e+09, 1.50965216e+09, 1.51159959e+09,
+       1.51354702e+09, 1.51549445e+09, 1.51744188e+09]))",0.0,0.0,0.0
+Order Id,65752,0.3642386673978916,False,19850,0.10996072435588497,Numeric,True,"Order Id
+48880    5
+3605     5
+28265    5
+50037    5
+27861    5
+        ..
+42011    1
+42068    1
+42072    1
+42118    1
+26118    1
+Name: count, Length: 65752, dtype: int64","Order Id
+1        1
+2        3
+4        4
+5        5
+7        3
+        ..
+77200    1
+77201    1
+77202    1
+77203    1
+77204    1
+Name: count, Length: 65752, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 6898.831203363635, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,36221.8949030296,21045.37956885943,442908001.19736594,1,77204,-1.1529356732614673,0.03270879463405791,6538740246.0,18042.0,77203,3626.7999999999993,18057.0,36140.0,54144.0,68596.0,36087.0,0.5810126616843337,0.0,0.0,False,False,False,False,0.0,"(array([3860, 3826, 3941, 3814, 3867, 3813, 3928, 3835, 3911, 3800, 3870,
+       3854, 3855, 3880, 3930, 3888, 3841, 3863, 3824, 3787, 3899, 3681,
+       3932, 3769, 3880, 3831, 3895, 3938, 3826, 3968, 3881, 3819, 3843,
+       3866, 3898, 3926, 3861, 3961, 3803, 3740, 3879, 3819, 3877, 3857,
+       2962, 1544, 1544, 1544, 1544, 1545]), array([1.000000e+00, 1.545060e+03, 3.089120e+03, 4.633180e+03,
+       6.177240e+03, 7.721300e+03, 9.265360e+03, 1.080942e+04,
+       1.235348e+04, 1.389754e+04, 1.544160e+04, 1.698566e+04,
+       1.852972e+04, 2.007378e+04, 2.161784e+04, 2.316190e+04,
+       2.470596e+04, 2.625002e+04, 2.779408e+04, 2.933814e+04,
+       3.088220e+04, 3.242626e+04, 3.397032e+04, 3.551438e+04,
+       3.705844e+04, 3.860250e+04, 4.014656e+04, 4.169062e+04,
+       4.323468e+04, 4.477874e+04, 4.632280e+04, 4.786686e+04,
+       4.941092e+04, 5.095498e+04, 5.249904e+04, 5.404310e+04,
+       5.558716e+04, 5.713122e+04, 5.867528e+04, 6.021934e+04,
+       6.176340e+04, 6.330746e+04, 6.485152e+04, 6.639558e+04,
+       6.793964e+04, 6.948370e+04, 7.102776e+04, 7.257182e+04,
+       7.411588e+04, 7.565994e+04, 7.720400e+04]))",,,
+Order Item Cardprod Id,118,0.0006536708047352357,False,0,0.0,Numeric,True,"Order Item Cardprod Id
+365     24515
+403     22246
+502     21035
+1014    19298
+1004    17325
+        ...  
+127        27
+208        15
+860        11
+226        10
+60         10
+Name: count, Length: 118, dtype: int64","Order Item Cardprod Id
+19       64
+24       74
+35       65
+37      262
+44      305
+       ... 
+1359    492
+1360    357
+1361    529
+1362    838
+1363    650
+Name: count, Length: 118, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 880397.0848442547, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,692.5097635151978,336.44680733021875,113196.45416269735,19,1363,-1.2674939065869202,0.1382546099250616,125011170.0,330.0,1344,191.0,403.0,627.0,1004.0,1073.0,601.0,0.4858369153127977,0.0,0.0,False,False,False,False,0.0,"(array([  770,    67,   343,   328,   614,   318, 12201,    89,   722,
+        1127,   278,     0, 24619,     0, 22246,     0,     0, 21035,
+           0,     0,  1201,    77, 10680,   502,   213,   494,   585,
+         318,  1643,  1995,   654,    70,  1780,   897, 13729,   440,
+       17325, 19298,    40, 15500,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,  8321]), array([  19.  ,   45.88,   72.76,   99.64,  126.52,  153.4 ,  180.28,
+        207.16,  234.04,  260.92,  287.8 ,  314.68,  341.56,  368.44,
+        395.32,  422.2 ,  449.08,  475.96,  502.84,  529.72,  556.6 ,
+        583.48,  610.36,  637.24,  664.12,  691.  ,  717.88,  744.76,
+        771.64,  798.52,  825.4 ,  852.28,  879.16,  906.04,  932.92,
+        959.8 ,  986.68, 1013.56, 1040.44, 1067.32, 1094.2 , 1121.08,
+       1147.96, 1174.84, 1201.72, 1228.6 , 1255.48, 1282.36, 1309.24,
+       1336.12, 1363.  ]))",,,
+Order Item Discount,1017,0.005633756003523175,False,92,0.0005096416443698447,Numeric,True,"Order Item Discount
+0.000000      10028
+6.000000       4589
+12.000000      4067
+4.000000       3647
+8.000000       3626
+              ...  
+23.750000         1
+96.000000         1
+400.000000        1
+31.980000         1
+61.189999         1
+Name: count, Length: 1017, dtype: int64","Order Item Discount
+0.00      10028
+0.10          3
+0.11         15
+0.12         29
+0.15          7
+          ...  
+340.00        1
+360.00        1
+375.00       25
+400.00        1
+500.00        1
+Name: count, Length: 1017, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 2457055.1230839966, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,10028.0,20.664741121945994,21.800900954295905,475.27928241902003,0.0,500.0,25.23126719429707,3.0397955138175647,3730378.4025925687,10.0,500.0,0.0,5.400000095,14.0,29.98999977,62.5,24.589999675,1.0549805983847196,0.055550939236313074,0.0,False,False,False,False,0.0,"(array([70704, 38784, 25919, 17729,  9561,  6611,  4878,  2975,  1438,
+         403,  1022,    64,   145,    50,     1,    26,     0,     0,
+          25,    25,     1,     0,    25,     0,    26,    25,     1,
+          25,     0,     0,    26,     0,     1,     0,     1,     0,
+           1,    25,     0,     0,     1,     0,     0,     0,     0,
+           0,     0,     0,     0,     1]), array([  0.,  10.,  20.,  30.,  40.,  50.,  60.,  70.,  80.,  90., 100.,
+       110., 120., 130., 140., 150., 160., 170., 180., 190., 200., 210.,
+       220., 230., 240., 250., 260., 270., 280., 290., 300., 310., 320.,
+       330., 340., 350., 360., 370., 380., 390., 400., 410., 420., 430.,
+       440., 450., 460., 470., 480., 490., 500.]))",,,
+Order Item Discount Rate,18,9.971249563757831e-05,False,0,0.0,Numeric,True,"Order Item Discount Rate
+0.04    10029
+0.15    10029
+0.25    10029
+0.20    10029
+0.18    10029
+0.17    10029
+0.05    10029
+0.16    10029
+0.13    10029
+0.12    10029
+0.10    10029
+0.09    10029
+0.07    10029
+0.06    10029
+0.03    10029
+0.00    10028
+0.01    10028
+0.02    10028
+Name: count, dtype: int64","Order Item Discount Rate
+0.00    10028
+0.01    10028
+0.02    10028
+0.03    10029
+0.04    10029
+0.05    10029
+0.06    10029
+0.07    10029
+0.09    10029
+0.10    10029
+0.12    10029
+0.13    10029
+0.15    10029
+0.16    10029
+0.17    10029
+0.18    10029
+0.20    10029
+0.25    10029
+Name: count, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 411182.1674837551, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,10028.0,0.101668190552025,0.07041521532547643,0.0049583025493332095,0.0,0.25,-0.9011568626673041,0.34092760117630283,18353.040090261,0.059999995,0.25,0.0,0.039999999,0.100000001,0.159999996,0.25,0.119999997,0.6925982939515777,0.055550939236313074,0.0,False,False,False,False,0.0,"(array([20056, 10028, 20058, 10029, 10029, 10029, 10029, 10029, 10029,
+       10029, 10029, 10029, 20058,     0, 10029,     0,     0, 10029]), array([0.        , 0.01388889, 0.02777778, 0.04166667, 0.05555556,
+       0.06944444, 0.08333333, 0.09722222, 0.11111111, 0.125     ,
+       0.13888889, 0.15277778, 0.16666667, 0.18055556, 0.19444444,
+       0.20833333, 0.22222222, 0.23611111, 0.25      ]))",,,
+Order Item Id,180519,1.0,True,180519,1.0,Numeric,True,"Order Item Id
+180517    1
+42681     1
+28953     1
+39851     1
+173601    1
+         ..
+14991     1
+150102    1
+138584    1
+150270    1
+65113     1
+Name: count, Length: 180519, dtype: int64","Order Item Id
+1         1
+2         1
+3         1
+4         1
+5         1
+         ..
+180515    1
+180516    1
+180517    1
+180518    1
+180519    1
+Name: count, Length: 180519, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 0.0, 'pvalue': 1.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,90260.0,52111.49095928843,2715607490.0,1,180519,-1.2000000000000002,8.45546610224744e-18,16293644940.0,45130.0,180518,9026.9,45130.5,90260.0,135389.5,171493.1,90259.0,0.5773486700563752,0.0,0.0,False,False,False,False,0.0,"(array([3611, 3610, 3611, 3610, 3610, 3611, 3610, 3610, 3611, 3610, 3610,
+       3611, 3610, 3611, 3610, 3610, 3611, 3610, 3610, 3611, 3610, 3610,
+       3611, 3610, 3610, 3611, 3610, 3611, 3610, 3610, 3611, 3610, 3610,
+       3611, 3610, 3610, 3611, 3610, 3611, 3610, 3610, 3611, 3610, 3610,
+       3611, 3610, 3610, 3611, 3610, 3611]), array([1.0000000e+00, 3.6113600e+03, 7.2217200e+03, 1.0832080e+04,
+       1.4442440e+04, 1.8052800e+04, 2.1663160e+04, 2.5273520e+04,
+       2.8883880e+04, 3.2494240e+04, 3.6104600e+04, 3.9714960e+04,
+       4.3325320e+04, 4.6935680e+04, 5.0546040e+04, 5.4156400e+04,
+       5.7766760e+04, 6.1377120e+04, 6.4987480e+04, 6.8597840e+04,
+       7.2208200e+04, 7.5818560e+04, 7.9428920e+04, 8.3039280e+04,
+       8.6649640e+04, 9.0260000e+04, 9.3870360e+04, 9.7480720e+04,
+       1.0109108e+05, 1.0470144e+05, 1.0831180e+05, 1.1192216e+05,
+       1.1553252e+05, 1.1914288e+05, 1.2275324e+05, 1.2636360e+05,
+       1.2997396e+05, 1.3358432e+05, 1.3719468e+05, 1.4080504e+05,
+       1.4441540e+05, 1.4802576e+05, 1.5163612e+05, 1.5524648e+05,
+       1.5885684e+05, 1.6246720e+05, 1.6607756e+05, 1.6968792e+05,
+       1.7329828e+05, 1.7690864e+05, 1.8051900e+05]))",,,
+Order Item Product Price,75,0.00041546873182324296,False,0,0.0,Numeric,True,"Order Item Product Price
+59.990002      24820
+129.990005     22372
+50.000000      21035
+49.980000      19298
+399.980011     17325
+               ...  
+349.989990        40
+329.989990        27
+599.989990        21
+1999.989990       15
+999.989990        10
+Name: count, Length: 75, dtype: int64","Order Item Product Price
+9.990000       285
+11.290000      271
+11.540000      529
+14.990000      593
+15.990000      602
+              ... 
+532.580017     484
+599.989990      21
+999.989990      10
+1500.000000    442
+1999.989990     15
+Name: count, Length: 75, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 7974707.361906506, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,141.23254992870068,139.73249200374275,19525.169321576028,9.989999771,1999.98999,23.31299748418666,3.191019570200194,25495158.68057911,39.999996180000004,1989.999990229,31.98999977,50.0,59.99000168,199.9900055,399.980011,149.9900055,0.9893788087398039,0.0,0.0,False,False,False,False,0.0,"(array([24109, 67622, 13170, 23050, 15879,   923,   996, 14611,   719,
+       17392,     0,  1076,     0,   484,    21,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,    10,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,   442,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,    15]), array([   9.98999977,   49.78999958,   89.58999938,  129.38999918,
+        169.18999899,  208.98999879,  248.7899986 ,  288.5899984 ,
+        328.38999821,  368.18999801,  407.98999782,  447.78999762,
+        487.58999743,  527.38999723,  567.18999704,  606.98999684,
+        646.78999664,  686.58999645,  726.38999625,  766.18999606,
+        805.98999586,  845.78999567,  885.58999547,  925.38999528,
+        965.18999508, 1004.98999489, 1044.78999469, 1084.58999449,
+       1124.3899943 , 1164.1899941 , 1203.98999391, 1243.78999371,
+       1283.58999352, 1323.38999332, 1363.18999313, 1402.98999293,
+       1442.78999274, 1482.58999254, 1522.38999235, 1562.18999215,
+       1601.98999195, 1641.78999176, 1681.58999156, 1721.38999137,
+       1761.18999117, 1800.98999098, 1840.78999078, 1880.58999059,
+       1920.38999039, 1960.1899902 , 1999.98999   ]))",,,
+Order Item Profit Ratio,162,0.0008974124607382049,False,0,0.0,Numeric,True,"Order Item Profit Ratio
+ 0.48    9197
+ 0.35    7997
+ 0.26    6577
+ 0.34    6507
+ 0.47    6378
+         ... 
+-2.07      18
+-0.90      18
+-2.30      18
+-1.10      18
+-2.10      18
+Name: count, Length: 162, dtype: int64","Order Item Profit Ratio
+-2.75      72
+-2.70     252
+-2.65      90
+-2.60     181
+-2.55     234
+         ... 
+ 0.46    4822
+ 0.47    6378
+ 0.48    9197
+ 0.49    5688
+ 0.50    2529
+Name: count, Length: 162, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 1091625.6231366228, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,33784.0,0.18714927514555255,0.0,1177.0,0.12064663549026416,0.4667956046074935,0.21789813648087536,-2.75,0.5,10.157224522792497,-2.8935313411242607,21779.009992067004,0.16999998700000002,3.25,-0.769999981,0.079999998,0.270000011,0.360000014,0.479999989,0.28000001599999996,3.869114150681496,0.006520089298079426,0.0,False,False,False,False,0.0,"(array([  324,    90,   181,   414,    18,     0,    54,    36,    19,
+           0,    54,     0,     0,     0,    54,   670,  1446,   847,
+         688,   775,   108,   162,    73,   126,    36,    54,    72,
+          54,   108,  2221,  1463,  4315,   435,   580,   542,   542,
+         739,   902,  3683,  4388,  2795,  3543,  7353, 21613,  8202,
+        8537, 28163, 31459,  8604, 33977]), array([-2.75 , -2.685, -2.62 , -2.555, -2.49 , -2.425, -2.36 , -2.295,
+       -2.23 , -2.165, -2.1  , -2.035, -1.97 , -1.905, -1.84 , -1.775,
+       -1.71 , -1.645, -1.58 , -1.515, -1.45 , -1.385, -1.32 , -1.255,
+       -1.19 , -1.125, -1.06 , -0.995, -0.93 , -0.865, -0.8  , -0.735,
+       -0.67 , -0.605, -0.54 , -0.475, -0.41 , -0.345, -0.28 , -0.215,
+       -0.15 , -0.085, -0.02 ,  0.045,  0.11 ,  0.175,  0.24 ,  0.305,
+        0.37 ,  0.435,  0.5  ]))",,,
+Order Item Quantity,5,2.7697915454882865e-05,False,0,0.0,Categorical,True,"Order Item Quantity
+1    99134
+5    20385
+3    20350
+4    20335
+2    20315
+Name: count, dtype: Int64","Order Item Quantity
+1    99134
+2    20315
+3    20350
+4    20335
+5    20385
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.18400026264974,"0    1
+1    1
+2    1
+3    1
+4    1
+Name: Order Item Quantity, dtype: object","{'statistic': 137548.13229632337, 'pvalue': 0.0}",1.0,1.0,1.0,1.0,"Order Item Quantity
+1    180519
+Name: count, dtype: Int64","(array([180519]), array([0.5, 1.5]))",5.0,180519.0,"Order Item Quantity
+1    99134
+5    20385
+3    20350
+4    20335
+2    20315
+Name: count, dtype: Int64","{'1': 'Decimal_Number', '5': 'Decimal_Number', '3': 'Decimal_Number', '4': 'Decimal_Number', '2': 'Decimal_Number'}","{'1': 'ASCII', '5': 'ASCII', '3': 'ASCII', '4': 'ASCII', '2': 'ASCII'}","ASCII    180519
+dtype: int64",1.0,"{'ASCII': 1    99134
+5    20385
+3    20350
+4    20335
+2    20315
+dtype: int64}","Common    180519
+dtype: int64",1.0,"{'Common': 1    99134
+5    20385
+3    20350
+4    20335
+2    20315
+dtype: int64}","Decimal Number    180519
+dtype: int64",1.0,"{'Decimal_Number': 1    99134
+5    20385
+3    20350
+4    20335
+2    20315
+dtype: int64}","Order Item Quantity
+1    99134
+5    20385
+3    20350
+4    20335
+2    20315
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sales,193,0.0010691395365584786,False,0,0.0,Numeric,True,"Sales
+129.990005    22372
+399.980011    17325
+199.990005    15622
+299.980011    13729
+179.970001     5016
+              ...  
+999.989990       10
+379.959992       10
+198.000000        9
+396.000000        9
+99.000000         9
+Name: count, Length: 193, dtype: int64","Sales
+9.990000        56
+11.290000      271
+11.540000      529
+14.990000      124
+15.990000      118
+              ... 
+532.580017     484
+599.989990      21
+999.989990      10
+1500.000000    442
+1999.989990     15
+Name: count, Length: 193, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 4594930.20129737, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,203.77209608617292,132.27307749970333,17496.167031242527,9.989999771,1999.98999,23.936561265518982,2.8842490487299424,36784735.01337985,79.93999480000001,1989.999990229,49.97999954,119.9800034,199.9199982,299.9500122,399.980011,179.97000880000002,0.6491226229707454,0.0,0.0,False,False,False,False,0.0,"(array([ 7532, 19538, 21238, 34651, 34137,  6277,  9414, 22281,   819,
+       19987,     0,  1122,  2551,   484,    21,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,    10,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,   442,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,    15]), array([   9.98999977,   49.78999958,   89.58999938,  129.38999918,
+        169.18999899,  208.98999879,  248.7899986 ,  288.5899984 ,
+        328.38999821,  368.18999801,  407.98999782,  447.78999762,
+        487.58999743,  527.38999723,  567.18999704,  606.98999684,
+        646.78999664,  686.58999645,  726.38999625,  766.18999606,
+        805.98999586,  845.78999567,  885.58999547,  925.38999528,
+        965.18999508, 1004.98999489, 1044.78999469, 1084.58999449,
+       1124.3899943 , 1164.1899941 , 1203.98999391, 1243.78999371,
+       1283.58999352, 1323.38999332, 1363.18999313, 1402.98999293,
+       1442.78999274, 1482.58999254, 1522.38999235, 1562.18999215,
+       1601.98999195, 1641.78999176, 1681.58999156, 1721.38999137,
+       1761.18999117, 1800.98999098, 1840.78999078, 1880.58999059,
+       1920.38999039, 1960.1899902 , 1999.98999   ]))",,,
+Order Item Total,2927,0.01621435970728843,False,312,0.0017283499243846909,Numeric,True,"Order Item Total
+122.839996    1264
+109.190002    1247
+124.790001    1243
+129.990005    1243
+116.989998    1243
+              ... 
+455.950012       1
+470.250000       1
+424.790008       1
+98.010002        1
+474.760010       1
+Name: count, Length: 2927, dtype: int64","Order Item Total
+7.49000       3
+7.99000       3
+8.19000       3
+8.29000       3
+8.39000       3
+             ..
+1859.98999    1
+1889.98999    1
+1899.98999    1
+1919.98999    1
+1939.98999    1
+Name: count, Length: 2927, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 1076127.3860203084, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,183.10760850778374,120.04367002812562,14410.482713821504,7.489999771,1939.98999,23.920361513459394,2.888446057030185,33054402.380216613,67.00000763999999,1932.499990229,41.5,104.3799973,163.9900055,247.3999939,383.980011,143.0199966,0.6555908353913249,0.0,0.0,False,False,False,False,0.0,"(array([12803, 17877, 34267, 23939, 31009, 11042, 14186, 11336,  8338,
+        9405,  3332,  1241,  1128,   140,     5,     4,     0,     0,
+           0,     0,     0,     0,     1,     3,     4,     2,     0,
+           0,    25,     0,    25,    25,    75,    49,    24,    48,
+          48,    73,    51,     0,     0,     1,     2,     2,     1,
+           1,     2,     1,     2,     2]), array([   7.48999977,   46.13999958,   84.78999938,  123.43999918,
+        162.08999899,  200.73999879,  239.3899986 ,  278.0399984 ,
+        316.68999821,  355.33999801,  393.98999782,  432.63999762,
+        471.28999743,  509.93999723,  548.58999704,  587.23999684,
+        625.88999664,  664.53999645,  703.18999625,  741.83999606,
+        780.48999586,  819.13999567,  857.78999547,  896.43999528,
+        935.08999508,  973.73999489, 1012.38999469, 1051.03999449,
+       1089.6899943 , 1128.3399941 , 1166.98999391, 1205.63999371,
+       1244.28999352, 1282.93999332, 1321.58999313, 1360.23999293,
+       1398.88999274, 1437.53999254, 1476.18999235, 1514.83999215,
+       1553.48999195, 1592.13999176, 1630.78999156, 1669.43999137,
+       1708.08999117, 1746.73999098, 1785.38999078, 1824.03999059,
+       1862.68999039, 1901.3399902 , 1939.98999   ]))",,,
+Order Profit Per Order,21998,0.12185974883530265,False,7041,0.039004204543566054,Numeric,True,"Order Profit Per Order
+ 0.000000      1177
+ 143.990005     199
+ 72.000000      194
+ 46.799999      188
+ 24.000000      181
+               ... 
+-48.830002        1
+ 48.220001        1
+-145.729996       1
+-330.109985       1
+-337.100006       1
+Name: count, Length: 21998, dtype: int64","Order Profit Per Order
+-4274.979980    1
+-3442.500000    1
+-3366.000000    1
+-3000.000000    1
+-2592.000000    1
+               ..
+ 720.000000     2
+ 720.299988     1
+ 721.599976     1
+ 864.000000     1
+ 911.799988     1
+Name: count, Length: 21998, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 5420133.400201642, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,33784.0,0.18714927514555255,0.0,1177.0,21.974988638594034,104.4335257469866,10906.361299946515,-4274.97998,911.7999878,71.37725865589996,-4.741834070263963,3966902.974050357,27.880000355,5186.7799678,-139.25099945,7.0,31.52000046,64.80000305,132.2899933,57.80000305,4.752381330635732,0.006520089298079426,0.0,False,False,False,False,0.0,"(array([     1,      0,      0,      0,      0,      0,      0,      0,
+            2,      0,      0,      0,      1,      0,      0,      0,
+            2,      0,      2,      4,      4,      1,      2,      2,
+            1,      0,      0,      1,      4,      9,     16,     52,
+           68,    107,    232,    461,    642,    909,   2515,   4856,
+        15012, 123977,  29947,   1409,     78,     78,     66,     47,
+            9,      2]), array([-4274.97998   , -4171.24438064, -4067.50878129, -3963.77318193,
+       -3860.03758258, -3756.30198322, -3652.56638386, -3548.83078451,
+       -3445.09518515, -3341.3595858 , -3237.62398644, -3133.88838708,
+       -3030.15278773, -2926.41718837, -2822.68158902, -2718.94598966,
+       -2615.2103903 , -2511.47479095, -2407.73919159, -2304.00359224,
+       -2200.26799288, -2096.53239352, -1992.79679417, -1889.06119481,
+       -1785.32559546, -1681.5899961 , -1577.85439674, -1474.11879739,
+       -1370.38319803, -1266.64759868, -1162.91199932, -1059.17639996,
+        -955.44080061,  -851.70520125,  -747.9696019 ,  -644.23400254,
+        -540.49840318,  -436.76280383,  -333.02720447,  -229.29160512,
+        -125.55600576,   -21.8204064 ,    81.91519295,   185.65079231,
+         289.38639166,   393.12199102,   496.85759038,   600.59318973,
+         704.32878909,   808.06438844,   911.7999878 ]))",,,
+Order Region,23,0.00012741041109246118,False,0,0.0,Categorical,True,"Order Region
+Central America    28341
+Western Europe     27109
+South America      14935
+Oceania            10148
+Northern Europe     9792
+Southeast Asia      9539
+Southern Europe     9431
+Caribbean           8318
+West of USA         7993
+South Asia          7731
+Eastern Asia        7280
+East of USA         6915
+West Asia           6009
+US Center           5887
+South of  USA       4045
+Eastern Europe      3920
+West Africa         3696
+North Africa        3232
+East Africa         1852
+Central Africa      1677
+Southern Africa     1157
+Canada               959
+Central Asia         553
+Name: count, dtype: Int64","Order Region
+Canada               959
+Caribbean           8318
+Central Africa      1677
+Central America    28341
+Central Asia         553
+East Africa         1852
+East of USA         6915
+Eastern Asia        7280
+Eastern Europe      3920
+North Africa        3232
+Northern Europe     9792
+Oceania            10148
+South America      14935
+South Asia          7731
+South of  USA       4045
+Southeast Asia      9539
+Southern Africa     1157
+Southern Europe     9431
+US Center           5887
+West Africa         3696
+West Asia           6009
+West of USA         7993
+Western Europe     27109
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.10908243450798616,"0    Southeast Asia
+1        South Asia
+2        South Asia
+3           Oceania
+4           Oceania
+Name: Order Region, dtype: object","{'statistic': 146802.53573308076, 'pvalue': 0.0}",15.0,12.634304422249182,14.0,6.0,"Order Region
+15    48721
+14    46290
+12    19058
+13    14935
+9     14327
+10    13618
+11    12463
+7     10148
+6       959
+Name: count, dtype: Int64","(array([  959, 10148,     0, 14327, 13618, 12463, 19058, 14935, 95011]), array([ 6.,  7.,  8.,  9., 10., 11., 12., 13., 14., 15.]))",26.0,2280732.0,"Order Region
+e    267374
+r    221631
+     202017
+a    185888
+t    170633
+o    129067
+n    114572
+s    105425
+A    104955
+i    104468
+u     97090
+S     71678
+E     70219
+c     65038
+h     59862
+p     50252
+C     45735
+W     44807
+m     43276
+l     30571
+f     30567
+U     24840
+b     16636
+N     13024
+O     10148
+d       959
+Name: count, dtype: Int64","{'e': 'Lowercase_Letter', 'r': 'Lowercase_Letter', ' ': 'Space_Separator', 'a': 'Lowercase_Letter', 't': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 'n': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'A': 'Uppercase_Letter', 'i': 'Lowercase_Letter', 'u': 'Lowercase_Letter', 'S': 'Uppercase_Letter', 'E': 'Uppercase_Letter', 'c': 'Lowercase_Letter', 'h': 'Lowercase_Letter', 'p': 'Lowercase_Letter', 'C': 'Uppercase_Letter', 'W': 'Uppercase_Letter', 'm': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 'f': 'Lowercase_Letter', 'U': 'Uppercase_Letter', 'b': 'Lowercase_Letter', 'N': 'Uppercase_Letter', 'O': 'Uppercase_Letter', 'd': 'Lowercase_Letter'}","{'e': 'ASCII', 'r': 'ASCII', ' ': 'ASCII', 'a': 'ASCII', 't': 'ASCII', 'o': 'ASCII', 'n': 'ASCII', 's': 'ASCII', 'A': 'ASCII', 'i': 'ASCII', 'u': 'ASCII', 'S': 'ASCII', 'E': 'ASCII', 'c': 'ASCII', 'h': 'ASCII', 'p': 'ASCII', 'C': 'ASCII', 'W': 'ASCII', 'm': 'ASCII', 'l': 'ASCII', 'f': 'ASCII', 'U': 'ASCII', 'b': 'ASCII', 'N': 'ASCII', 'O': 'ASCII', 'd': 'ASCII'}","ASCII    2280732
+dtype: int64",1.0,"{'ASCII': e    267374
+r    221631
+     202017
+a    185888
+t    170633
+o    129067
+n    114572
+s    105425
+A    104955
+i    104468
+u     97090
+S     71678
+E     70219
+c     65038
+h     59862
+p     50252
+C     45735
+W     44807
+m     43276
+l     30571
+f     30567
+U     24840
+b     16636
+N     13024
+O     10148
+d       959
+dtype: int64}","Latin     2078715
+Common     202017
+dtype: int64",2.0,"{'Latin': e    267374
+r    221631
+a    185888
+t    170633
+o    129067
+n    114572
+s    105425
+A    104955
+i    104468
+u     97090
+S     71678
+E     70219
+c     65038
+h     59862
+p     50252
+C     45735
+W     44807
+m     43276
+l     30571
+f     30567
+U     24840
+b     16636
+N     13024
+O     10148
+d       959
+dtype: int64, 'Common':     202017
+dtype: int64}","Lowercase Letter    1693309
+Uppercase Letter     385406
+Space Separator      202017
+dtype: int64",3.0,"{'Lowercase_Letter': e    267374
+r    221631
+a    185888
+t    170633
+o    129067
+n    114572
+s    105425
+i    104468
+u     97090
+c     65038
+h     59862
+p     50252
+m     43276
+l     30571
+f     30567
+b     16636
+d       959
+dtype: int64, 'Space_Separator':     202017
+dtype: int64, 'Uppercase_Letter': A    104955
+S     71678
+E     70219
+C     45735
+W     44807
+U     24840
+N     13024
+O     10148
+dtype: int64}","Order Region
+europe       50252
+america      43276
+asia         31112
+central      30571
+western      27109
+south        26711
+of           18953
+usa          18953
+west         17698
+africa       11614
+eastern      11200
+southern     10588
+oceania      10148
+northern      9792
+southeast     9539
+east          8767
+caribbean     8318
+center        5887
+us            5887
+north         3232
+canada         959
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Order State,1089,0.006032605986073488,False,16,8.863332945562516e-05,Text,True,"Order State
+Inglaterra                     6722
+California                     4966
+Isla de Francia                4580
+Renania del Norte-Westfalia    3303
+San Salvador                   3055
+                               ... 
+Kabarole                          1
+Vrancea                           1
+Buyumbura Mairie                  1
+Aomori                            1
+Iringa                            1
+Name: count, Length: 1089, dtype: int64","Order State
+Abia              36
+Abruzos           61
+Aceh              19
+Acre              36
+Adamaoua          14
+                  ..
+iauliai           8
+ilina             5
+Çanakkale          6
+Équateur          47
+Ústí nad Labem    14
+Name: count, Length: 1089, dtype: int64",True,0,180519,0.0,180519,1444284,,"0    Java Occidental
+1           Rajastán
+2           Rajastán
+3         Queensland
+4         Queensland
+Name: Order State, dtype: object",,36.0,10.872617286822994,31.0,3.0,"Order State
+10    25151
+7     21922
+8     18784
+6     17829
+9     15574
+5     14531
+12     7681
+15     7565
+16     7069
+13     6737
+4      5538
+17     4221
+11     3674
+27     3303
+18     3069
+14     2930
+19     2890
+21     2497
+25     1965
+20     1689
+36     1553
+34      957
+29      893
+31      868
+22      675
+3       462
+24      181
+33      180
+23       64
+32       40
+30       27
+Name: count, dtype: int64","(array([ 6000, 14531, 17829, 21922, 18784, 15574, 25151,  3674,  7681,
+        6737,  2930,  7565,  7069,  4221,  3069,  4579,  2497,   675,
+          64,   181,  1965,     0,  3303,     0,   893,    27,   868,
+          40,   180,   957,  1553]), array([ 3.        ,  4.06451613,  5.12903226,  6.19354839,  7.25806452,
+        8.32258065,  9.38709677, 10.4516129 , 11.51612903, 12.58064516,
+       13.64516129, 14.70967742, 15.77419355, 16.83870968, 17.90322581,
+       18.96774194, 20.03225806, 21.09677419, 22.16129032, 23.22580645,
+       24.29032258, 25.35483871, 26.41935484, 27.48387097, 28.5483871 ,
+       29.61290323, 30.67741935, 31.74193548, 32.80645161, 33.87096774,
+       34.93548387, 36.        ]))",83.0,1962714.0,"Order State
+a    310562
+n    142494
+i    131317
+e    131085
+r    117395
+      ...  
+Ú        14
+ç         8
+         8
+Ç         6
+         5
+Name: count, Length: 83, dtype: int64","{'a': 'Lowercase_Letter', 'n': 'Lowercase_Letter', 'i': 'Lowercase_Letter', 'e': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 'l': 'Lowercase_Letter', ' ': 'Space_Separator', 't': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'u': 'Lowercase_Letter', 'd': 'Lowercase_Letter', 'c': 'Lowercase_Letter', 'g': 'Lowercase_Letter', 'C': 'Uppercase_Letter', 'S': 'Uppercase_Letter', 'm': 'Lowercase_Letter', 'h': 'Lowercase_Letter', '-': 'Dash_Punctuation', 'A': 'Uppercase_Letter', 'v': 'Lowercase_Letter', 'P': 'Uppercase_Letter', 'M': 'Uppercase_Letter', 'N': 'Uppercase_Letter', 'I': 'Uppercase_Letter', 'b': 'Lowercase_Letter', 'B': 'Uppercase_Letter', 'G': 'Uppercase_Letter', 'p': 'Lowercase_Letter', 'í': 'Lowercase_Letter', 'k': 'Lowercase_Letter', 'L': 'Uppercase_Letter', 'F': 'Uppercase_Letter', 'R': 'Uppercase_Letter', 'á': 'Lowercase_Letter', 'f': 'Lowercase_Letter', 'z': 'Lowercase_Letter', 'D': 'Uppercase_Letter', 'T': 'Uppercase_Letter', 'O': 'Uppercase_Letter', 'W': 'Uppercase_Letter', 'y': 'Lowercase_Letter', 'V': 'Uppercase_Letter', 'H': 'Uppercase_Letter', 'J': 'Uppercase_Letter', 'j': 'Lowercase_Letter', 'Y': 'Uppercase_Letter', 'ó': 'Lowercase_Letter', 'E': 'Uppercase_Letter', 'K': 'Uppercase_Letter', 'x': 'Lowercase_Letter', 'é': 'Lowercase_Letter', 'ñ': 'Lowercase_Letter', 'Q': 'Uppercase_Letter', 'ã': 'Lowercase_Letter', 'q': 'Lowercase_Letter', 'Z': 'Uppercase_Letter', 'U': 'Uppercase_Letter', 'w': 'Lowercase_Letter', 'ú': 'Lowercase_Letter', '(': 'Open_Punctuation', ')': 'Close_Punctuation', '?': 'Other_Punctuation', 'ü': 'Lowercase_Letter', 'à': 'Lowercase_Letter', 'ô': 'Lowercase_Letter', 'Á': 'Uppercase_Letter', 'ö': 'Lowercase_Letter', ""'"": 'Other_Punctuation', 'ä': 'Lowercase_Letter', 'É': 'Uppercase_Letter', 'ý': 'Lowercase_Letter', 'X': 'Uppercase_Letter', 'è': 'Lowercase_Letter', 'ë': 'Lowercase_Letter', 'â': 'Lowercase_Letter', 'ò': 'Lowercase_Letter', 'ê': 'Lowercase_Letter', 'Ú': 'Uppercase_Letter', 'ç': 'Lowercase_Letter', '\x8a': 'Control', 'Ç': 'Uppercase_Letter', '\x8e': 'Control'}","{'a': 'ASCII', 'n': 'ASCII', 'i': 'ASCII', 'e': 'ASCII', 'r': 'ASCII', 'o': 'ASCII', 'l': 'ASCII', ' ': 'ASCII', 't': 'ASCII', 's': 'ASCII', 'u': 'ASCII', 'd': 'ASCII', 'c': 'ASCII', 'g': 'ASCII', 'C': 'ASCII', 'S': 'ASCII', 'm': 'ASCII', 'h': 'ASCII', '-': 'ASCII', 'A': 'ASCII', 'v': 'ASCII', 'P': 'ASCII', 'M': 'ASCII', 'N': 'ASCII', 'I': 'ASCII', 'b': 'ASCII', 'B': 'ASCII', 'G': 'ASCII', 'p': 'ASCII', 'í': None, 'k': 'ASCII', 'L': 'ASCII', 'F': 'ASCII', 'R': 'ASCII', 'á': None, 'f': 'ASCII', 'z': 'ASCII', 'D': 'ASCII', 'T': 'ASCII', 'O': 'ASCII', 'W': 'ASCII', 'y': 'ASCII', 'V': 'ASCII', 'H': 'ASCII', 'J': 'ASCII', 'j': 'ASCII', 'Y': 'ASCII', 'ó': None, 'E': 'ASCII', 'K': 'ASCII', 'x': 'ASCII', 'é': None, 'ñ': None, 'Q': 'ASCII', 'ã': None, 'q': 'ASCII', 'Z': 'ASCII', 'U': 'ASCII', 'w': 'ASCII', 'ú': None, '(': 'ASCII', ')': 'ASCII', '?': 'ASCII', 'ü': None, 'à': None, 'ô': None, 'Á': None, 'ö': None, ""'"": 'ASCII', 'ä': None, 'É': None, 'ý': None, 'X': 'ASCII', 'è': None, 'ë': None, 'â': None, 'ò': None, 'ê': None, 'Ú': None, 'ç': None, '\x8a': None, 'Ç': None, '\x8e': None}","ASCII    1925211
+None       37503
+dtype: int64",2.0,"{'ASCII': a    310562
+n    142494
+i    131317
+e    131085
+r    117395
+o    114621
+l    103549
+      83290
+t     80118
+s     75596
+u     62262
+d     58636
+c     38487
+g     36323
+C     30372
+S     27262
+m     24987
+h     24977
+-     24466
+A     20489
+v     19328
+P     18540
+M     16660
+N     16027
+I     14188
+b     13555
+B     12615
+G     12427
+p     12330
+k     11794
+L     11348
+F     11244
+R     10664
+f      9844
+z      9770
+D      8346
+T      7901
+O      7358
+W      6136
+y      6123
+V      5956
+H      5731
+J      5649
+j      5375
+Y      4796
+E      4156
+K      3842
+x      3808
+Q      3122
+q      2003
+Z      1615
+U      1537
+w      1142
+(       664
+)       664
+?       503
+'       124
+X        38
+dtype: int64, None: í    11965
+á    10023
+ó     4698
+é     3332
+ñ     3173
+ã     2031
+ú      918
+ü      380
+à      171
+ô      168
+Á      143
+ö      131
+ä      120
+É       47
+ý       43
+è       38
+ë       32
+â       18
+ò       16
+ê       15
+Ú       14
+ç        8
+        8
+Ç        6
+        5
+dtype: int64}","Latin     1852990
+Common     109724
+dtype: int64",2.0,"{'Latin': a    310562
+n    142494
+i    131317
+e    131085
+r    117395
+      ...  
+ò        16
+ê        15
+Ú        14
+ç         8
+Ç         6
+Length: 75, dtype: int64, 'Common':      83290
+-    24466
+(      664
+)      664
+?      503
+'      124
+        8
+        5
+dtype: int64}","Lowercase Letter     1584761
+Uppercase Letter      268229
+Space Separator        83290
+Dash Punctuation       24466
+Open Punctuation         664
+Close Punctuation        664
+Other Punctuation        627
+Control                   13
+dtype: int64",8.0,"{'Lowercase_Letter': a    310562
+n    142494
+i    131317
+e    131085
+r    117395
+o    114621
+l    103549
+t     80118
+s     75596
+u     62262
+d     58636
+c     38487
+g     36323
+m     24987
+h     24977
+v     19328
+b     13555
+p     12330
+í     11965
+k     11794
+á     10023
+f      9844
+z      9770
+y      6123
+j      5375
+ó      4698
+x      3808
+é      3332
+ñ      3173
+ã      2031
+q      2003
+w      1142
+ú       918
+ü       380
+à       171
+ô       168
+ö       131
+ä       120
+ý        43
+è        38
+ë        32
+â        18
+ò        16
+ê        15
+ç         8
+dtype: int64, 'Space_Separator':     83290
+dtype: int64, 'Uppercase_Letter': C    30372
+S    27262
+A    20489
+P    18540
+M    16660
+N    16027
+I    14188
+B    12615
+G    12427
+L    11348
+F    11244
+R    10664
+D     8346
+T     7901
+O     7358
+W     6136
+V     5956
+H     5731
+J     5649
+Y     4796
+E     4156
+K     3842
+Q     3122
+Z     1615
+U     1537
+Á      143
+É       47
+X       38
+Ú       14
+Ç        6
+dtype: int64, 'Dash_Punctuation': -    24466
+dtype: int64, 'Open_Punctuation': (    664
+dtype: int64, 'Close_Punctuation': )    664
+dtype: int64, 'Other_Punctuation': ?    503
+'    124
+dtype: int64, 'Control':     8
+    5
+dtype: int64}","Order State
+de                 9121
+del                8417
+inglaterra         6722
+california         5580
+nueva              5473
+                   ... 
+mashonalandia         1
+bistrita-nasaud       1
+tottori               1
+mie                   1
+iringa                1
+Name: count, Length: 1181, dtype: int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Order Status,9,4.9856247818789156e-05,False,0,0.0,Categorical,True,"Order Status
+COMPLETE           59491
+PENDING_PAYMENT    39832
+PROCESSING         21902
+PENDING            20227
+CLOSED             19616
+ON_HOLD             9804
+SUSPECTED_FRAUD     4062
+CANCELED            3692
+PAYMENT_REVIEW      1893
+Name: count, dtype: Int64","Order Status
+CANCELED            3692
+CLOSED             19616
+COMPLETE           59491
+ON_HOLD             9804
+PAYMENT_REVIEW      1893
+PENDING            20227
+PENDING_PAYMENT    39832
+PROCESSING         21902
+SUSPECTED_FRAUD     4062
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.17508275115489746,"0           COMPLETE
+1            PENDING
+2             CLOSED
+3           COMPLETE
+4    PENDING_PAYMENT
+Name: Order Status, dtype: object","{'statistic': 145003.23424127098, 'pvalue': 0.0}",15.0,9.62396756020142,14.0,6.0,"Order Status
+8     63183
+15    43894
+7     30031
+10    21902
+6     19616
+14     1893
+Name: count, dtype: Int64","(array([49647, 63183, 21902,     0,     0, 45787]), array([ 6. ,  7.5,  9. , 10.5, 12. , 13.5, 15. ]))",21.0,1737309.0,"Order Status
+E    281578
+N    197241
+P    187239
+O    120617
+C    112455
+T    105278
+D    101295
+M    101216
+L     92603
+I     83854
+G     81961
+S     71544
+_     55591
+A     49479
+Y     41725
+R     27857
+H      9804
+U      8124
+F      4062
+V      1893
+W      1893
+Name: count, dtype: Int64","{'E': 'Uppercase_Letter', 'N': 'Uppercase_Letter', 'P': 'Uppercase_Letter', 'O': 'Uppercase_Letter', 'C': 'Uppercase_Letter', 'T': 'Uppercase_Letter', 'D': 'Uppercase_Letter', 'M': 'Uppercase_Letter', 'L': 'Uppercase_Letter', 'I': 'Uppercase_Letter', 'G': 'Uppercase_Letter', 'S': 'Uppercase_Letter', '_': 'Connector_Punctuation', 'A': 'Uppercase_Letter', 'Y': 'Uppercase_Letter', 'R': 'Uppercase_Letter', 'H': 'Uppercase_Letter', 'U': 'Uppercase_Letter', 'F': 'Uppercase_Letter', 'V': 'Uppercase_Letter', 'W': 'Uppercase_Letter'}","{'E': 'ASCII', 'N': 'ASCII', 'P': 'ASCII', 'O': 'ASCII', 'C': 'ASCII', 'T': 'ASCII', 'D': 'ASCII', 'M': 'ASCII', 'L': 'ASCII', 'I': 'ASCII', 'G': 'ASCII', 'S': 'ASCII', '_': 'ASCII', 'A': 'ASCII', 'Y': 'ASCII', 'R': 'ASCII', 'H': 'ASCII', 'U': 'ASCII', 'F': 'ASCII', 'V': 'ASCII', 'W': 'ASCII'}","ASCII    1737309
+dtype: int64",1.0,"{'ASCII': E    281578
+N    197241
+P    187239
+O    120617
+C    112455
+T    105278
+D    101295
+M    101216
+L     92603
+I     83854
+G     81961
+S     71544
+_     55591
+A     49479
+Y     41725
+R     27857
+H      9804
+U      8124
+F      4062
+V      1893
+W      1893
+dtype: int64}","Latin     1681718
+Common      55591
+dtype: int64",2.0,"{'Latin': E    281578
+N    197241
+P    187239
+O    120617
+C    112455
+T    105278
+D    101295
+M    101216
+L     92603
+I     83854
+G     81961
+S     71544
+A     49479
+Y     41725
+R     27857
+H      9804
+U      8124
+F      4062
+V      1893
+W      1893
+dtype: int64, 'Common': _    55591
+dtype: int64}","Uppercase Letter         1681718
+Connector Punctuation      55591
+dtype: int64",2.0,"{'Uppercase_Letter': E    281578
+N    197241
+P    187239
+O    120617
+C    112455
+T    105278
+D    101295
+M    101216
+L     92603
+I     83854
+G     81961
+S     71544
+A     49479
+Y     41725
+R     27857
+H      9804
+U      8124
+F      4062
+V      1893
+W      1893
+dtype: int64, 'Connector_Punctuation': _    55591
+dtype: int64}","Order Status
+complete           59491
+pending_payment    39832
+processing         21902
+pending            20227
+closed             19616
+on_hold             9804
+suspected_fraud     4062
+canceled            3692
+payment_review      1893
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Order Zipcode,609,0.024516908212560386,False,14,0.0005636070853462158,Numeric,True,"Order Zipcode
+10035.0    648
+10009.0    550
+10024.0    541
+94122.0    526
+10011.0    463
+          ... 
+63376.0      1
+31088.0      1
+60477.0      1
+8401.0       1
+61832.0      1
+Name: count, Length: 609, dtype: int64","Order Zipcode
+1040.0      3
+1453.0     17
+1752.0      6
+1810.0     13
+1841.0     88
+           ..
+98502.0     9
+98632.0    10
+98661.0    12
+99207.0    22
+99301.0    10
+Name: count, Length: 609, dtype: int64",True,155679,180519,0.8623967560201419,24840,1444284,,,"{'statistic': 12710.935587761674, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,55426.13232689211,31919.279100725285,1018840378.3099979,1040.0,99301.0,-1.481734519892914,-0.1403113968838047,1376785127.0,30631.0,98261.0,10009.0,23464.0,59405.0,90008.0,98026.0,66544.0,0.5758886243851877,0.0,0.0,False,False,False,False,0.0,"(array([ 472,   80,  211,  321, 2295,  229,  232,    4,   48, 1634,  488,
+        317,   12,  583,  419,  436,  700,  108,  456,  303,  116,  988,
+        385,  488,  397,   61,  248,  321,   38,   59, 1166,  107,  137,
+         57,  103,  104,  223,  704, 1242,  542,  527,   20,  655,  144,
+        135, 2096, 1059, 1731,  234, 1405]), array([ 1040.  ,  3005.22,  4970.44,  6935.66,  8900.88, 10866.1 ,
+       12831.32, 14796.54, 16761.76, 18726.98, 20692.2 , 22657.42,
+       24622.64, 26587.86, 28553.08, 30518.3 , 32483.52, 34448.74,
+       36413.96, 38379.18, 40344.4 , 42309.62, 44274.84, 46240.06,
+       48205.28, 50170.5 , 52135.72, 54100.94, 56066.16, 58031.38,
+       59996.6 , 61961.82, 63927.04, 65892.26, 67857.48, 69822.7 ,
+       71787.92, 73753.14, 75718.36, 77683.58, 79648.8 , 81614.02,
+       83579.24, 85544.46, 87509.68, 89474.9 , 91440.12, 93405.34,
+       95370.56, 97335.78, 99301.  ]))",,,
+Product Card Id,118,0.0006536708047352357,False,0,0.0,Numeric,True,"Product Card Id
+365     24515
+403     22246
+502     21035
+1014    19298
+1004    17325
+        ...  
+127        27
+208        15
+860        11
+226        10
+60         10
+Name: count, Length: 118, dtype: int64","Product Card Id
+19       64
+24       74
+35       65
+37      262
+44      305
+       ... 
+1359    492
+1360    357
+1361    529
+1362    838
+1363    650
+Name: count, Length: 118, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 880397.0848442547, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,692.5097635151978,336.44680733021875,113196.45416269735,19,1363,-1.2674939065869202,0.1382546099250616,125011170.0,330.0,1344,191.0,403.0,627.0,1004.0,1073.0,601.0,0.4858369153127977,0.0,0.0,False,False,False,False,0.0,"(array([  770,    67,   343,   328,   614,   318, 12201,    89,   722,
+        1127,   278,     0, 24619,     0, 22246,     0,     0, 21035,
+           0,     0,  1201,    77, 10680,   502,   213,   494,   585,
+         318,  1643,  1995,   654,    70,  1780,   897, 13729,   440,
+       17325, 19298,    40, 15500,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,  8321]), array([  19.  ,   45.88,   72.76,   99.64,  126.52,  153.4 ,  180.28,
+        207.16,  234.04,  260.92,  287.8 ,  314.68,  341.56,  368.44,
+        395.32,  422.2 ,  449.08,  475.96,  502.84,  529.72,  556.6 ,
+        583.48,  610.36,  637.24,  664.12,  691.  ,  717.88,  744.76,
+        771.64,  798.52,  825.4 ,  852.28,  879.16,  906.04,  932.92,
+        959.8 ,  986.68, 1013.56, 1040.44, 1067.32, 1094.2 , 1121.08,
+       1147.96, 1174.84, 1201.72, 1228.6 , 1255.48, 1282.36, 1309.24,
+       1336.12, 1363.  ]))",,,
+Product Category Id,51,0.00028251873763980524,False,0,0.0,Numeric,True,"Product Category Id
+17    24551
+18    22246
+24    21035
+46    19298
+45    17325
+48    15540
+43    13729
+9     12487
+29    10984
+37     2029
+40     1780
+36     1475
+26     1201
+13     1127
+35     1070
+41      974
+75      838
+63      652
+76      650
+3       632
+7       614
+62      592
+74      529
+33      524
+72      492
+66      484
+68      484
+67      483
+64      442
+32      441
+44      440
+71      434
+65      431
+12      423
+59      405
+38      384
+69      362
+73      357
+5       343
+6       328
+11      309
+30      283
+61      271
+70      208
+60      207
+31      181
+2       138
+10      111
+16       68
+4        67
+34       61
+Name: count, dtype: int64","Product Category Id
+2       138
+3       632
+4        67
+5       343
+6       328
+7       614
+9     12487
+10      111
+11      309
+12      423
+13     1127
+16       68
+17    24551
+18    22246
+24    21035
+26     1201
+29    10984
+30      283
+31      181
+32      441
+33      524
+34       61
+35     1070
+36     1475
+37     2029
+38      384
+40     1780
+41      974
+43    13729
+44      440
+45    17325
+46    19298
+48    15540
+59      405
+60      207
+61      271
+62      592
+63      652
+64      442
+65      431
+66      484
+67      483
+68      484
+69      362
+70      208
+71      434
+72      492
+73      357
+74      529
+75      838
+76      650
+Name: count, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 1089823.3816329583, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,31.85145053983237,15.64006388338916,244.61159827649402,2,76,-0.6032610082781633,0.36162479939405345,5749792.0,14.0,74,9.0,18.0,29.0,45.0,48.0,27.0,0.4910314481229109,0.0,0.0,False,False,False,False,0.0,"(array([  770,    67,   671,   614, 12487,   111,   732,  1127,     0,
+          68, 46797,     0,     0,     0, 21035,     0,  1201,     0,
+       11267,   181,   965,    61,  2545,  2029,   384,  1780,   974,
+       13729,   440, 36623,     0, 15540,     0,     0,     0,     0,
+           0,     0,   405,   478,   592,  1094,   431,   967,   484,
+         570,   434,   849,   529,  1488]), array([ 2.  ,  3.48,  4.96,  6.44,  7.92,  9.4 , 10.88, 12.36, 13.84,
+       15.32, 16.8 , 18.28, 19.76, 21.24, 22.72, 24.2 , 25.68, 27.16,
+       28.64, 30.12, 31.6 , 33.08, 34.56, 36.04, 37.52, 39.  , 40.48,
+       41.96, 43.44, 44.92, 46.4 , 47.88, 49.36, 50.84, 52.32, 53.8 ,
+       55.28, 56.76, 58.24, 59.72, 61.2 , 62.68, 64.16, 65.64, 67.12,
+       68.6 , 70.08, 71.56, 73.04, 74.52, 76.  ]))",,,
+Product Description,0,0.0,False,0,0.0,Unsupported,True,"Series([], Name: count, dtype: int64)","Series([], Name: count, dtype: int64)",True,180519,180519,1.0,0,1444284,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Product Image,118,0.0006536708047352357,False,0,0.0,Text,True,"Product Image
+http://images.acmesports.sports/Perfect+Fitness+Perfect+Rip+Deck                                 24515
+http://images.acmesports.sports/Nike+Men%27s+CJ+Elite+2+TD+Football+Cleat                        22246
+http://images.acmesports.sports/Nike+Men%27s+Dri-FIT+Victory+Golf+Polo                           21035
+http://images.acmesports.sports/O%27Brien+Men%27s+Neoprene+Life+Vest                             19298
+http://images.acmesports.sports/Field+%26+Stream+Sportsman+16+Gun+Fire+Safe                      17325
+                                                                                                 ...  
+http://images.acmesports.sports/Stiga+Master+Series+ST3100+Competition+Indoor+Table+Tennis...       27
+http://images.acmesports.sports/SOLE+E35+Elliptical                                                 15
+http://images.acmesports.sports/Bushnell+Pro+X7+Jolt+Slope+Rangefinder                              11
+http://images.acmesports.sports/Bowflex+SelectTech+1090+Dumbbells                                   10
+http://images.acmesports.sports/SOLE+E25+Elliptical                                                 10
+Name: count, Length: 118, dtype: int64","Product Image
+http://images.acmesports.sports/Adult+dog+supplies                                           492
+http://images.acmesports.sports/Baby+sweater                                                 207
+http://images.acmesports.sports/Bag+Boy+Beverage+Holder                                      279
+http://images.acmesports.sports/Bag+Boy+M330+Push+Cart                                        69
+http://images.acmesports.sports/Bowflex+SelectTech+1090+Dumbbells                             10
+                                                                                            ... 
+http://images.acmesports.sports/adidas+Kids%27+F5+Messi+FG+Soccer+Cleat                      262
+http://images.acmesports.sports/adidas+Men%27s+F10+Messi+TRX+FG+Soccer+Cleat                 305
+http://images.acmesports.sports/adidas+Men%27s+Germany+Black+Crest+Away+Tee                  289
+http://images.acmesports.sports/adidas+Youth+Germany+Black%2FRed+Away+Match+Soccer+Jersey    314
+http://images.acmesports.sports/insta-bed+Neverflat+Air+Mattress                              60
+Name: count, Length: 118, dtype: int64",True,0,180519,0.0,180519,1444284,,"0    http://images.acmesports.sports/Smart+watch 
+1    http://images.acmesports.sports/Smart+watch 
+2    http://images.acmesports.sports/Smart+watch 
+3    http://images.acmesports.sports/Smart+watch 
+4    http://images.acmesports.sports/Smart+watch 
+Name: Product Image, dtype: object",,94.0,69.94701388773481,90.0,36.0,"Product Image
+64    24685
+86    24416
+73    23290
+70    21928
+68    20108
+75    17986
+59    16277
+69    12534
+74     1534
+42     1510
+48     1136
+63     1079
+60      990
+44      969
+52      899
+43      713
+46      686
+76      655
+55      623
+90      608
+84      587
+45      570
+37      529
+65      522
+50      492
+82      489
+36      483
+67      460
+66      436
+71      384
+56      323
+89      314
+94      308
+61      308
+85      306
+93      284
+57      284
+72      265
+80      113
+91       94
+54       69
+77       64
+79       63
+78       63
+87       58
+51       25
+Name: count, dtype: int64","(array([ 1012,     0,     0,     0,  1510,   713,   969,  1256,     0,
+        1136,     0,   517,   899,     0,    69,   946,   284,     0,
+       16277,  1298,     0,  1079, 24685,   958,   460, 20108, 34462,
+         384,   265, 23290, 19520,   655,    64,    63,   176,     0,
+         489,     0,   893, 24416,    58,     0,   922,    94,     0,
+         592]), array([36.        , 37.26086957, 38.52173913, 39.7826087 , 41.04347826,
+       42.30434783, 43.56521739, 44.82608696, 46.08695652, 47.34782609,
+       48.60869565, 49.86956522, 51.13043478, 52.39130435, 53.65217391,
+       54.91304348, 56.17391304, 57.43478261, 58.69565217, 59.95652174,
+       61.2173913 , 62.47826087, 63.73913043, 65.        , 66.26086957,
+       67.52173913, 68.7826087 , 70.04347826, 71.30434783, 72.56521739,
+       73.82608696, 75.08695652, 76.34782609, 77.60869565, 78.86956522,
+       80.13043478, 81.39130435, 82.65217391, 83.91304348, 85.17391304,
+       86.43478261, 87.69565217, 88.95652174, 90.2173913 , 91.47826087,
+       92.73913043, 94.        ]))",66.0,12626765.0,"Product Image
+s    1166577
+e    1121625
+t     997512
++     913711
+r     703683
+      ...   
+Y        678
+3        643
+8        555
+Z        363
+9         45
+Name: count, Length: 66, dtype: int64","{'s': 'Lowercase_Letter', 'e': 'Lowercase_Letter', 't': 'Lowercase_Letter', '+': 'Math_Symbol', 'r': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 'p': 'Lowercase_Letter', 'a': 'Lowercase_Letter', 'i': 'Lowercase_Letter', '/': 'Other_Punctuation', 'm': 'Lowercase_Letter', '.': 'Other_Punctuation', 'n': 'Lowercase_Letter', 'c': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 'g': 'Lowercase_Letter', 'h': 'Lowercase_Letter', '2': 'Decimal_Number', ':': 'Other_Punctuation', '%': 'Other_Punctuation', 'S': 'Uppercase_Letter', 'f': 'Lowercase_Letter', 'k': 'Lowercase_Letter', '7': 'Decimal_Number', 'F': 'Uppercase_Letter', 'P': 'Uppercase_Letter', 'u': 'Lowercase_Letter', 'D': 'Uppercase_Letter', 'M': 'Uppercase_Letter', 'd': 'Lowercase_Letter', 'N': 'Uppercase_Letter', 'C': 'Uppercase_Letter', 'T': 'Uppercase_Letter', 'G': 'Uppercase_Letter', '0': 'Decimal_Number', 'B': 'Uppercase_Letter', 'R': 'Uppercase_Letter', '1': 'Decimal_Number', 'V': 'Uppercase_Letter', 'y': 'Lowercase_Letter', 'b': 'Lowercase_Letter', '6': 'Decimal_Number', 'I': 'Uppercase_Letter', 'E': 'Uppercase_Letter', 'L': 'Uppercase_Letter', 'J': 'Uppercase_Letter', '-': 'Dash_Punctuation', 'O': 'Uppercase_Letter', 'W': 'Uppercase_Letter', 'K': 'Uppercase_Letter', 'A': 'Uppercase_Letter', '4': 'Decimal_Number', 'U': 'Uppercase_Letter', '5': 'Decimal_Number', 'v': 'Lowercase_Letter', 'H': 'Uppercase_Letter', 'w': 'Lowercase_Letter', 'z': 'Lowercase_Letter', 'x': 'Lowercase_Letter', 'X': 'Uppercase_Letter', ' ': 'Space_Separator', 'Y': 'Uppercase_Letter', '3': 'Decimal_Number', '8': 'Decimal_Number', 'Z': 'Uppercase_Letter', '9': 'Decimal_Number'}","{'s': 'ASCII', 'e': 'ASCII', 't': 'ASCII', '+': 'ASCII', 'r': 'ASCII', 'o': 'ASCII', 'p': 'ASCII', 'a': 'ASCII', 'i': 'ASCII', '/': 'ASCII', 'm': 'ASCII', '.': 'ASCII', 'n': 'ASCII', 'c': 'ASCII', 'l': 'ASCII', 'g': 'ASCII', 'h': 'ASCII', '2': 'ASCII', ':': 'ASCII', '%': 'ASCII', 'S': 'ASCII', 'f': 'ASCII', 'k': 'ASCII', '7': 'ASCII', 'F': 'ASCII', 'P': 'ASCII', 'u': 'ASCII', 'D': 'ASCII', 'M': 'ASCII', 'd': 'ASCII', 'N': 'ASCII', 'C': 'ASCII', 'T': 'ASCII', 'G': 'ASCII', '0': 'ASCII', 'B': 'ASCII', 'R': 'ASCII', '1': 'ASCII', 'V': 'ASCII', 'y': 'ASCII', 'b': 'ASCII', '6': 'ASCII', 'I': 'ASCII', 'E': 'ASCII', 'L': 'ASCII', 'J': 'ASCII', '-': 'ASCII', 'O': 'ASCII', 'W': 'ASCII', 'K': 'ASCII', 'A': 'ASCII', '4': 'ASCII', 'U': 'ASCII', '5': 'ASCII', 'v': 'ASCII', 'H': 'ASCII', 'w': 'ASCII', 'z': 'ASCII', 'x': 'ASCII', 'X': 'ASCII', ' ': 'ASCII', 'Y': 'ASCII', '3': 'ASCII', '8': 'ASCII', 'Z': 'ASCII', '9': 'ASCII'}","ASCII    12626765
+dtype: int64",1.0,"{'ASCII': s    1166577
+e    1121625
+t     997512
++     913711
+r     703683
+      ...   
+Y        678
+3        643
+8        555
+Z        363
+9         45
+Length: 66, dtype: int64}","Latin     9942296
+Common    2684469
+dtype: int64",2.0,"{'Latin': s    1166577
+e    1121625
+t     997512
+r     703683
+o     666883
+p     620629
+a     593978
+i     559394
+m     481927
+n     361861
+c     331710
+l     233046
+g     226476
+h     214983
+S     137110
+f     130176
+k     130135
+F     120346
+P      93021
+u      89646
+D      85981
+M      81289
+d      79538
+N      79408
+C      78303
+T      64674
+G      63324
+B      52566
+R      50207
+V      43236
+y      41882
+b      40183
+I      26429
+E      23715
+L      23447
+J      23395
+O      20523
+W      19957
+K      16242
+A      15789
+U      12910
+v       5873
+H       4096
+w       3591
+z       1554
+x       1533
+X        892
+Y        678
+Z        363
+dtype: int64, 'Common': +    913711
+/    541557
+.    376918
+2    193261
+:    180519
+%    156264
+7    126306
+0     58520
+1     48714
+6     35961
+-     23338
+4     14542
+5     12729
+        886
+3       643
+8       555
+9        45
+dtype: int64}","Lowercase Letter     8804395
+Other Punctuation    1255258
+Uppercase Letter     1137901
+Math Symbol           913711
+Decimal Number        491276
+Dash Punctuation       23338
+Space Separator          886
+dtype: int64",7.0,"{'Lowercase_Letter': s    1166577
+e    1121625
+t     997512
+r     703683
+o     666883
+p     620629
+a     593978
+i     559394
+m     481927
+n     361861
+c     331710
+l     233046
+g     226476
+h     214983
+f     130176
+k     130135
+u      89646
+d      79538
+y      41882
+b      40183
+v       5873
+w       3591
+z       1554
+x       1533
+dtype: int64, 'Math_Symbol': +    913711
+dtype: int64, 'Other_Punctuation': /    541557
+.    376918
+:    180519
+%    156264
+dtype: int64, 'Decimal_Number': 2    193261
+7    126306
+0     58520
+1     48714
+6     35961
+4     14542
+5     12729
+3       643
+8       555
+9        45
+dtype: int64, 'Uppercase_Letter': S    137110
+F    120346
+P     93021
+D     85981
+M     81289
+N     79408
+C     78303
+T     64674
+G     63324
+B     52566
+R     50207
+V     43236
+I     26429
+E     23715
+L     23447
+J     23395
+O     20523
+W     19957
+K     16242
+A     15789
+U     12910
+H      4096
+X       892
+Y       678
+Z       363
+dtype: int64, 'Dash_Punctuation': -    23338
+dtype: int64, 'Space_Separator':     886
+dtype: int64}","Product Image
+http://images.acmesports.sports/perfect+fitness+perfect+rip+deck                              24515
+http://images.acmesports.sports/nike+men%27s+cj+elite+2+td+football+cleat                     22246
+http://images.acmesports.sports/nike+men%27s+dri-fit+victory+golf+polo                        21035
+http://images.acmesports.sports/o%27brien+men%27s+neoprene+life+vest                          19298
+http://images.acmesports.sports/field+%26+stream+sportsman+16+gun+fire+safe                   17325
+                                                                                              ...  
+http://images.acmesports.sports/stiga+master+series+st3100+competition+indoor+table+tennis       27
+http://images.acmesports.sports/sole+e35+elliptical                                              15
+http://images.acmesports.sports/bushnell+pro+x7+jolt+slope+rangefinder                           11
+http://images.acmesports.sports/bowflex+selecttech+1090+dumbbells                                10
+http://images.acmesports.sports/sole+e25+elliptical                                              10
+Name: count, Length: 118, dtype: int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Product Name,118,0.0006536708047352357,False,0,0.0,Text,True,"Product Name
+Perfect Fitness Perfect Rip Deck                 24515
+Nike Men's CJ Elite 2 TD Football Cleat          22246
+Nike Men's Dri-FIT Victory Golf Polo             21035
+O'Brien Men's Neoprene Life Vest                 19298
+Field & Stream Sportsman 16 Gun Fire Safe        17325
+                                                 ...  
+Stiga Master Series ST3100 Competition Indoor       27
+SOLE E35 Elliptical                                 15
+Bushnell Pro X7 Jolt Slope Rangefinder              11
+Bowflex SelectTech 1090 Dumbbells                   10
+SOLE E25 Elliptical                                 10
+Name: count, Length: 118, dtype: int64","Product Name
+Adult dog supplies                               492
+Baby sweater                                     207
+Bag Boy Beverage Holder                          279
+Bag Boy M330 Push Cart                            69
+Bowflex SelectTech 1090 Dumbbells                 10
+                                                ... 
+adidas Kids' F5 Messi FG Soccer Cleat            262
+adidas Men's F10 Messi TRX FG Soccer Cleat       305
+adidas Men's Germany Black Crest Away Tee        289
+adidas Youth Germany Black/Red Away Match Soc    314
+insta-bed Neverflat Air Mattress                  60
+Name: count, Length: 118, dtype: int64",True,0,180519,0.0,180519,1444284,,"0    Smart watch 
+1    Smart watch 
+2    Smart watch 
+3    Smart watch 
+4    Smart watch 
+Name: Product Name, dtype: object",,45.0,35.120003988499825,43.0,5.0,"Product Name
+32    44278
+45    27704
+39    22747
+36    21917
+41    18295
+27    15959
+33    12723
+42     1528
+10     1510
+18     1144
+31     1042
+5      1012
+40      926
+20      899
+34      875
+13      767
+11      713
+14      686
+29      656
+26      628
+23      623
+37      618
+25      602
+12      564
+16      484
+28      362
+24      323
+43      299
+15      208
+35      183
+30       76
+22       69
+44       63
+19       25
+38       11
+Name: count, dtype: int64","(array([ 1012,     0,     0,     0,  1510,   713,   564,  1453,   208,
+         484,     0,  1144,    25,   899,    69,   623,   323,   602,
+         628, 15959,   362,   732,  1042, 44278, 12723,   875,   183,
+       21917,   629, 22747,   926, 18295,  1528,   299, 27767]), array([ 5.        ,  6.14285714,  7.28571429,  8.42857143,  9.57142857,
+       10.71428571, 11.85714286, 13.        , 14.14285714, 15.28571429,
+       16.42857143, 17.57142857, 18.71428571, 19.85714286, 21.        ,
+       22.14285714, 23.28571429, 24.42857143, 25.57142857, 26.71428571,
+       27.85714286, 29.        , 30.14285714, 31.28571429, 32.42857143,
+       33.57142857, 34.71428571, 35.85714286, 37.        , 38.14285714,
+       39.28571429, 40.42857143, 41.57142857, 42.71428571, 43.85714286,
+       45.        ]))",66.0,6339828.0,"Product Name
+     887824
+e    733504
+i    378177
+n    350567
+r    340664
+      ...  
+8       555
+/       381
+Z       363
+9        45
+7        11
+Name: count, Length: 66, dtype: int64","{' ': 'Space_Separator', 'e': 'Lowercase_Letter', 'i': 'Lowercase_Letter', 'n': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 't': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'l': 'Lowercase_Letter', 'a': 'Lowercase_Letter', 'c': 'Lowercase_Letter', 'f': 'Lowercase_Letter', ""'"": 'Other_Punctuation', 'S': 'Uppercase_Letter', 'm': 'Lowercase_Letter', 'F': 'Uppercase_Letter', 'k': 'Lowercase_Letter', 'P': 'Uppercase_Letter', 'u': 'Lowercase_Letter', 'D': 'Uppercase_Letter', 'M': 'Uppercase_Letter', 'N': 'Uppercase_Letter', 'd': 'Lowercase_Letter', 'p': 'Lowercase_Letter', 'C': 'Uppercase_Letter', 'T': 'Uppercase_Letter', 'G': 'Uppercase_Letter', 'R': 'Uppercase_Letter', '0': 'Decimal_Number', 'V': 'Uppercase_Letter', 'y': 'Lowercase_Letter', 'b': 'Lowercase_Letter', 'B': 'Uppercase_Letter', '1': 'Decimal_Number', 'g': 'Lowercase_Letter', 'I': 'Uppercase_Letter', 'E': 'Uppercase_Letter', 'L': 'Uppercase_Letter', '2': 'Decimal_Number', 'J': 'Uppercase_Letter', '-': 'Dash_Punctuation', 'h': 'Lowercase_Letter', 'O': 'Uppercase_Letter', 'W': 'Uppercase_Letter', '6': 'Decimal_Number', '&': 'Other_Punctuation', 'K': 'Uppercase_Letter', 'A': 'Uppercase_Letter', '.': 'Other_Punctuation', 'U': 'Uppercase_Letter', '5': 'Decimal_Number', '+': 'Math_Symbol', 'v': 'Lowercase_Letter', 'H': 'Uppercase_Letter', 'w': 'Lowercase_Letter', 'z': 'Lowercase_Letter', 'x': 'Lowercase_Letter', 'X': 'Uppercase_Letter', '4': 'Decimal_Number', 'Y': 'Uppercase_Letter', '3': 'Decimal_Number', '8': 'Decimal_Number', '/': 'Other_Punctuation', 'Z': 'Uppercase_Letter', '9': 'Decimal_Number', '7': 'Decimal_Number'}","{' ': 'ASCII', 'e': 'ASCII', 'i': 'ASCII', 'n': 'ASCII', 'r': 'ASCII', 'o': 'ASCII', 't': 'ASCII', 's': 'ASCII', 'l': 'ASCII', 'a': 'ASCII', 'c': 'ASCII', 'f': 'ASCII', ""'"": 'ASCII', 'S': 'ASCII', 'm': 'ASCII', 'F': 'ASCII', 'k': 'ASCII', 'P': 'ASCII', 'u': 'ASCII', 'D': 'ASCII', 'M': 'ASCII', 'N': 'ASCII', 'd': 'ASCII', 'p': 'ASCII', 'C': 'ASCII', 'T': 'ASCII', 'G': 'ASCII', 'R': 'ASCII', '0': 'ASCII', 'V': 'ASCII', 'y': 'ASCII', 'b': 'ASCII', 'B': 'ASCII', '1': 'ASCII', 'g': 'ASCII', 'I': 'ASCII', 'E': 'ASCII', 'L': 'ASCII', '2': 'ASCII', 'J': 'ASCII', '-': 'ASCII', 'h': 'ASCII', 'O': 'ASCII', 'W': 'ASCII', '6': 'ASCII', '&': 'ASCII', 'K': 'ASCII', 'A': 'ASCII', '.': 'ASCII', 'U': 'ASCII', '5': 'ASCII', '+': 'ASCII', 'v': 'ASCII', 'H': 'ASCII', 'w': 'ASCII', 'z': 'ASCII', 'x': 'ASCII', 'X': 'ASCII', '4': 'ASCII', 'Y': 'ASCII', '3': 'ASCII', '8': 'ASCII', '/': 'ASCII', 'Z': 'ASCII', '9': 'ASCII', '7': 'ASCII'}","ASCII    6339828
+dtype: int64",1.0,"{'ASCII':      887824
+e    733504
+i    378177
+n    350567
+r    340664
+      ...  
+8       555
+/       381
+Z       363
+9        45
+7        11
+Length: 66, dtype: int64}","Latin     5122591
+Common    1217237
+dtype: int64",2.0,"{'Common':      887824
+'    127155
+0     44762
+1     34956
+2     23239
+-     23040
+6     18574
+&     17387
+.     12979
+5     12729
++     12201
+4       756
+3       643
+8       555
+/       381
+9        45
+7        11
+dtype: int64, 'Latin': e    733504
+i    378177
+n    350567
+r    340664
+o    293733
+t    274503
+s    263028
+l    230952
+a    230847
+c    150579
+f    128718
+S    126137
+m    120889
+F    119900
+k    116017
+P     92713
+u     89646
+D     85981
+M     81289
+N     79408
+d     79374
+p     79072
+C     77993
+T     64000
+G     62759
+R     50142
+V     43236
+y     41568
+b     40156
+B     39443
+g     34542
+I     26429
+E     23715
+L     23447
+J     23081
+h     22516
+O     20523
+W     19887
+K     16242
+A     15789
+U     12910
+v      5873
+H      4096
+w      3591
+z      1554
+x      1533
+X       827
+Y       678
+Z       363
+dtype: int64}","Lowercase Letter     4011603
+Uppercase Letter     1110988
+Space Separator       887824
+Other Punctuation     157902
+Decimal Number        136270
+Dash Punctuation       23040
+Math Symbol            12201
+dtype: int64",7.0,"{'Space_Separator':     887824
+dtype: int64, 'Lowercase_Letter': e    733504
+i    378177
+n    350567
+r    340664
+o    293733
+t    274503
+s    263028
+l    230952
+a    230847
+c    150579
+f    128718
+m    120889
+k    116017
+u     89646
+d     79374
+p     79072
+y     41568
+b     40156
+g     34542
+h     22516
+v      5873
+w      3591
+z      1554
+x      1533
+dtype: int64, 'Other_Punctuation': '    127155
+&     17387
+.     12979
+/       381
+dtype: int64, 'Uppercase_Letter': S    126137
+F    119900
+P     92713
+D     85981
+M     81289
+N     79408
+C     77993
+T     64000
+G     62759
+R     50142
+V     43236
+B     39443
+I     26429
+E     23715
+L     23447
+J     23081
+O     20523
+W     19887
+K     16242
+A     15789
+U     12910
+H      4096
+X       827
+Y       678
+Z       363
+dtype: int64, 'Decimal_Number': 0    44762
+1    34956
+2    23239
+6    18574
+5    12729
+4      756
+3      643
+8      555
+9       45
+7       11
+dtype: int64, 'Dash_Punctuation': -    23040
+dtype: int64, 'Math_Symbol': +    12201
+dtype: int64}","Product Name
+men's         77602
+nike          57309
+perfect       49030
+golf          26281
+rip           24515
+              ...  
+bowflex          10
+selecttech       10
+1090             10
+dumbbells        10
+e25              10
+Name: count, Length: 361, dtype: int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Product Price,75,0.00041546873182324296,False,0,0.0,Numeric,True,"Product Price
+59.990002      24820
+129.990005     22372
+50.000000      21035
+49.980000      19298
+399.980011     17325
+               ...  
+349.989990        40
+329.989990        27
+599.989990        21
+1999.989990       15
+999.989990        10
+Name: count, Length: 75, dtype: int64","Product Price
+9.990000       285
+11.290000      271
+11.540000      529
+14.990000      593
+15.990000      602
+              ... 
+532.580017     484
+599.989990      21
+999.989990      10
+1500.000000    442
+1999.989990     15
+Name: count, Length: 75, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 7974707.361906506, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,141.23254992870068,139.73249200374275,19525.169321576028,9.989999771,1999.98999,23.31299748418666,3.191019570200194,25495158.68057911,39.999996180000004,1989.999990229,31.98999977,50.0,59.99000168,199.9900055,399.980011,149.9900055,0.9893788087398039,0.0,0.0,False,False,False,False,0.0,"(array([24109, 67622, 13170, 23050, 15879,   923,   996, 14611,   719,
+       17392,     0,  1076,     0,   484,    21,     0,     0,     0,
+           0,     0,     0,     0,     0,     0,    10,     0,     0,
+           0,     0,     0,     0,     0,     0,     0,     0,     0,
+           0,   442,     0,     0,     0,     0,     0,     0,     0,
+           0,     0,     0,     0,    15]), array([   9.98999977,   49.78999958,   89.58999938,  129.38999918,
+        169.18999899,  208.98999879,  248.7899986 ,  288.5899984 ,
+        328.38999821,  368.18999801,  407.98999782,  447.78999762,
+        487.58999743,  527.38999723,  567.18999704,  606.98999684,
+        646.78999664,  686.58999645,  726.38999625,  766.18999606,
+        805.98999586,  845.78999567,  885.58999547,  925.38999528,
+        965.18999508, 1004.98999489, 1044.78999469, 1084.58999449,
+       1124.3899943 , 1164.1899941 , 1203.98999391, 1243.78999371,
+       1283.58999352, 1323.38999332, 1363.18999313, 1402.98999293,
+       1442.78999274, 1482.58999254, 1522.38999235, 1562.18999215,
+       1601.98999195, 1641.78999176, 1681.58999156, 1721.38999137,
+       1761.18999117, 1800.98999098, 1840.78999078, 1880.58999059,
+       1920.38999039, 1960.1899902 , 1999.98999   ]))",,,
+Product Status,1,5.539583090976573e-06,False,0,0.0,Categorical,True,"Product Status
+0    180519
+Name: count, dtype: Int64","Product Status
+0    180519
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.0,"0    0
+1    0
+2    0
+3    0
+4    0
+Name: Product Status, dtype: object","{'statistic': 0.0, 'pvalue': nan}",1.0,1.0,1.0,1.0,"Product Status
+1    180519
+Name: count, dtype: Int64","(array([180519]), array([0.5, 1.5]))",1.0,180519.0,"Product Status
+0    180519
+Name: count, dtype: Int64",{'0': 'Decimal_Number'},{'0': 'ASCII'},"ASCII    180519
+dtype: int64",1.0,"{'ASCII': 0    180519
+dtype: int64}","Common    180519
+dtype: int64",1.0,"{'Common': 0    180519
+dtype: int64}","Decimal Number    180519
+dtype: int64",1.0,"{'Decimal_Number': 0    180519
+dtype: int64}","Product Status
+0    180519
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shipping date (DateOrders),63701,0.3528769824782987,False,18557,0.10279804341925226,DateTime,True,"shipping date (DateOrders)
+2016-01-05 05:58:00    10
+2015-07-16 10:14:00    10
+2015-04-17 22:16:00    10
+2015-05-27 06:48:00    10
+2015-05-09 18:02:00    10
+                       ..
+2015-03-29 18:06:00     1
+2015-04-02 12:40:00     1
+2015-04-02 23:10:00     1
+2015-03-31 07:03:00     1
+2016-01-21 05:56:00     1
+Name: count, Length: 63701, dtype: int64","shipping date (DateOrders)
+2015-01-03 00:00:00    1
+2015-01-03 03:30:00    5
+2015-01-03 03:35:00    1
+2015-01-03 05:15:00    2
+2015-01-03 07:00:00    4
+                      ..
+2018-02-06 13:29:00    1
+2018-02-06 15:14:00    1
+2018-02-06 16:59:00    1
+2018-02-06 18:44:00    1
+2018-02-06 22:14:00    1
+Name: count, Length: 63701, dtype: int64",True,0,180519,0.0,180519,1444284,,,"{'statistic': 7349.28146067727, 'pvalue': 0.0}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2015-01-03 00:00:00,2018-02-06 22:14:00,,,,,"1130 days, 22:14:00",,,,,,,,,,,,,,,"(array([3579, 3901, 3873, 3840, 3955, 3797, 3918, 3882, 3953, 3828, 3835,
+       3877, 3847, 3884, 3997, 3834, 3816, 3928, 3881, 3808, 3866, 3790,
+       3874, 3780, 3886, 3826, 3963, 3902, 3847, 4009, 3852, 3882, 3829,
+       3863, 3969, 3889, 3902, 3916, 3859, 3755, 3863, 3807, 3927, 3911,
+       2748, 1530, 1564, 1554, 1543, 1380]), array([1.42024320e+09, 1.42219744e+09, 1.42415168e+09, 1.42610592e+09,
+       1.42806016e+09, 1.43001440e+09, 1.43196864e+09, 1.43392289e+09,
+       1.43587713e+09, 1.43783137e+09, 1.43978561e+09, 1.44173985e+09,
+       1.44369409e+09, 1.44564833e+09, 1.44760257e+09, 1.44955681e+09,
+       1.45151105e+09, 1.45346529e+09, 1.45541953e+09, 1.45737378e+09,
+       1.45932802e+09, 1.46128226e+09, 1.46323650e+09, 1.46519074e+09,
+       1.46714498e+09, 1.46909922e+09, 1.47105346e+09, 1.47300770e+09,
+       1.47496194e+09, 1.47691618e+09, 1.47887042e+09, 1.48082466e+09,
+       1.48277891e+09, 1.48473315e+09, 1.48668739e+09, 1.48864163e+09,
+       1.49059587e+09, 1.49255011e+09, 1.49450435e+09, 1.49645859e+09,
+       1.49841283e+09, 1.50036707e+09, 1.50232131e+09, 1.50427555e+09,
+       1.50622980e+09, 1.50818404e+09, 1.51013828e+09, 1.51209252e+09,
+       1.51404676e+09, 1.51600100e+09, 1.51795524e+09]))",0.0,0.0,0.0
+Shipping Mode,4,2.215833236390629e-05,False,0,0.0,Categorical,True,"Shipping Mode
+Standard Class    107752
+Second Class       35216
+First Class        27814
+Same Day            9737
+Name: count, dtype: Int64","Shipping Mode
+First Class        27814
+Same Day            9737
+Second Class       35216
+Standard Class    107752
+Name: count, dtype: Int64",True,0,180519,0.0,180519,1444284,0.22635442181328302,"0    Standard Class
+1    Standard Class
+2    Standard Class
+3    Standard Class
+4    Standard Class
+Name: Shipping Mode, dtype: object","{'statistic': 123473.10997180353, 'pvalue': 0.0}",14.0,12.823968668118038,14.0,8.0,"Shipping Mode
+14    107752
+12     35216
+11     27814
+8       9737
+Name: count, dtype: Int64","(array([  9737,      0,  63030, 107752]), array([ 8. ,  9.5, 11. , 12.5, 14. ]))",18.0,2314970.0,"Shipping Mode
+a    405760
+s    369378
+d    250720
+     180519
+l    170782
+C    170782
+S    152705
+n    142968
+r    135566
+t    135566
+e     44953
+c     35216
+o     35216
+F     27814
+i     27814
+m      9737
+D      9737
+y      9737
+Name: count, dtype: Int64","{'a': 'Lowercase_Letter', 's': 'Lowercase_Letter', 'd': 'Lowercase_Letter', ' ': 'Space_Separator', 'l': 'Lowercase_Letter', 'C': 'Uppercase_Letter', 'S': 'Uppercase_Letter', 'n': 'Lowercase_Letter', 'r': 'Lowercase_Letter', 't': 'Lowercase_Letter', 'e': 'Lowercase_Letter', 'c': 'Lowercase_Letter', 'o': 'Lowercase_Letter', 'F': 'Uppercase_Letter', 'i': 'Lowercase_Letter', 'm': 'Lowercase_Letter', 'D': 'Uppercase_Letter', 'y': 'Lowercase_Letter'}","{'a': 'ASCII', 's': 'ASCII', 'd': 'ASCII', ' ': 'ASCII', 'l': 'ASCII', 'C': 'ASCII', 'S': 'ASCII', 'n': 'ASCII', 'r': 'ASCII', 't': 'ASCII', 'e': 'ASCII', 'c': 'ASCII', 'o': 'ASCII', 'F': 'ASCII', 'i': 'ASCII', 'm': 'ASCII', 'D': 'ASCII', 'y': 'ASCII'}","ASCII    2314970
+dtype: int64",1.0,"{'ASCII': a    405760
+s    369378
+d    250720
+     180519
+l    170782
+C    170782
+S    152705
+n    142968
+r    135566
+t    135566
+e     44953
+c     35216
+o     35216
+F     27814
+i     27814
+m      9737
+D      9737
+y      9737
+dtype: int64}","Latin     2134451
+Common     180519
+dtype: int64",2.0,"{'Latin': a    405760
+s    369378
+d    250720
+l    170782
+C    170782
+S    152705
+n    142968
+r    135566
+t    135566
+e     44953
+c     35216
+o     35216
+F     27814
+i     27814
+m      9737
+D      9737
+y      9737
+dtype: int64, 'Common':     180519
+dtype: int64}","Lowercase Letter    1773413
+Uppercase Letter     361038
+Space Separator      180519
+dtype: int64",3.0,"{'Lowercase_Letter': a    405760
+s    369378
+d    250720
+l    170782
+n    142968
+r    135566
+t    135566
+e     44953
+c     35216
+o     35216
+i     27814
+m      9737
+y      9737
+dtype: int64, 'Space_Separator':     180519
+dtype: int64, 'Uppercase_Letter': C    170782
+S    152705
+F     27814
+D      9737
+dtype: int64}","Shipping Mode
+class       170782
+standard    107752
+second       35216
+first        27814
+same          9737
+day           9737
+Name: count, dtype: Int64",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
