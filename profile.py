@@ -1,3 +1,5 @@
+from os import name
+
 import ydata_profiling
 import pandas as pd
 
@@ -9,27 +11,32 @@ def yprofile_column_stats_to_csv(profile, output_csv="ydata_column_summary.csv")
     metrics_df.reset_index(inplace=True)
     metrics_df.rename(columns={"index": "column_name"}, inplace=True)
     metrics_df.to_csv(output_csv, index=False)
+    
+pickle = True
 
 ## Paths
-data_dir = "./data/raw"
-csv_name = "DataCoSupplyChainDataset.csv"
-csv_path =  data_dir + "/" + csv_name
-output_dir = "./data/outputs/profiling"
-profile_tag = "yprofile"
-summary_tag = "yprofile_summary"
-csv_name_ = csv_name.replace('.csv', '_csv')
+data_dir = "./data/raw/"
+data_name = "DataCoSupplyChainDataset"
+data_type = "csv"
+data_ext = "." + data_type
+data_file = data_name + data_ext
+data_path =  data_dir + "/" + data_file
+output_dir = "./data/outputs/profiling/"
+profile_name = "yprofile"
+summary_name = "yprofile_column_stats"
+data_file_nodot = data_name + "_" + data_type
 
 ## Profile
-df = pd.read_csv(csv_path, encoding="latin-1")
+df = pd.read_csv(data_path, encoding="latin-1")
 profile = ydata_profiling.ProfileReport(df)
 
-## Pickle
-import pickle
-with open(output_dir + "/" + csv_name_ + "_" + profile_tag + ".pkl", "wb") as f:
-    pickle.dump(profile, f)
-
-## Export 
+## Export
+# Pickle
+if pickle:
+    import pickle
+    with open(output_dir + data_file_nodot + "_" + profile_name + ".pkl", "wb") as f:
+        pickle.dump(profile, f)
 # Flat csv for Tableau
-yprofile_column_stats_to_csv(profile, output_dir + "/" + csv_name_ + "_" + summary_tag + ".csv")
+yprofile_column_stats_to_csv(profile, output_dir + data_file_nodot + "_" + summary_name + ".csv")
 # Full, interactive HTML report
-profile.to_file(output_dir + "/" + csv_name_ + "_" + profile_tag + ".html")
+profile.to_file(output_dir + data_file_nodot + "_" + profile_name + ".html")
