@@ -1,5 +1,3 @@
-from os import name
-
 import ydata_profiling
 import pandas as pd
 
